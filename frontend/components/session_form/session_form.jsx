@@ -38,13 +38,14 @@ class SessionForm extends React.Component {
     return (
       <div className="login-form-container">
         <form onSubmit={this.handleSubmit} className="login-form-box">
-          Welcome to BenchBnB!
+          Welcome to MyFlix!
           <br />
           Please {this.props.formType} or {this.props.navLink}
           {this.renderErrors()}
           <div className="login-form">
             <br />
             <label>email:
+              <br />
               <input type="text"
                 value={this.state.email}
                 onChange={this.update('email')}
