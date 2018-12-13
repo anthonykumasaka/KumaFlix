@@ -1,0 +1,78 @@
+.splash-flex {
+  background: image_url('bbb3.jpg'); 
+  height: 100%; 
+  width: 100%; 
+  position: relative; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+}
+
+.black-overlay-flex-splash {
+  background-color: rgba(0, 0, 0, 0.50);
+  height: 100%; 
+  display: flex; 
+  justify-content: center; 
+  flex-direction: column;
+}
+
+.black-overlay-flex-splash > h1 {
+  color: white; 
+  margin-left: 150px; 
+  font-size: 70px; 
+  font-weight: -10px; 
+}
+
+.black-overlay-flex-1 {
+  background-color: rgba(0, 0, 0, 0.50);
+  display: flex;  
+  justify-content: flex-end; 
+
+}
+
+.black-overlay-flex-splash > h2 {
+  color: white; 
+  margin-left: 150px; 
+  font-size: 30px; 
+  font-weight: 15;
+  margin-bottom: 20px;  
+}
+
+.login-link { 
+  margin-bottom: 350px;  
+  width: 240px; 
+  height: 30px;  
+  border-radius: 3px; 
+  z-index: 2;
+  color: white;
+  background-color: #CD2D25; 
+  font-size: 18px; 
+  text-align: center;
+  margin-left: 150px; 
+  font-weight: 100px; 
+  padding: 5px; 
+}
+
+.login-link-2 { 
+ margin-left: 300px;  
+  width: 140px; 
+  height: 30px;  
+  border-radius: 3px; 
+  z-index: 2;
+  color: white;
+  background-color: #CD2D25; 
+  font-size: 18px; 
+  text-align: center; 
+  font-weight: 100px; 
+  position: relative; 
+  margin-right: 100px; 
+  margin-top: 30px; 
+}
+
+
+.on-link {
+ 
+  color: white;
+}

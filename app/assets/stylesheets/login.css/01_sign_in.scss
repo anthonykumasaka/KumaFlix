@@ -1,0 +1,126 @@
+.demo-button {
+  background: rgb(36, 19, 133); 
+  color: white; 
+  font-size: 15px; 
+  font-weight: bold; 
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: none;  
+}
+
+h1 {
+  color: black; 
+  margin-bottom: 0px; 
+  margin-top: 0px; 
+}
+
+.header-one-font {
+  font-size: 32px; 
+  font-weight: 700;
+  color: white; 
+}
+
+.error-test {
+  font: white; 
+}
+
+
+.netflix {
+  background: image_url('netflix2.png'); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 20px; 
+  left: 50px; 
+  width: 175px; 
+  height: 75px; 
+  color: black; 
+  filter:brightness(125%);
+  
+}
+.background-img {
+  background: image_url('bb2.jpg'); 
+  height: 100%; 
+  width: 100%; 
+  position: relative; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 100%; 
+}
+
+.black-overlay-flex {
+  background-color: rgba(0, 0, 0, 0.50);
+  height: 100%; 
+  display: flex; 
+  justify-content: center; 
+  flex-direction: column;
+}
+
+.sign-in-bg {
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 330px;
+  height: 538px; 
+  margin: 25px auto;
+  padding: 60px 60px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+  margin-bottom: 182px; 
+}
+
+.login-input {
+  height: 45px; 
+  width: 100%; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+  border: none; 
+  padding: 15px; 
+}
+.sign-in-button {
+  background: red; 
+  color: white; 
+  font-size: 15px; 
+  font-weight: bold; 
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: none;  
+  margin-top: 45px; 
+}
+
+body, html {
+  height: 100%;
+}
+
+.login-signup {
+  text-align: left;
+  position: absolute;  
+}
+
+.login-form-container {
+  text-align: left; 
+  margin-top: 0; 
+}
+
+.session-submit {
+  height: 40px; 
+}
+
+
+.login-form {
+  margin-top: -15px; 
+}
+
+
+.new-to-netflix {
+  margin-top: 160px; 
+  color: grey; 
+  font-weight: bold;
+}
+
+.login-form-box {
+  padding: 0px; 
+  margin-top: 0px; 
+}

@@ -48,7 +48,7 @@ class SessionForm extends React.Component {
       <div className="netflix"></div>  
       <div className="black-overlay-flex"> 
         <div className="sign-in-bg">
-        <h1 className='header-one-font'>Sign In</h1>
+            <h1 className='header-one-font'>{this.props.formType}</h1>
         <form onSubmit={this.handleSubmit} className="login-form-box">
           <div className="login-form">
             <br />
