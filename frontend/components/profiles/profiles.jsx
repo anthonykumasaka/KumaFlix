@@ -38,13 +38,16 @@ class Profiles extends React.Component {
 
   render() {
     return (
+      <div>
+        <div className="netflix2"></div>  
+        <div className="profiles-bg">
+          <div className="profiles-flex">
+            <h2 className="profile-title">Who's watching?</h2>
+          </div>
+        </div>
 
-      <div className="profiles-bg">
         
       </div>
-
-
-
     );
   }
 }

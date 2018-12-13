@@ -1,5 +1,5 @@
 .profiles-bg {
-  background: black; 
+  background: #141414; 
   height: 100%; 
   width: 100%; 
   position: relative; 
@@ -8,4 +8,37 @@
   background-size: cover;
   height: 1000px;
   width: 100%; 
+}
+
+.netflix2 {
+  background: image_url('netflix2.png'); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 20px; 
+  left: 55px; 
+  width: 125px; 
+  height: 25px; 
+  color: black; 
+  filter:brightness(125%);
+  z-index: 2;
+}
+
+.profile-title {
+  color: white; 
+  font-size: 55PX;
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  text-align: center;
+  font-weight: 4; 
+  margin-top: 65px; 
+  letter-spacing: 1px; 
+}
+
+
+.profiles-flex {
+  height: 100%; 
+  display: flex; 
+ 
+  flex-direction: column;
+  align-items: center; 
 }
