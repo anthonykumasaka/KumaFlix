@@ -51,6 +51,33 @@ h1 {
   width: 100%; 
 }
 
+.input-3 {
+  background: white;
+  border-radius: 5px; 
+ 
+}
+
+.input-3 > p {
+  text-align: left; 
+  font-size: 12px;
+  font-weight: 100px; 
+  margin-left: 10px;  
+}
+
+.error {
+  color: white; 
+  margin-top: 20px; 
+  position: absolute;
+}
+
+.footer {
+  margin-top: 0px; 
+  height: 400px; 
+  width: 100%; 
+  background-color: rgba(0, 0, 0, 0.50);
+  position: relative;  
+}
+
 .black-overlay-flex {
   background-color: rgba(0, 0, 0, 0.50);
   height: 100%; 
@@ -71,7 +98,7 @@ h1 {
 }
 
 .login-input {
-  height: 45px; 
+  height: 35px; 
   width: 100%; 
   border-radius: 5px; 
   box-sizing: border-box; 

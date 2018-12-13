@@ -30,15 +30,24 @@
   font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
   text-align: center;
   font-weight: 4; 
-  margin-top: 65px; 
+  
   letter-spacing: 1px; 
+  margin-top: 170px;
+  padding: 25px;  
 }
 
-
+.add-profile-button:hover {
+  color: black; 
+}
 .profiles-flex {
   height: 100%; 
   display: flex; 
- 
+  
   flex-direction: column;
   align-items: center; 
+}
+
+.add-profile-button {
+  height: 167px; 
+  width: 167px; 
 }

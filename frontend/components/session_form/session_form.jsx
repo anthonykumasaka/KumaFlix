@@ -32,7 +32,7 @@ class SessionForm extends React.Component {
     return (
       <ul>
         {this.props.errors.map((error, i) => (
-          <li key={`error-${i}`}>
+          <li className="error" key={`error-${i}`}>
             {error}
           </li>
         ))}
@@ -53,6 +53,11 @@ class SessionForm extends React.Component {
           <div className="login-form">
             <br />
             <label>email:
+
+
+          
+
+
               <br />
               <input className="login-input" type="text"
                 value={this.state.email}
@@ -83,11 +88,13 @@ class SessionForm extends React.Component {
           </div>
         </form>
       </div>
+
+    </div>
+    <div>
+
     </div>
     </div> 
-    
-      
-      
+ 
     );
   }
 }

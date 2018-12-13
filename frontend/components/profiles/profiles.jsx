@@ -15,6 +15,7 @@ class Profiles extends React.Component {
         <div className="profiles-bg">
           <div className="profiles-flex">
             <h2 className="profile-title">Who's watching?</h2>
+            <button className="add-profile-button"></button>
           </div>
         </div>
 

@@ -6,9 +6,9 @@ const Splash = () => (
   <div>
     <div className="splash-flex"> 
       <div className="black-overlay-flex-1">
-        <div className="netflix"/>
-        <div className="login-link-2">
-        <Link className="on-link" to='/signup'>Sign In</Link>
+          <div className="netflix"/>
+          <div className="login-link-2">
+          <Link className="on-link" to='/login'>Sign In</Link>
         </div> 
       </div>
       <div className="black-overlay-flex-splash">
