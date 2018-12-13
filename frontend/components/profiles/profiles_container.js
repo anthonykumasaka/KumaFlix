@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { signup } from '../../actions/session_actions';
 import Profiles from './profiles';
 
-const mapStateToProps = ({ errors }) => {
+const msp = ({ errors }) => {
   return {
     errors: errors.session,
     formType: 'signup',
@@ -12,10 +12,10 @@ const mapStateToProps = ({ errors }) => {
   };
 };
 
-const mapDispatchToProps = dispatch => {
+const mdp = dispatch => {
   return {
     processForm: (user) => dispatch(signup(user)),
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Profiles);
+export default connect(msp, mdp)(Profiles);

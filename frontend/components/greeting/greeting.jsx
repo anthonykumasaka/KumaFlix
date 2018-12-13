@@ -21,3 +21,5 @@ const Greeting = ({ currentUser, logout }) => {
 
 
 export default Greeting;
+
+// The above is from benchBnB

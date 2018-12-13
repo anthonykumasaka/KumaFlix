@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class SessionForm extends React.Component {
   constructor(props) {
@@ -24,7 +25,7 @@ class SessionForm extends React.Component {
   }
   demoHandleSubmit(e) {
     e.preventDefault();
-    const user = {email: 'drkumasaka', password: '123456'};
+    const user = {email: 'drkumasaka', password: 'password'};
     this.props.processForm(user);
   }
 
@@ -45,7 +46,7 @@ class SessionForm extends React.Component {
     return (
 
       <div className="background-img">
-      <div className="netflix"></div>  
+      <Link className="netflix" to="/"></Link>  
       <div className="black-overlay-flex"> 
         <div className="sign-in-bg">
             <h1 className='header-one-font'>{this.props.formType}</h1>
@@ -53,11 +54,6 @@ class SessionForm extends React.Component {
           <div className="login-form">
             <br />
             <label>email:
-
-
-          
-
-
               <br />
               <input className="login-input" type="text"
                 value={this.state.email}
