@@ -14,64 +14,10 @@
  *= require_self
  */
 
- .c {
-   background-color: rgba(0, 0, 0, 0.75);
-  display: block; 
-  align-content: center; 
-  
-  
-}
 
-h1 {
-  color: white; 
-}
-
-.background {
-  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/573e170c-241c-4708-9019-fe204f92bb62/dbfa9054-295d-4cfa-846a-d76372401d2c/US-en-20181203-popsignuptwoweeks-perspective_alpha_website_large.jpg");
-  /* The image used 
-  /* Full height */
-  height: 100%; 
-  width: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1500px;
-  width: 1700px; 
-
-}
-
-.black {
-  background-color: rgba(0, 0, 0, 0.75);
-  height: 2000px; 
-}
-
-body, html {
-  height: 100%;
-}
-
-
-.sign-in {
-  /* text-align: center;  */
-  background-color: rgba(0, 0, 0, 0.75);
-  /* background: rgb(243, 243, 243); */
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  margin: 25px auto;
-  padding: 40px 40px;
-  font-family: 'Poppins', sans-serif;
-  justify-content: center; 
-  align-content: center;
-   
-}
 
 * {
-  /* background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/573e170c-241c-4708-9019-fe204f92bb62/dbfa9054-295d-4cfa-846a-d76372401d2c/US-en-20181203-popsignuptwoweeks-perspective_alpha_website_large.jpg"); */
-  background-repeat: no-repeat; 
+  
   color: white; 
-   background-size: cover; 
-  /* background-color: grey;  */
-  /* background-image: '/Users/Kuma/Desktop/myFlix/app/assets/images/US-en-20181203-popsignuptwoweeks-perspective_alpha_website_large.jpg'  */
+
 }

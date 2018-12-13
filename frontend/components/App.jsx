@@ -3,24 +3,22 @@ import GreetingContainer from './greeting/greeting_container';
 import LoginFormContainer from './session_form/login_form_container';
 import SignupFormContainer from './session_form/signup_form_container'; 
 import {Route, Link} from 'react-router-dom'; 
+import { AuthRoute } from '../util/route_util';
+import ProfilesContainer from './profiles/profiles_container';
+import Splash from './splash'; 
+
 
 const App = () => (
-  <div className="background">
-  <div className="black"> 
-  <div className="sign-in">
+  <div>
     <header>
-      <div className="title">
-        <h1>Sign In</h1>
-      </div>
-      <Link to="/" className="header-link">
-      </Link>
-      <GreetingContainer />
     </header> 
-    <Route path="/login" component={LoginFormContainer} />
-    <Route path="/signup" component={SignupFormContainer} />
-  </div>
+    <AuthRoute path="/login" component={LoginFormContainer} />
+    <AuthRoute path="/signup" component={SignupFormContainer} />
+    <Route path="/profiles" component={ProfilesContainer} />
+    <AuthRoute path="/" component={Splash} /> 
+    <GreetingContainer />
   </div> 
-  </div>
+
 );
 
 export default App;

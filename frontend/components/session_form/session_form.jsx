@@ -8,6 +8,7 @@ class SessionForm extends React.Component {
       password: ''
     };
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.demoHandleSubmit = this.handleSubmit.bind(this);
   }
 
   update(field) {
@@ -19,6 +20,11 @@ class SessionForm extends React.Component {
   handleSubmit(e) {
     e.preventDefault();
     const user = Object.assign({}, this.state);
+    this.props.processForm(user);
+  }
+  demoHandleSubmit(e) {
+    e.preventDefault();
+    const user = {email: 'drkumasaka', password: '123456'};
     this.props.processForm(user);
   }
 
@@ -33,38 +39,55 @@ class SessionForm extends React.Component {
       </ul>
     );
   }
+  
 
   render() {
     return (
-      <div className="login-form-container">
+
+      <div className="background-img">
+      <div className="netflix"></div>  
+      <div className="black-overlay-flex"> 
+        <div className="sign-in-bg">
+        <h1 className='header-one-font'>Sign In</h1>
         <form onSubmit={this.handleSubmit} className="login-form-box">
-          Welcome to MyFlix!
-          <br />
-          Please {this.props.formType} or {this.props.navLink}
-          {this.renderErrors()}
           <div className="login-form">
             <br />
             <label>email:
               <br />
-              <input type="text"
+              <input className="login-input" type="text"
                 value={this.state.email}
                 onChange={this.update('email')}
-                className="login-input"
-              />
+                placeholder="email"
+                />
             </label>
             <br />
             <label>Password:
-              <input type="password"
+                <br /> 
+              <input className="login-input" type="password"
                 value={this.state.password}
                 onChange={this.update('password')}
-                className="login-input"
-              />
+                placeholder="password"
+                />
             </label>
+            <br /> 
+            <button className="sign-in-button" type='submit' value={this.props.formType}>{this.props.formType}</button>
+            <br /> 
+            <br /> 
+            <button className="demo-button" type='submit' onClick={this.demoHandleSubmit}>Demo</button>
+            <br /> 
+                {this.renderErrors()}
             <br />
-            <input className="session-submit" type="submit" value={this.props.formType} />
+            <div className="new-to-netflix">
+                New to MyFlix? {this.props.navLink}
+            </div>
           </div>
         </form>
       </div>
+    </div>
+    </div> 
+    
+      
+      
     );
   }
 }
