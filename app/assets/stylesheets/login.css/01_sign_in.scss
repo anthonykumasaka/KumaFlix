@@ -27,7 +27,7 @@ h1 {
 
 
 .netflix {
-  background: image_url('netflix2.png'); 
+  background: image_url('KUMAFLIX.png'); 
   background-size: contain; 
   background-repeat: no-repeat; 
   position: absolute;
@@ -67,8 +67,8 @@ h1 {
 
 .error {
   color: white; 
-  margin-top: 20px; 
-  position: absolute;
+  margin-top: 40px; 
+  position: relative;
 }
 
 //error changes position 
@@ -113,6 +113,7 @@ h1 {
   border: none; 
   padding: 15px; 
 }
+
 .sign-in-button {
   background: red; 
   color: white; 
@@ -150,7 +151,7 @@ body, html {
 
 
 .new-to-netflix {
-  margin-top: 160px; 
+  margin-top: 10px; 
   color: grey; 
   font-weight: bold;
 }

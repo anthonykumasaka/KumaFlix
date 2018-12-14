@@ -23,6 +23,8 @@
   margin-left: 150px; 
   font-size: 70px; 
   font-weight: -10px; 
+  text-shadow: 2px 2px #000000;
+
 }
 
 .black-overlay-flex-1 {
@@ -37,8 +39,11 @@
   margin-left: 150px; 
   font-size: 30px; 
   font-weight: 15;
-  margin-bottom: 20px;  
+  margin-bottom: 20px; 
+  text-shadow: 2px 2px #000000;
 }
+
+
 
 .login-link { 
   margin-bottom: 350px;  
@@ -47,32 +52,41 @@
   border-radius: 3px; 
   z-index: 2;
   color: white;
-  background-color: #CD2D25; 
-  font-size: 18px; 
+  background-color: #CC2C24; 
+  font-size: 14px; 
   text-align: center;
   margin-left: 150px; 
   font-weight: 100px; 
   padding: 5px; 
+  font-family: 'Poppins', sans-serif;
+  border: .5px solid black; 
 }
 
 .login-link-2 { 
+  border: .5px solid black; 
+
  margin-left: 300px;  
-  width: 140px; 
+  width: 80px; 
   height: 30px;  
   border-radius: 3px; 
   z-index: 2;
   color: white;
-  background-color: #CD2D25; 
-  font-size: 18px; 
+  background-color: #CC2C24; 
+  font-size: 14px; 
   text-align: center; 
   font-weight: 100px; 
   position: relative; 
   margin-right: 100px; 
   margin-top: 30px; 
+  font-family: 'Poppins', sans-serif;
 }
 
 
 .on-link {
- 
+  margin-top: 5px; 
+  color: white;
+}
+.on-link-2 {
+  margin-top: 4px; 
   color: white;
 }
