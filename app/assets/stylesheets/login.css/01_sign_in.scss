@@ -71,6 +71,13 @@ h1 {
   position: absolute;
 }
 
+//error changes position 
+
+.error-flex {
+  display: flex; 
+  flex-direction: column;
+}
+
 .footer {
   margin-top: 0px; 
   height: 400px; 

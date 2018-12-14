@@ -5,7 +5,7 @@ import React from 'react';
 class Profiles extends React.Component {
   constructor(props) {
     super(props);
- 
+    
   }
 
   render() {
@@ -16,6 +16,7 @@ class Profiles extends React.Component {
           <div className="profiles-flex">
             <h2 className="profile-title">Who's watching?</h2>
             <button className="add-profile-button"></button>
+            <button className="logout-btn" onClick={this.props.logout}>Log Out</button>
           </div>
         </div>
 

@@ -1,3 +1,13 @@
+.logout-btn {
+  background: red;
+  color: white;  
+  margin-top: 20px; 
+  border-radius: 4px; 
+  width: 150px; 
+  height: 30px;
+  font-size: 18px; 
+}
+
 .profiles-bg {
   background: #141414; 
   height: 100%; 
@@ -50,4 +60,7 @@
 .add-profile-button {
   height: 167px; 
   width: 167px; 
+  background: image_url('profile_1.png'); 
+  background-size: cover;
+  
 }
