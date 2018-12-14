@@ -7,3 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 user = User.create!(email: 'drkumasaka@kaiser.com', password: 'password'); 
+
+m1 = Movie.create!(title: 'There will be blood', description: 'daniel d', genre: 'drama', year: 2002); 
