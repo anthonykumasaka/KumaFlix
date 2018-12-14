@@ -22,7 +22,6 @@ const App = ({store}) => (
         </Switch>
       </HashRouter>
     </Provider>
-
 );
 
 export default App;
