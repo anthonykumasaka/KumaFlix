@@ -27,4 +27,4 @@ const App = ({store}) => (
 
 export default App;
 
-{/* <Route path="/" component={GreetingContainer} /> */}
+
