@@ -37,7 +37,7 @@ h1 {
   height: 75px; 
   color: black; 
   filter:brightness(125%);
-  
+  z-index: 3px; 
 }
 .background-img {
   background: image_url('bb2.jpg'); 
