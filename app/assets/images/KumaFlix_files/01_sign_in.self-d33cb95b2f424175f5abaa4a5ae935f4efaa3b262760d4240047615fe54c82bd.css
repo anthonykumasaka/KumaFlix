@@ -1,0 +1,179 @@
+/* line 1, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.demo-button {
+  background: #241385;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* line 12, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+h1 {
+  color: black;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+/* line 18, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.header-one-font {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+/* line 24, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.error-test {
+  font: white;
+}
+
+/* line 29, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.netflix {
+  background: url(/assets/KUMAFLIX-b0ed220ac6804402c4c755fbbde9df37e7de977124f31f7050095c2ba72fdb1e.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  width: 175px;
+  height: 75px;
+  color: black;
+  filter: brightness(125%);
+  z-index: 3px;
+}
+
+/* line 42, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.background-img {
+  background: url(/assets/bb2-24fb59931390c5046fa1e62bc469fe876a22c6c2302a104d78ce9a3c8a520c0f.jpg);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+}
+
+/* line 54, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.input-3 {
+  background: white;
+  border-radius: 5px;
+}
+
+/* line 60, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.input-3 > p {
+  margin-top: 100px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 100px;
+  margin-left: 10px;
+}
+
+/* line 68, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.error {
+  color: white;
+  margin-top: 40px;
+  position: relative;
+}
+
+/* line 76, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.error-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 81, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.footer {
+  margin-top: 0px;
+  height: 400px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+/* line 89, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.black-overlay-flex {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 97, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.sign-in-bg {
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 330px;
+  height: 538px;
+  margin: 25px auto;
+  padding: 60px 60px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+  margin-bottom: 182px;
+}
+
+/* line 108, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.login-input {
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: none;
+  padding: 15px;
+}
+
+/* line 117, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.sign-in-button {
+  background: red;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 45px;
+}
+
+/* line 129, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 133, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.login-signup {
+  text-align: left;
+  position: absolute;
+}
+
+/* line 138, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.login-form-container {
+  text-align: left;
+  margin-top: 0;
+}
+
+/* line 143, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.session-submit {
+  height: 40px;
+}
+
+/* line 148, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.login-form {
+  margin-top: -15px;
+}
+
+/* line 153, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.new-to-netflix {
+  margin-top: 10px;
+  color: grey;
+  font-weight: bold;
+}
+
+/* line 159, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/01_sign_in.scss */
+.login-form-box {
+  padding: 0px;
+  margin-top: 0px;
+}

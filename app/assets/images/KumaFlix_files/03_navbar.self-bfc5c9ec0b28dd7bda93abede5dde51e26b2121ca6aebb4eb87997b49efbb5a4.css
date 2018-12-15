@@ -1,0 +1,28 @@
+/* line 1, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/navbar/03_navbar.scss */
+.navbar-flex {
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100px;
+  padding: 15px;
+}
+
+/* line 10, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/navbar/03_navbar.scss */
+.navbar-link {
+  padding-right: 30px;
+  height: 30px;
+}
+
+/* line 15, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/navbar/03_navbar.scss */
+.navbar-kumaflix {
+  background: url(/assets/KUMAFLIX-b0ed220ac6804402c4c755fbbde9df37e7de977124f31f7050095c2ba72fdb1e.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 25px;
+  color: black;
+  filter: brightness(125%);
+  z-index: 3px;
+  margin-bottom: 19px;
+}

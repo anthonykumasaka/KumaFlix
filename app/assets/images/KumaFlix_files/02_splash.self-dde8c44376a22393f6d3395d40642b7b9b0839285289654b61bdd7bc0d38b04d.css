@@ -1,0 +1,96 @@
+/* line 1, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/splash/02_splash.scss */
+.splash-flex {
+  background: url(/assets/bbb3-2e19bf5c9bec701953bdbdb6b9479f2f318f4e92df8a7b702ec91e5fda8b88cd.jpg);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+}
+
+/* line 13, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/splash/02_splash.scss */
+.black-overlay-flex-splash {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 940px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 21, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/splash/02_splash.scss */
+.black-overlay-flex-splash > h1 {
+  color: white;
+  margin-left: 150px;
+  font-size: 70px;
+  font-weight: -10px;
+  text-shadow: 2px 2px #000000;
+}
+
+/* line 30, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/splash/02_splash.scss */
+.black-overlay-flex-1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 37, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/splash/02_splash.scss */
+.black-overlay-flex-splash > h2 {
+  color: white;
+  margin-left: 150px;
+  font-size: 30px;
+  font-weight: 15;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #000000;
+}
+
+/* line 48, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/splash/02_splash.scss */
+.login-link {
+  margin-bottom: 350px;
+  width: 240px;
+  height: 30px;
+  border-radius: 3px;
+  z-index: 2;
+  color: white;
+  background-color: #CC2C24;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 150px;
+  font-weight: 100px;
+  padding: 5px;
+  font-family: 'Poppins', sans-serif;
+  border: .5px solid black;
+}
+
+/* line 65, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/splash/02_splash.scss */
+.login-link-2 {
+  border: .5px solid black;
+  margin-left: 300px;
+  width: 80px;
+  height: 30px;
+  border-radius: 3px;
+  z-index: 2;
+  color: white;
+  background-color: #CC2C24;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 100px;
+  position: relative;
+  margin-right: 100px;
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* line 85, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/splash/02_splash.scss */
+.on-link {
+  margin-top: 5px;
+  color: white;
+}
+
+/* line 89, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/splash/02_splash.scss */
+.on-link-2 {
+  margin-top: 4px;
+  color: white;
+}

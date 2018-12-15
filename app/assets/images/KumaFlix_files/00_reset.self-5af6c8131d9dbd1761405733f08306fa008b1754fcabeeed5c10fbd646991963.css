@@ -1,0 +1,33 @@
+/* line 2, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/00_reset.scss */
+html, body, div, span, h1, h2, h3, h4, a, ol, ul, li, form, label, article, aside, figure, figcaption, footer, header, nav, input, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 11, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/00_reset.scss */
+body {
+  line-height: 1.5;
+}
+
+/* line 15, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/00_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 19, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/00_reset.scss */
+img {
+  width: 100%;
+}
+
+/* line 23, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/00_reset.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 27, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/00_reset.scss */
+input:focus {
+  outline: none;
+}

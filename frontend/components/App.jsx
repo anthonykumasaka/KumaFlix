@@ -5,6 +5,7 @@ import SignupFormContainer from './session_form/signup_form_container';
 import {Route, Switch, HashRouter} from 'react-router-dom'; 
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
 import ProfilesContainer from './profiles/profiles_container';
+import MoviesIndexContainer from './movies/movies_index_container'; 
 import Splash from './splash'; 
 import {Provider} from 'react-redux'; 
 
@@ -18,6 +19,7 @@ const App = ({store}) => (
           <AuthRoute path="/login" component={LoginFormContainer} />
           <AuthRoute path="/signup" component={SignupFormContainer} />
           <ProtectedRoute path="/profiles" component={ProfilesContainer} />
+          <ProtectedRoute path="/browse" component={MoviesIndexContainer} />
           <AuthRoute path="/" component={Splash} /> 
         </Switch>
       </HashRouter>

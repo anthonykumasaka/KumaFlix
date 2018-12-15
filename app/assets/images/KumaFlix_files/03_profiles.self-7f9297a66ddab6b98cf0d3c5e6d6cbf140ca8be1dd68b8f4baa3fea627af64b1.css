@@ -1,0 +1,71 @@
+/* line 1, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/03_profiles.scss */
+.logout-btn {
+  background: red;
+  color: white;
+  margin-top: 20px;
+  border-radius: 4px;
+  width: 150px;
+  height: 30px;
+  font-size: 18px;
+}
+
+/* line 11, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/03_profiles.scss */
+.profiles-bg {
+  background: #141414;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+}
+
+/* line 23, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/03_profiles.scss */
+.netflix2 {
+  background: url(/assets/netflix2-06f7c02dc86502065fafa853f29fb72fd99080be496bce5bd1c3aaf0a3be8f2f.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 20px;
+  left: 55px;
+  width: 125px;
+  height: 25px;
+  color: black;
+  filter: brightness(125%);
+  z-index: 2;
+}
+
+/* line 37, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/03_profiles.scss */
+.profile-title {
+  color: white;
+  font-size: 55PX;
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  text-align: center;
+  font-weight: 4;
+  letter-spacing: 1px;
+  margin-top: 170px;
+  padding: 25px;
+}
+
+/* line 49, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/03_profiles.scss */
+.add-profile-button:hover {
+  color: black;
+}
+
+/* line 52, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/03_profiles.scss */
+.profiles-flex {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 60, /Users/Kuma/Desktop/myFlix/app/assets/stylesheets/login.css/03_profiles.scss */
+.add-profile-button {
+  height: 167px;
+  width: 167px;
+  background: url(/assets/profile_1-551acd8714fc73475d75de5e52e110a8c7f95598c814dc878c1577f1bff7c361.png);
+  background-size: cover;
+}
