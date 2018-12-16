@@ -8,18 +8,20 @@
 User.destroy_all
 user = User.create!(email: 'drkumasaka@kaiser.com', password: 'password'); 
 
-m1 = Movie.create!(title: 'There will be blood', description: 'daniel d', genre: 'drama', year: 2002); 
 
 Movie.destroy_all 
-movie1 = Movie.new({ title: 'Zak Downtown', description: 'Zones live at Spring Awakening Festival', genre: 'performance', year: 2017});
-movie1.thumbnail.attach({io: File.open('/Users/kuma/Desktop/there_will_be_blood.jpg'), filename: 'there_will_be_blood.jpg'});
-movie1.video.attach({io: File.open('/Users/kuma/Desktop/movie_test.mp4'), filename: 'movie_test.mp4'}); 
+# music vieos: 
+m1 = Movie.create!(title: 'Ryan Leslie - Black Flag', description: 'Official music video for Black Flag by Ryan Leslie', genre: 'music', year: 2013); 
+  m1_attachment = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/RLES_black_flag_music_video.mp4');
+  m1.video.attach(io: m1_attachment, filename: 'black_flag_music_video'); 
 
-movie1.save! 
+# performance videos: 
+p1 = Movie.create!(title: 'Ryan Leslie - Joan of Arc', description: 'Ryan leslie performing Joan of Arc in Seattle', genre: 'performance', year: 2012); 
+  p1_attachment = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/RLES_joan_of_arc_performance_video.mp4');
+  p1.video.attach(io: p1_attachment, filename: 'joan_of_arc_performance_video'); 
 
+# animation videos: 
+a1 = Movie.create!(title: 'The Kingdom of Akio - trailer', description: 'The original trailer for The Kingdom of Akio', genre: 'animation', year: 2013); 
+  a1_attachment = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Animation_Videos/KOA_trailer_animation_video.mp4');
+  a1.video.attach(io: a1_attachment, filename: 'the_kingdom_of_akio_trailer')
 
-
-movie2 = Movie.new(title: 'ZD', description: 'Live in Chicago', genre: 'performance', year: 2017);
-file = EzDownload.open('https://s3-us-west-1.amazonaws.com/kumaflix-dev/movie_test.mp4')
-movie2.video.attach(io: file, filename: 'movie_test.mp4');
-movie2.save! 

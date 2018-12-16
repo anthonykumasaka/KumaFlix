@@ -1,6 +1,5 @@
-
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Profiles extends React.Component {
   constructor(props) {
@@ -15,7 +14,7 @@ class Profiles extends React.Component {
         <div className="profiles-bg">
           <div className="profiles-flex">
             <h2 className="profile-title">Who's watching?</h2>
-            <button className="add-profile-button"></button>
+            <Link className="add-profile-button" to="/browse"></Link>
             <button className="logout-btn" onClick={this.props.logout}>Log Out</button>
           </div>
         </div>

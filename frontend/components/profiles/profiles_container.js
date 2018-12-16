@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { signup, logout } from '../../actions/session_actions';
+import { signup, logout, loginProfile } from '../../actions/session_actions';
 import Profiles from './profiles';
 
 
