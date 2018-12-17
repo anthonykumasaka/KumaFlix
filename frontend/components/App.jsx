@@ -16,6 +16,7 @@ const App = ({store}) => (
     <Provider store={store}>
       <HashRouter>
         <Switch>
+          {/* <ProtectedRoute path="/play/:movieId" component={MoviePlayContainer} /> */}
           <AuthRoute path="/login" component={LoginFormContainer} />
           <AuthRoute path="/signup" component={SignupFormContainer} />
           <ProtectedRoute path="/profiles" component={ProfilesContainer} />

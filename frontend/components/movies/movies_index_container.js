@@ -4,10 +4,8 @@ import {fetchMovies} from '../../actions/movie_actions';
 import {logout} from '../../actions/session_actions';
 
 const msp = (state) => {
-  debugger 
-  let movies = Object.values(state.entities.movies); 
   return {
-    movies: movies 
+    movies: Object.values(state.entities.movies) 
   };
 }; 
 

@@ -1,5 +1,6 @@
 import React from 'react'; 
 import Navbar from '../navbar/navbar'; 
+import FeaturedMovie from './featured_movie'; 
 
 class MoviesIndex extends React.Component {
   constructor(props) {
@@ -12,22 +13,21 @@ class MoviesIndex extends React.Component {
     this.props.logout(); 
   }
 
-  componentDidMount() {
+  componentWillMount() {
     this.props.fetchMovies(); 
   }
 
   render() { 
-    if (this.props.movies.length === 0) return null;
-
+    if (this.props.movies.length === 0) return null; 
+    const mainMovie = this.props.movies[0];
     return (
       <div className="movies-index-bg">
         <div>
           <div>
             {<Navbar />}
           </div>
-     
           <h1>This is movies index Component</h1>
-          
+          <FeaturedMovie video={mainMovie} />
         </div>
       </div>
     );
