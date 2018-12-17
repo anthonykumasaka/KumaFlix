@@ -81,12 +81,77 @@ m11 = Movie.create!(title: 'Zak Downtown - Wiz Khalifa', description: `Official 
 
 
 # performance videos: 
-p1 = Movie.create!(title: 'Ryan Leslie - Joan of Arc', description: 'Ryan leslie performing Joan of Arc in Seattle', genre: 'performance', year: 2012); 
+p1 = Movie.create!(title: 'Ryan Leslie - Joan of Arc', description: `Ryan leslie performing 'Joan of Arc' in Seattle`, genre: 'performance', year: 2012); 
   p1_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/RLES_joan_of_arc_performance_video.mp4');
-  p1.video.attach(io: p1_video, filename: 'joan_of_arc_performance_video'); 
+  p1.video.attach(io: p1_video, filename: 'RLES_joan_of_arc_performance_video');
+  p1_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/RLES_joan_of_arc_performance_video.mp4');
+  p1.photo.attach(io: p1_photo, filename: 'RLES_joan_of_arc_photo'; 
+
+p2 = Movie.create!(title: 'Hucci - Spring Awakening Festival', description: 'Hucci perfoming live at Spring Awakening Festival (Chicago)', genre: 'performance', year: 2017); 
+  p2_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/HUCCI_spring_awakening_festival_performance_video.mp4');
+  p2.video.attach(io: p2_video, filename: 'HUCCI_spring_awakening_video');
+  p2_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/HUCCI_spring_awakening_photo.png');
+  p2.photo.attach(io: p2_photo, filename: 'HUCCI_spring_awakening_photo'; 
+
+p3 = Movie.create!(title: 'Jordan Comolli - Live in Rotterdam', description: 'Jordan Comolli live in Rotterdam', genre: 'performance', year: 2018); 
+  p3_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/JC_rotterdam_performance_video.mp4');
+  p3.video.attach(io: p3_video, filename: 'JC_rotterdam_video');
+  p3_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/JC_rotterdam_photo.png');
+  p3.photo.attach(io: p3_photo, filename: 'JC_rotterdam_photo'; 
+
+p4 = Movie.create!(title: 'Ryan Leslie - Black Flag', description: `Ryan leslie performing 'The Black Flag' in Davis`, genre: 'performance', year: 2012); 
+  p4_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/RLES_black_flag_performance_video.mp4');
+  p4.video.attach(io: p4_video, filename: 'RLES_black_flag_video');
+  p4_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/RLES_black_flag_performance_photo.png');
+  p4.photo.attach(io: p4_photo, filename: 'RLES_black_flag_photo'; 
+
+p5 = Movie.create!(title: 'Ryan Leslie - Black Mozart', description: `Ryan leslie performing 'Black Mozart' in Stockton, CA`, genre: 'performance', year: 2013); 
+  p5_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/RLES_black_mozart_stockton_performance_video.mp4');
+  p5.video.attach(io: p5_video, filename: 'RLES_black_mozart_video');
+  p5_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/RLES_black_mozart_performance_photo.png');
+  p5.photo.attach(io: p5_photo, filename: 'RLES_black_mozart_photo'; 
+
+p6 = Movie.create!(title: 'Ryan Leslie - Carnival of Venice', description: `Ryan leslie performing 'Carnival of Venice' in Stockton, CA`, genre: 'performance', year: 2013); 
+  p6_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/RLES_carnival_of_venice_performance_video.mp4');
+  p6.video.attach(io: p6_video, filename: 'RLES_carnival_of_venice_video');
+  p6_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/RLES_irving_plaza_photo.png');
+  p6.photo.attach(io: p6_photo, filename: 'RLES_carnival_of_venice_photo'; 
+
+p7 = Movie.create!(title: 'Ryan Leslie - Sizzle Reel', description: `Ryan leslie 2013 Sizzle Reel`, genre: 'performance', year: 2013); 
+  p7_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/RLES_sizzle_reel_performance_video.mp4');
+  p7.video.attach(io: p7_video, filename: 'RLES_sizzle_reel_video');
+  p7_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/RLES_sizzle_reel_photo.png');
+  p7.photo.attach(io: p7_photo, filename: 'RLES_sizzle_reel_photo'; 
+
+p8 = Movie.create!(title: 'Ryan Leslie - Black Mozart Tour', description: `Ryan leslie 2014 Black Mozart Tour`, genre: 'performance', year: 2014); 
+  p8_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/RLES_black_mozart_tour_promo_performance_video.mp4');
+  p8.video.attach(io: p8_video, filename: 'RLES_tour_video');
+  p8_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/RLES_tour_promo_photo.png');
+  p8.photo.attach(io: p8_photo, filename: 'RLES_tour_photo'; 
+
+p9 = Movie.create!(title: 'Talib Kweli - Outstanding', description: `Talib Kweli perfomring 'Outstanding' featuring Ryan Leslie`, genre: 'performance', year: 2013); 
+  p9_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/TK_outstanding_performance_video.mp4');
+  p9.video.attach(io: p9_video, filename: 'TK_outstanding_video');
+  p9_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/TK_outstanding_photo.png');
+  p9.photo.attach(io: p9_photo, filename: 'TK_outstanding_photo'; 
+
+p10 = Movie.create!(title: 'Whipped Cream - Genesis', description: `Whipped Cream 'Genesis' tour promo`, genre: 'performance', year: 2018); 
+  p10_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/WC_genesis_performance_video.mp4');
+  p10.video.attach(io: p10_video, filename: 'WC_genesis_video');
+  p10_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/WC_genesis_photo.png');
+  p10.photo.attach(io: p10_photo, filename: 'WC_genesis_photo'; 
+
+p11 = Movie.create!(title: 'Zak Downtwon - Spring Awakening', description: `Zak Downtown perfoming live at Spring Awakening Festival (Chicago)`, genre: 'performance', year: 2017); 
+  p11_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/ZD_spring_awakening_performance_video.mp4');
+  p11.video.attach(io: p11_video, filename: 'ZD_spring_awakening_video');
+  p11_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/ZD_spring_awakening_photo.png');
+  p11.photo.attach(io: p11_photo, filename: 'ZD_spring_awakening_photo'; 
+
 
 # animation videos: 
 a1 = Movie.create!(title: 'The Kingdom of Akio - trailer', description: 'The original trailer for The Kingdom of Akio', genre: 'animation', year: 2013); 
   a1_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Animation_Videos/KOA_trailer_animation_video.mp4');
   a1.video.attach(io: a1_video, filename: 'the_kingdom_of_akio_trailer')
+  a1_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/animation_photos/KOA_trailer_1_photo.png');
+  a1.photo.attach(io: a1_photo, filename: 'KOA_trailer_1_photo'; 
 
