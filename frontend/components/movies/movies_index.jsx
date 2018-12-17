@@ -1,6 +1,7 @@
 import React from 'react'; 
 import Navbar from '../navbar/navbar'; 
 import FeaturedMovie from './featured_movie'; 
+import AllMovies from './all_movies'; 
 
 class MoviesIndex extends React.Component {
   constructor(props) {
@@ -26,7 +27,8 @@ class MoviesIndex extends React.Component {
           <div>
             {<Navbar />}
           </div>
-          <FeaturedMovie video={mainMovie} />
+            <FeaturedMovie video={mainMovie} />
+            <AllMovies movies={this.props.movies} />
         </div>
       </div>
     );

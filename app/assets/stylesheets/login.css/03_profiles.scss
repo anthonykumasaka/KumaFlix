@@ -1,7 +1,7 @@
 .logout-btn {
   background: red;
   color: white;  
-  margin-top: 20px; 
+  margin-top: 40px; 
   border-radius: 4px; 
   width: 150px; 
   height: 30px;
@@ -20,15 +20,15 @@
   width: 100%; 
 }
 
-.netflix2 {
-  background: image_url('netflix2.png'); 
+.kumaflix-logo-profiles {
+  background: image_url('KUMAFLIX.png'); 
   background-size: contain; 
   background-repeat: no-repeat; 
   position: absolute;
   top: 20px; 
   left: 55px; 
   width: 125px; 
-  height: 25px; 
+  height: 100px; 
   color: black; 
   filter:brightness(125%);
   z-index: 2;

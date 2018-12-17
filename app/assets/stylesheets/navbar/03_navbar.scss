@@ -74,3 +74,38 @@ i {
   justify-content: flex-end; 
   color: white; 
 }
+
+.pop-up {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background: black;
+  color: white;
+  font-weight: 300;
+  padding: 10px 20px;
+  border: 0.5px solid gray;
+  width: 150px;
+  right: 45px;
+  top: 55px;
+}
+
+.pop-up:hover {
+  display: block;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  position: relative;
+  width: auto;
+  margin-right: 10px;
+}
+
+#pop-up-logout{
+  border-top: 0.5px solid gray;
+  margin-top: 10px;
+  padding-top: 10px;
+}
