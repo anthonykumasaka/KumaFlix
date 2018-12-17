@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import MovieShow from './movie_show';
+import PlayMovie from './play_movie';
 import { fetchMovie } from '../../actions/movie_actions';
 import { withRouter } from 'react-router-dom';
 
@@ -15,4 +15,4 @@ const mapDispatchToProps = dispatch => {
   });
 }; 
 
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(MovieShow));
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(PlayMovie));

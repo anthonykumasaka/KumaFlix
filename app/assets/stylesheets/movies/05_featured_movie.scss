@@ -1,30 +1,61 @@
-.f-movie > h1{
+.f-movie {
   height: 100%;
   color: white;
   z-index: 2; 
-  margin-top: 25px;
-  position: absolute;
+  display: flex;  
+  
 }
 
 .f-movie-photo {
   content: url('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/RLES_black_flag_fire_photo.png');
-  // https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/RLES_black_flag_fire_photo.png
-  // content: url('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/MURSA_black_pearl_photo_ae.jpg'); 
   width: 100%;
-  min-width: 1200px;
   font-family: "Poppins", sans-serif;
-  // margin-top: -25px;
-  z-index: -1;
+  
+  z-index: 0;
+  height: 100%; 
 }
 
 .kuma-flix-original {
   background: image_url('Black_Flag_shadow.png');
   z-index: 2;
-  position: absolute;
   height: 30%; 
   width: 30%; 
   background-repeat: no-repeat;  
   background-size: contain; 
   margin-top: 200px; 
-  margin-left: 60px; 
+  margin-left: 60px;
+  position: absolute; 
+}
+
+.f-movie-play-link {
+  position: absolute;
+  width: 9%; 
+  height: 5%; 
+  margin-top: 330px; 
+  margin-left: 70px; 
+  background-color: rgba(0, 0, 0, 0.50);
+  color: white; 
+  background-size: contain; 
+  border: 1px white solid;
+  z-index: 10; 
+}
+
+.my-list-btn {
+  position: absolute;
+  width: 9%; 
+  height: 5%; 
+  margin-top: 330px; 
+  margin-left: 250px; 
+  background-color: rgba(0, 0, 0, 0.50);
+  color: white; 
+  background-size: contain; 
+  font-size: 20px; 
+  border: 1px white solid;
+  z-index: 10; 
+}
+
+.font-play {
+  margin-top: 5px; 
+  font-size: 20px; 
+  text-align: center; 
 }

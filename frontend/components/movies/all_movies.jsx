@@ -7,7 +7,6 @@ const AllMovies = (props) => {
       <div className="all-movies-flex">
         <h1>This is AllMovies component</h1>
       </div>
-
     </div>
   );
 }; 

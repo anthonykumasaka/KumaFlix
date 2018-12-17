@@ -35,7 +35,7 @@ class Navbar extends React.Component {
                 </li>
                 <span>Demo</span>
                 <li id="pop-up-logout" onClick={this.props.logout}>
-                  <section onClick={() => props.logout()}>Sign out of Kumaflix</section>
+                  <section onClick={() => this.props.logout}>Sign out of Kumaflix</section>
                   Sign out of KumaFlix
                 </li>
               </ul>
