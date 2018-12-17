@@ -16,6 +16,7 @@ class Profiles extends React.Component {
           <div className="profiles-flex">
             <h2 className="profile-title">Who's watching?</h2>
             <Link className="add-profile-button" to="/browse"></Link>
+            <h2 className="user-text">Demo</h2>
             <button className="logout-btn" onClick={this.props.logout}>Log Out</button>
           </div>
         </div>
