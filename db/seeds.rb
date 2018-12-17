@@ -11,20 +11,82 @@ user = User.create!(email: 'drkumasaka@kaiser.com', password: 'password');
 
 Movie.destroy_all 
 # music vieos: 
-m1 = Movie.create!(title: 'Ryan Leslie - Black Flag', description: 'Official music video for Black Flag by Ryan Leslie', genre: 'music', year: 2013); 
+m1 = Movie.create!(title: 'Ryan Leslie - Black Flag', description: `Official music video for 'Black Flag' by Ryan Leslie`, genre: 'Music Video', year: 2013); 
   m1_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/RLES_black_flag_music_video.mp4');
   m1.video.attach(io: m1_video, filename: 'black_flag_music_video'); 
   m1_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/RLES_black_flag_fire_photo.png');
-  m1.photo.attach(io: m1_photo, filename: 'RLES_black_flag_fire_photo.png')
+  m1.photo.attach(io: m1_photo, filename: 'RLES_black_flag_fire_photo.png');
+
+m2 = Movie.create!(title: 'Pearl Black', description: `Official music video for 'Pearl Black' by Mursa`, genre: 'Music Video', year: 2017); 
+  m2_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/MURSA_pearl_black_trailer_video.mov');
+  m2.video.attach(io: m2_video, filename: 'MURSA_black_pearl_music_video'); 
+  m2_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/MURSA_black_pearl_photo_ae.jpg');
+  m2.photo.attach(io: m2_photo, filename: 'MURSA_black_pearl_photo_ae'; 
+  m2_photo_2 = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/MURSA_black_pearl_photo.png');
+  m2.photo.attach(io: m2_photo_2, filename: 'MURSA_black_pearl_photo'; 
+
+m3 = Movie.create!(title: 'Anthoy Kumasaka Video Reel', description: `Video reel by Anthony Kumasaka`, genre: 'Music Video', year: 2013); 
+  m3_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/AK_reel.mp4');
+  m3.video.attach(io: m3_video, filename: 'AK_reel'); 
+  m3_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/AK_reel_photo.png');
+  m3.photo.attach(io: m3_photo, filename: 'AK_reel_photo'; 
+
+m4 = Movie.create!(title: 'Fabolous - Ready', description: `A promo video for the song 'Ready' by Fabolous featuring Kevin Hard and Jessica White`, genre: 'Music Video', year: 2013); 
+  m4_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/Fabolous_ready_music_video.mp4');
+  m4.video.attach(io: m4_video, filename: 'FABOLOUS_read_video'); 
+  m4_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/FABOLOUS_read_photo.png');
+  m4.photo.attach(io: m4_photo, filename: 'FABOLOUS_ready_photo'; 
+
+m5 = Movie.create!(title: 'Min - Korea', description: `A recap video of Ryan Leslie's time in Korea featuring Min`, genre: 'Music Video', year: 2013); 
+  m5_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/Min_korea_music_video.mp4');
+  m5.video.attach(io: m5_video, filename: 'MIN_korea_video'); 
+  m5_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/MIN_koread_photo.png');
+  m5.photo.attach(io: m5_photo, filename: 'MIN_korea_photo'; 
+
+m6 = Movie.create!(title: 'Ryan Leslie - Carnival of Venice', description: `Official music video for 'Carnival of Venice' by Ryan Leslie`, genre: 'Music Video', year: 2013); 
+  m6_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/RLES_carnival_of_venice_music_video.mp4');
+  m6.video.attach(io: m6_video, filename: 'RLES_carnival_of_venice_video'); 
+  m6_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/RLES_carnival_of_venice_photo.png');
+  m6.photo.attach(io: m6_photo, filename: 'RLES_carnival_of_venice_photo'; 
+
+m7 = Movie.create!(title: 'Talib Kweli - Oustanding', description: `Official music video for 'Outstanding' by Talib Kweli and Ryan Leslie`, genre: 'Music Video', year: 2012); 
+  m7_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/TALIBKWELI_outstanding_music_video.mp4');
+  m7.video.attach(io: m7_video, filename: 'TALIBKWELI_outstanding_photo'); 
+  m7_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/TALIBKWELI_outstanding_photo.png');
+  m7.photo.attach(io: m7_photo, filename: 'TALIBKWELI_outstanding_video'; 
+
+m8 = Movie.create!(title: 'Whipped Cream - Ignorant', description: `Official music video for 'Ignorant' by Whipped Cream`, genre: 'Music Video', year: 2017); 
+  m8_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/WC_ignorant_music_video.mp4');
+  m8.video.attach(io: m8_video, filename: 'WC_ignorant_video'); 
+  m8_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/WC_ignorant_photo.png');
+  m8.photo.attach(io: m8_photo, filename: 'WC_ignorant_photo'; 
+
+m9 = Movie.create!(title: 'YLTI - Glass Wata', description: `Official music video for 'Glass Wata' by YLTI`, genre: 'Music Video', year: 2018); 
+  m9_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/YLTI_glassa_wata_trailer_video.mov');
+  m9.video.attach(io: m9_video, filename: 'YLTI_glass_wata_video'); 
+  m9_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/YLTI_glassa_watta_photo.png');
+  m9.photo.attach(io: m9_photo, filename: 'YLTI_glass_wata_photo'; 
+  
+m10 = Movie.create!(title: 'Zak Downtown - Element', description: `Official music video for 'Element' by Zak Downtown`, genre: 'Music Video', year: 2017); 
+  m10_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/ZD_element_music_video.mov');
+  m10.video.attach(io: m10_video, filename: 'ZD_element_video'); 
+  m10_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/ZD_element_photo.png');
+  m10.photo.attach(io: m10_photo, filename: 'ZD_element_photo'; 
+
+m11 = Movie.create!(title: 'Zak Downtown - Wiz Khalifa', description: `Official music video for 'Wiz Khalifa' by Zak Downtown`, genre: 'Music Video', year: 2017); 
+  m11_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/ZD_whiz_khalifa_performance_video.mov');
+  m11.video.attach(io: m11_video, filename: 'ZD_wiz_khalifa_video'); 
+  m11_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/ZD_whiz_khalifa_photo.png');
+  m11.photo.attach(io: m11_photo, filename: 'ZD_wiz_khalifa_photo'; 
 
 
 # performance videos: 
-# p1 = Movie.create!(title: 'Ryan Leslie - Joan of Arc', description: 'Ryan leslie performing Joan of Arc in Seattle', genre: 'performance', year: 2012); 
-#   p1_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/RLES_joan_of_arc_performance_video.mp4');
-#   p1.video.attach(io: p1_video, filename: 'joan_of_arc_performance_video'); 
+p1 = Movie.create!(title: 'Ryan Leslie - Joan of Arc', description: 'Ryan leslie performing Joan of Arc in Seattle', genre: 'performance', year: 2012); 
+  p1_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/RLES_joan_of_arc_performance_video.mp4');
+  p1.video.attach(io: p1_video, filename: 'joan_of_arc_performance_video'); 
 
-# # animation videos: 
-# a1 = Movie.create!(title: 'The Kingdom of Akio - trailer', description: 'The original trailer for The Kingdom of Akio', genre: 'animation', year: 2013); 
-#   a1_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Animation_Videos/KOA_trailer_animation_video.mp4');
-#   a1.video.attach(io: a1_video, filename: 'the_kingdom_of_akio_trailer')
+# animation videos: 
+a1 = Movie.create!(title: 'The Kingdom of Akio - trailer', description: 'The original trailer for The Kingdom of Akio', genre: 'animation', year: 2013); 
+  a1_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Animation_Videos/KOA_trailer_animation_video.mp4');
+  a1.video.attach(io: a1_video, filename: 'the_kingdom_of_akio_trailer')
 
