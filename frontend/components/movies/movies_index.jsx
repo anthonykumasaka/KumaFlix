@@ -22,6 +22,8 @@ class MoviesIndex extends React.Component {
     if (this.props.movies.length === 0) return null; 
     const mainMovie = this.props.movies[0];
     return (
+
+
       <div className="movies-index-bg">
         <div>
           <div>
