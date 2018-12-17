@@ -15,7 +15,7 @@
   margin-right: 15px; 
   height: 40px; 
   margin-top: 10px; 
-  padding-left: 190px;  
+  padding-left: 180px;  
   font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 .navbar-link-tvshows {
@@ -25,6 +25,10 @@
   margin-top: 10px; 
   font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
+
+.navbar-link-movies:hover {
+  font-weight: bolder; 
+}
 .navbar-link-movies {
   text-decoration: none; 
   padding-top: 5px; 
@@ -33,7 +37,7 @@
   margin-top: 10px; 
   font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
   color: white; 
-  font-weight: bold; 
+  // font-weight: bold; 
 }
 
 .navbar-kumaflix {
@@ -47,5 +51,21 @@
   filter:brightness(125%);
   z-index: 3px; 
   margin-top: 17px; 
-  margin-left: 50px; 
+  margin-left: 60px; 
+}
+
+.dropdown {
+  display: flex; 
+}
+
+.profile-avatar {
+  background: image_url('profile_1.png');
+  position: absolute; 
+  width: 32px;
+  height: 32px;
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  margin-left: 1500px; 
+   
+
 }

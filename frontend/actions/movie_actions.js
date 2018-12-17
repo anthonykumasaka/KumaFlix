@@ -3,11 +3,13 @@ export const RECEIVE_MOVIE = 'RECEIVE_MOVIE';
 export const RECEIVE_MOVIES = 'RECEIVE_MOVIES';
 
 export const fetchMovies = () => (dispatch) => (
-  MovieAPIUtil.fetchMovies().then(movies => (dispatch(receiveMovies(movies))))
+  MovieAPIUtil.fetchMovies()
+    .then(movies => (dispatch(receiveMovies(movies))))
 ); 
 
 export const fetchMovie = (id) => (dispatch) => (
-  MovieAPIUtil.fetchMovie(id).then(movie => (dispatch(receiveMovie(movie))))
+  MovieAPIUtil.fetchMovie(id)
+    .then(movie => (dispatch(receiveMovie(movie))))
 ); 
 
 export const receiveMovies = (movies) => ({

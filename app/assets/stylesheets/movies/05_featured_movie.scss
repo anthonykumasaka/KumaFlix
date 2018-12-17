@@ -1,0 +1,29 @@
+.f-movie > h1{
+  height: 100%;
+  color: white;
+  z-index: 2; 
+  margin-top: 25px;
+  position: absolute;
+}
+
+.f-movie-photo {
+  content: url('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/RLES_black_flag_fire_photo.png');
+  width: 100%;
+  min-width: 1200px;
+  font-family: "Poppins", sans-serif;
+  // margin-top: -25px;
+  z-index: -1;
+}
+
+.kuma-flix-original {
+  background: image_url('Black_Flag_shadow.png');
+  z-index: 2;
+  position: absolute;
+  height: 30%; 
+  width: 30%; 
+  background-repeat: no-repeat;  
+  background-size: contain; 
+  margin-top: 200px; 
+  margin-left: 60px; 
+  
+}

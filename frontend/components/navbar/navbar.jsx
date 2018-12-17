@@ -15,16 +15,19 @@ class Navbar extends React.Component {
                   <div className="navbar-kumaflix"></div>
                 </Link>
           <div className="navbar-flex">
-              <div className="navbar-link-home"><h2>Home</h2></div>
-              <div className="navbar-link-tvshows"><h2>TV Shows</h2></div>
+              <div className="navbar-link-home"></div>
               <Link to="/movies" className="navbar-link-movies">Home</Link>
-              <Link to="/movies" className="navbar-link-movies">Live Performance</Link>
-              <Link to="/movies" className="navbar-link-movies">Music Video</Link>
-              <Link to="/movies" className="navbar-link-movies">Anime</Link>
+              <Link to="/movies" className="navbar-link-movies">My List</Link>
+              <Link to="/movies" className="navbar-link-movies">Music Videos</Link>
+              <Link to="/movies" className="navbar-link-movies">Performance Videos</Link>
+          <div className="dropdown" />
+            <img className="profile-avatar"/>
+            <i className="fa fa-caret-down"></i>
           </div>
         </div>
       
       </div>
+
     ); 
   }
 }

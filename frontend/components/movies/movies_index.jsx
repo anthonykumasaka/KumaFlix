@@ -26,7 +26,6 @@ class MoviesIndex extends React.Component {
           <div>
             {<Navbar />}
           </div>
-          <h1>This is movies index Component</h1>
           <FeaturedMovie video={mainMovie} />
         </div>
       </div>
