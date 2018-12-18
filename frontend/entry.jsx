@@ -8,16 +8,26 @@ import {login} from './actions/session_actions';
 document.addEventListener('DOMContentLoaded', () => {
   let store;
 
-  $(window).scroll(function () {
-    $('.header-overlay').css({ 
-      opacity: function () {
-        var opacity = .3;
-        //TODO:
-        //Set opacity to a higer value whilst user scrolls
-        return opacity;
-      }
-    });
-  });
+  // window.addEventListener('scroll', function () => (
+    
+  // )
+  
+  
+  
+  // {
+  //       // var opacity = .3;
+  //       //TODO:
+  //       //Set opacity to a higer value whilst user scrolls
+  //       // return opacity;
+
+  //       let scroll = $(this).scrollTop();
+  //       let opacity = 1 - (scroll / 1000);
+  //       if (opacity >= 0) {
+  //         $('.header-overlay').css('opacity', opacity);
+  //       }
+  //     }
+  //   });
+
 
   if (window.currentUser) {
     const preloadedState = {

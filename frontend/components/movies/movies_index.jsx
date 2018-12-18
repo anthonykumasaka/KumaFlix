@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from '../navbar/navbar'; 
 import FeaturedMovie from './featured_movie'; 
 import AllMovies from './all_movies'; 
+import { genreSelector } from '../../reducers/selectors';
+
 
 class MoviesIndex extends React.Component {
   constructor(props) {
@@ -21,6 +23,7 @@ class MoviesIndex extends React.Component {
   render() { 
     if (this.props.movies.length === 0) return null; 
     const mainMovie = this.props.movies[0];
+    
     return (
 
 
@@ -30,7 +33,9 @@ class MoviesIndex extends React.Component {
             {<Navbar />}
           </div>
             <FeaturedMovie video={mainMovie} />
-            <AllMovies movies={this.props.movies} />
+            <AllMovies performanceVideos={this.props.performanceVideos} 
+            musicVideos={genreSelector(this.props.movies, 'Music Video')}
+            movies={this.props.movies} />
         </div>
       </div>
     );

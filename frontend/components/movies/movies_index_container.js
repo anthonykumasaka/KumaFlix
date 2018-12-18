@@ -2,11 +2,14 @@ import {connect} from 'react-redux';
 import MoviesIndex from './movies_index'; 
 import {fetchMovies} from '../../actions/movie_actions'; 
 import {logout} from '../../actions/session_actions';
+import {genreSelector} from '../../reducers/selectors'; 
 
 const msp = (state) => {
+  let movies = Object.values(state.entities.movies); 
   return {
-    movies: Object.values(state.entities.movies) 
-  };
+    movies: movies,
+
+  }; 
 }; 
 
 const mdp = (dispatch) => {
