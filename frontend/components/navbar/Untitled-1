@@ -1,0 +1,15 @@
+            <div className="dropdown" />
+            <img className="profile-avatar"/>
+            <i className="fa fa-caret-down"></i>    
+            <div className="pop-up">
+              <ul>
+                <li className="user-info">
+                  <img className="profile-picture" />
+                </li>
+                <span>Demo</span>
+                <li>
+                <button onClick={this.props.logout}>
+                  Sign out of KumaFlix
+                </button>
+                </li>
+              </ul>

@@ -5,8 +5,8 @@
   width: 100%; 
   height: 100%;
   padding: 5px;
-  align-items: center;
   font-size: 14px; 
+  justify-content: space-between; 
 }
 
 .navbar-link-home {
@@ -94,6 +94,14 @@ i {
   display: block;
 }
 
+.dropbtn {
+  background: image_url('profile_1.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 100%; 
+}
+
 .user-info {
   display: flex;
   align-items: center;
@@ -110,3 +118,67 @@ i {
   margin-top: 10px;
   padding-top: 10px;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+  height: 100%; 
+  background-color: #377C7F; 
+}
+
+.dropdown-content {
+  
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.80); 
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  
+  color: white;
+  // margin-top: 10px; 
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+
+.profile-drop-flex {
+  margin-right: 90px; 
+  margin-top: 10px; 
+}
+

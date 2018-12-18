@@ -14,28 +14,31 @@ class Navbar extends React.Component {
           <Link to="/browse" className="navbar-link">
           <div className="navbar-kumaflix"></div>
           </Link>
+
           <div className="navbar-flex">
-            <div className="navbar-link-home"></div>
-            <Link to="/movies" className="navbar-link-movies">Home</Link>
-            <Link to="/movies" className="navbar-link-movies">My List</Link>
-            <Link to="/movies" className="navbar-link-movies">Music Videos</Link>
-            <Link to="/movies" className="navbar-link-movies">Performance Videos</Link>
-            <div className="dropdown" />
-            <img className="profile-avatar"/>
-            <i className="fa fa-caret-down"></i>        
-            <div className="pop-up">
-              <ul>
-                <li className="user-info">
-                  <img className="profile-picture" />
-                </li>
-                <span>Demo</span>
-                <li>
-                <button onClick={this.props.logout}>
-                  Sign out of KumaFlix
-                </button>
-                </li>
-              </ul>
+            <div className="navbar-link-home">
+              <Link to="/movies" className="navbar-link-movies">Home</Link>
+              <Link to="/movies" className="navbar-link-movies">My List</Link>
+              <Link to="/movies" className="navbar-link-movies">Music Videos</Link>
+              <Link to="/movies" className="navbar-link-movies">Performance Videos</Link>
             </div>
+            <div> 
+     
+            </div>
+            <div className="profile-drop-flex">
+            <ul className="ul-margin">
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn"></a>
+
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Manage Profiles</a>
+                  <a href="#">Sign out of Kumaflix</a>
+                </div>
+              </li>
+            </ul>
+            </div>
+
           </div>
         </div>
       </div>

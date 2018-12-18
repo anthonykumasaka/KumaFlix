@@ -7,10 +7,10 @@
 }
 
 .f-movie-photo {
-  content: url('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/RLES_black_flag_fire_photo.png');
+  // background: image_url('RLES_black_flag_fire_photo_cropped.png'); 
+  content: url('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/RLES_black_flag_fire_photo_cropped.png');
   width: 100%;
   font-family: "Poppins", sans-serif;
-  
   z-index: 0;
   height: 100%; 
   
