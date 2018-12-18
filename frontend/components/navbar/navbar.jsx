@@ -27,10 +27,10 @@ class Navbar extends React.Component {
             </div>
             <div className="profile-drop-flex">
             <ul className="ul-margin">
-              <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn"></a>
+              <li className="dropdown">
+                <a href="javascript:void(0)" className="dropbtn"></a>
 
-                <div class="dropdown-content">
+                <div className="dropdown-content">
                   <a href="#">Link 1</a>
                   <a href="#">Manage Profiles</a>
                   <a href="#">Sign out of Kumaflix</a>
