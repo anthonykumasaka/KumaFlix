@@ -9,6 +9,31 @@ video {
   align-content: center; 
 }
 
+.music-videos {
+  margin-top: 70px; 
+}
+.performance-videos {
+  margin-top: 80px; 
+}
+.music-videos-title {
+  font-size: 24px; 
+  color: white; 
+  text-align: left;
+  font-weight: 1; 
+  padding: 30px 30px 0px 10px; 
+  position: absolute;
+}
+.performance-videos-title {
+  font-size: 24px; 
+
+  color: white; 
+  text-align: left;
+  font-weight: 1; 
+  padding: 50px 30px 10px 10px; 
+  position: absolute;
+  margin-top: 200px; 
+}
+
 .index-fosho {
   z-index: 30; 
 }

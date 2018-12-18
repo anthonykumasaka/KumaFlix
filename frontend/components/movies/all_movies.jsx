@@ -21,15 +21,21 @@ class AllMovies extends React.Component {
         
         
           <div className="row">
+            <h1 className="music-videos-title">Music Videos</h1>
+            <h1 className="performance-videos-title">Performance Videos</h1>
             <div className="row__inner">
-              <h1>{musicVideos[0].genre}</h1>
+              <div className="music-videos">
               {musicVideos}
+              </div>
               <br/>
+              <div className="performance-videos"> 
               {performanceVideos}
+              </div>
             </div>
           </div>
-      
-        
+       
+         
+       
  
 
       </div>
