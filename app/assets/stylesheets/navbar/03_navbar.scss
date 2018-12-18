@@ -29,6 +29,9 @@
 .navbar-link-movies:hover {
   font-weight: bolder; 
 }
+
+
+
 .navbar-link-movies {
   text-decoration: none; 
   padding-top: 5px; 
@@ -141,7 +144,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  text-decoration: underline; 
 }
 
 li.dropdown {
@@ -170,7 +173,9 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  
+}
 
 .dropdown:hover .dropdown-content {
   display: block;

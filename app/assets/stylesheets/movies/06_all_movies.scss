@@ -7,7 +7,7 @@
   color: white; 
 }
 
-.music-videos > h1 {
+.featured-videos > h1 {
   z-index: 20;
   color: white; 
   text-align: left; 
@@ -15,7 +15,16 @@
   margin-top: 20px; 
   font-size: 26px; 
   font-weight: 1; 
-  
+}
+
+.music-videos > h1 {
+  z-index: 20;
+  color: white; 
+  text-align: left; 
+  position: absolute; 
+  margin-top: 45px; 
+  font-size: 26px; 
+  font-weight: 1; 
 }
 
 body,
@@ -153,4 +162,8 @@ a:hover {
 .tile:hover ~ .tile {
   -webkit-transform: translate3d(125px, 0, 0);
           transform: translate3d(125px, 0, 0);
+}
+
+.index-spacing {
+  margin-top: 100px; 
 }

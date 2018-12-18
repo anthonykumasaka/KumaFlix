@@ -17,7 +17,7 @@ class Navbar extends React.Component {
 
           <div className="navbar-flex">
             <div className="navbar-link-home">
-              <Link to="/movies" className="navbar-link-movies">Home</Link>
+              <Link to="/browse" className="navbar-link-movies">Home</Link>
               <Link to="/movies" className="navbar-link-movies">My List</Link>
               <Link to="/movies" className="navbar-link-movies">Music Videos</Link>
               <Link to="/movies" className="navbar-link-movies">Performance Videos</Link>
