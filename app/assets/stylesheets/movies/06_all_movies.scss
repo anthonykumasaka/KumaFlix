@@ -1,9 +1,16 @@
+.contain {
+  width: 100%;
+}
 video {
   width: 100vw; 
 }
 .all-movies-flex {
   display: flex; 
   align-content: center; 
+}
+
+.index-fosho {
+  z-index: 30; 
 }
 
 .all-movies-flex > h1 {
@@ -80,7 +87,7 @@ a:hover {
   transition: 450ms transform, 450ms -webkit-transform;
   font-size: 0;
   white-space: nowrap;
-  margin: 70.3125px 0;
+  // margin: 70.3125px 0;
   padding-bottom: 10px;
 }
 .tile {

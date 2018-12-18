@@ -33,7 +33,8 @@ class MoviesIndex extends React.Component {
             {<Navbar />}
           </div>
             <FeaturedMovie video={mainMovie} />
-            <AllMovies performanceVideos={this.props.performanceVideos} 
+            <AllMovies 
+            performanceVideos={genreSelector(this.props.movies, 'performance')}
             musicVideos={genreSelector(this.props.movies, 'Music Video')}
             movies={this.props.movies} />
         </div>

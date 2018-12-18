@@ -8,25 +8,14 @@ import {login} from './actions/session_actions';
 document.addEventListener('DOMContentLoaded', () => {
   let store;
 
-  // window.addEventListener('scroll', function () => (
-    
-  // )
-  
-  
-  
-  // {
-  //       // var opacity = .3;
-  //       //TODO:
-  //       //Set opacity to a higer value whilst user scrolls
-  //       // return opacity;
-
-  //       let scroll = $(this).scrollTop();
-  //       let opacity = 1 - (scroll / 1000);
-  //       if (opacity >= 0) {
-  //         $('.header-overlay').css('opacity', opacity);
-  //       }
-  //     }
-  //   });
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 10) {
+      $('.header-overlay').css("opacity", 0);
+    }
+    else {
+      $('.header-overlay').css("opacity", 1);
+    }
+  });
 
 
   if (window.currentUser) {

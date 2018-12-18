@@ -8,25 +8,29 @@ class AllMovies extends React.Component {
     super(props);
   }
 
-  componentDidMount() {
-   
-  }
 
   render() {
-    let movies = this.props.musicVideos.map(movie => {
+    let musicVideos = this.props.musicVideos.map(movie => {
       return <MovieIndexItem movie={movie} key={movie.title} />;
-    })
+    });
+    let performanceVideos = this.props.performanceVideos.map(movie => {
+      return <MovieIndexItem movie={movie} key={movie.title} />;
+    });
     return (
       <div>
-        <div className="featured-videos"><h1>{movies[0].genre}</h1></div>
-        <div className="contain">
+        
+        
           <div className="row">
             <div className="row__inner">
-              {movies}
+              <h1>{musicVideos[0].genre}</h1>
+              {musicVideos}
+              <br/>
+              {performanceVideos}
             </div>
           </div>
-        </div>
-
+      
+        
+ 
 
       </div>
     );
