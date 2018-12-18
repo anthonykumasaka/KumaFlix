@@ -19,11 +19,11 @@ m1 = Movie.create!(title: 'Ryan Leslie - Black Flag', description: 'Official mus
 
 m2 = Movie.create!(title: 'Pearl Black', description: 'Official music video for Pearl Black by Mursa', genre: 'Music Video', year: 2017); 
   m2_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/MURSA_pearl_black_trailer_video.mov');
-  m2.video.attach(io: m2_video, filename: 'MURSA_black_pearl_music_video'); 
+  m2.video.attach(io: m2_video, filename: 'MURSA_pearl_black_trailer_video.mov'); 
   m2_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/MURSA_black_pearl_photo_ae.jpg');
-  m2.photo.attach(io: m2_photo, filename: 'MURSA_black_pearl_photo_ae'); 
-  m2_photo_2 = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/MURSA_black_pearl_photo.png');
-  m2.photo.attach(io: m2_photo_2, filename: 'MURSA_black_pearl_photo'); 
+  m2.photo.attach(io: m2_photo, filename: 'MURSA_black_pearl_photo_ae.jpg'); 
+  # m2_photo_2 = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/MURSA_black_pearl_photo.png');
+  # m2.photo.attach(io: m2_photo_2, filename: 'MURSA_black_pearl_photo.png'); 
 
 m3 = Movie.create!(title: 'Anthoy Kumasaka Video Reel', description: 'Video reel by Anthony Kumasaka', genre: 'Music Video', year: 2013); 
   m3_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/AK_reel.mp4');

@@ -6,11 +6,6 @@ class Navbar extends React.Component {
     super(props); 
   }
 
-  handleSubmit(e) {
-    e.preventDefault();
-    this.props.logout();
-  }
-
   render() {
     return (
 
@@ -34,9 +29,10 @@ class Navbar extends React.Component {
                   <img className="profile-picture" />
                 </li>
                 <span>Demo</span>
-                <li id="pop-up-logout" onClick={this.props.logout}>
-                  <section onClick={() => this.props.logout}>Sign out of Kumaflix</section>
+                <li>
+                <button onClick={this.props.logout}>
                   Sign out of KumaFlix
+                </button>
                 </li>
               </ul>
             </div>
