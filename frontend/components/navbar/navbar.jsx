@@ -10,17 +10,17 @@ class Navbar extends React.Component {
     return (
 
       <div>
-        <div>
+        <div className="scroll-down">
           <Link to="/browse" className="navbar-link">
           <div className="navbar-kumaflix"></div>
           </Link>
-
           <div className="navbar-flex">
             <div className="navbar-link-home">
               <Link to="/browse" className="navbar-link-movies">Home</Link>
               <Link to="/movies" className="navbar-link-movies">My List</Link>
               <Link to="/movies" className="navbar-link-movies">Music Videos</Link>
               <Link to="/movies" className="navbar-link-movies">Performance Videos</Link>
+              <div class='header-overlay'></div>
             </div>
             <div> 
      

@@ -7,6 +7,18 @@ import {login} from './actions/session_actions';
 
 document.addEventListener('DOMContentLoaded', () => {
   let store;
+
+  $(window).scroll(function () {
+    $('.header-overlay').css({ 
+      opacity: function () {
+        var opacity = .3;
+        //TODO:
+        //Set opacity to a higer value whilst user scrolls
+        return opacity;
+      }
+    });
+  });
+
   if (window.currentUser) {
     const preloadedState = {
       entities: {

@@ -9,6 +9,7 @@ const AllMovies = (props) => {
       <div className="featured-videos"><h1>Featured Videos</h1></div>
       <div className="row__inner">
 
+        {/* video.photo */}
         <div className="tile">
           <Link to={`/play/9`}>
           <div className="tile__media">
@@ -224,6 +225,26 @@ const AllMovies = (props) => {
         </div>
 
         
+
+        {/* MUSIC VIDEOS */}
+        <div className="music-videos"><h1>Music Videos</h1></div>
+        <div className="index-spacing">
+
+          <div className="tile">
+          <Link to={`/play/23`}>
+            <div className="tile__media">
+                <img className="tile__img" src="https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/RLES_black_flag_fire_photo.png" />
+            </div>
+            <div className="tile__details">
+              <div className="tile__title">
+                RYAN LESLIE - BLACK FLAG
+            </div>
+            </div>
+            </Link> 
+          </div>
+        </div> 
+
+        {/* ANIMATION VIDEOS */}
         <div className="music-videos"><h1>Animation Videos</h1></div>
         <div className="index-spacing">
 
@@ -239,9 +260,9 @@ const AllMovies = (props) => {
             </div>
             </Link> 
           </div>
+        </div> 
 
-          </div> 
-      
+
       </div>
     </div>
   );

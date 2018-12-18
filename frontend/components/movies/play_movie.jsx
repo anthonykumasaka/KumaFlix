@@ -15,7 +15,7 @@ class PlayMovie extends React.Component {
 
     return (
       <div>
-        <div >
+        <div className="video-player">
           <video src={this.props.movie.video} autoPlay="autoPlay" controls />
         </div>
       </div>
