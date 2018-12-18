@@ -20,10 +20,6 @@ const FeaturedMovie = props => (
     </div>
     <div>
     </div>
-      <video width="320" height="240" controls>
-        <source src="https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/RLES_black_flag_music_video.mp4"/>
-            Your browser does not support the video tag.
-      </video> 
   </div> 
 );
 

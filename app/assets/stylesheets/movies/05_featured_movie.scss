@@ -1,9 +1,9 @@
 .f-movie {
   height: 100%;
   color: white;
-  z-index: 2; 
+  z-index: 0; 
   display: flex;  
-  
+  margin-top: 0px; 
 }
 
 .f-movie-photo {
@@ -13,6 +13,7 @@
   
   z-index: 0;
   height: 100%; 
+  
 }
 
 .kuma-flix-original {
