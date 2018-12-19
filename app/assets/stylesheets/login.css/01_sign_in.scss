@@ -18,7 +18,8 @@ h1 {
 .header-one-font {
   font-size: 32px; 
   font-weight: 700;
-  color: white; 
+  color: white;
+  align-items: left; 
 }
 
 .error-test {
@@ -96,13 +97,14 @@ h1 {
 
 .sign-in-bg {
   background-color: rgba(0, 0, 0, 0.75);
-  width: 330px;
+  width: 430px;
   height: 538px; 
   margin: 25px auto;
   padding: 60px 60px;
   font-family: 'Poppins', sans-serif;
   border-radius: 5px;
   margin-bottom: 182px; 
+ 
 }
 
 .login-input {

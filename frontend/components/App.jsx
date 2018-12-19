@@ -20,8 +20,8 @@ const App = ({store}) => (
           <ProtectedRoute path="/play/:movieId" component={PlayMovieContainer} />
           <AuthRoute path="/login" component={LoginFormContainer} />
           <AuthRoute path="/signup" component={SignupFormContainer} />
-          <ProtectedRoute path="/profiles" component={ProfilesContainer} />
           <ProtectedRoute path="/browse" component={MoviesIndexContainer} />
+          <ProtectedRoute path="/profiles" component={ProfilesContainer} />
           <AuthRoute path="/" component={Splash} /> 
         </Switch>
       </HashRouter>

@@ -9,7 +9,7 @@ const MovieIndexItem = props => (
       <div className="tile__details">
         <div className="tile__title">
           <h2>{props.movie.title} </h2>
-          {props.movie.description}
+          <h2>{props.movie.description}</h2> 
         </div>
       </div>
     </Link>

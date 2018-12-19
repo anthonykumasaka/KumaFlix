@@ -23,9 +23,22 @@ video {
   padding: 30px 30px 0px 10px; 
   position: absolute;
 }
+.animation-videos-title {
+  font-size: 24px; 
+  color: white; 
+  text-align: left;
+  font-weight: 1; 
+  padding: 30px 30px 0px 10px; 
+  position: absolute;
+  margin-top: 440px; 
+}
+
+.row-titles {
+  position: absolute;
+}
+
 .performance-videos-title {
   font-size: 24px; 
-
   color: white; 
   text-align: left;
   font-weight: 1; 
@@ -78,10 +91,10 @@ html {
 * {
   box-sizing: border-box;
 }
-h1,
-p {
-  text-align: center;
-}
+// h1,
+// p {
+//   text-align: center;
+// }
 p {
   width: 100%;
   max-width: 500px;
@@ -92,7 +105,7 @@ a:hover,
 a:active,
 a:visited {
   transition: color 150ms;
-  color: #95a5a6;
+  // color: #95a5a6;
   text-decoration: none;
 }
 a:hover {

@@ -7,6 +7,7 @@ class Navbar extends React.Component {
   }
 
   render() {
+    debugger
     return (
 
       <div>
@@ -20,26 +21,36 @@ class Navbar extends React.Component {
               <Link to="/movies" className="navbar-link-movies">My List</Link>
               <Link to="/movies" className="navbar-link-movies">Music Videos</Link>
               <Link to="/movies" className="navbar-link-movies">Performance Videos</Link>
-              <div class='header-overlay'></div>
+              <div className='header-overlay'></div>
             </div>
-            <div> 
-     
-            </div>
+
+
+          <div>
             <div className="profile-drop-flex">
-            <ul className="ul-margin">
-              <li className="dropdown">
-                <a href="javascript:void(0)" className="dropbtn"></a>
+              <div>
+                <form id="demo-2">
+                  <input type="search" placeholder="Search"/>
+                </form> 
+              </div>
 
-                <div className="dropdown-content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Manage Profiles</a>
-                  <a href="#">Sign out of Kumaflix</a>
+              <div>
+                <ul className="ul-margin">
+                  <li className="dropdown">
+                    <a href="javascript:void(0)" className="dropbtn"></a>
+                    <div className="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Manage Profiles</a>
+                      <a href="#">Sign out of Kumaflix</a>
+                      <button className="logout-btn" onClick={this.props.logout}>Log Out</button>
+                          
+                    </div>
+                  </li>
+                </ul>
                 </div>
-              </li>
-            </ul>
+              </div>
             </div>
-
           </div>
+
         </div>
       </div>
     ); 

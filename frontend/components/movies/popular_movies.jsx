@@ -1,9 +1,10 @@
 import React from 'react';
 import MovieIndexItem from './movie_index_item';
-import PopularMovies from './popular_movies';
+import { Link } from "react-router-dom";
 
 
-class AllMovies extends React.Component {
+
+class PopularMovies extends React.Component {
 
   constructor(props) {
     super(props);
@@ -11,48 +12,107 @@ class AllMovies extends React.Component {
 
 
   render() {
-    let musicVideos = this.props.musicVideos.map(movie => {
-      return <MovieIndexItem movie={movie} key={movie.title} />;
-    });
-    let performanceVideos = this.props.performanceVideos.map(movie => {
-      return <MovieIndexItem movie={movie} key={movie.title} />;
-    });
-    let animationVideos = this.props.animationVideos.map(movie => {
-      return <MovieIndexItem movie={movie} key={movie.title} />;
-    });
     return (
       <div>
-        
-          <div className="row">
-            <div className="rows-titles">
-              <h1 className="music-videos-title">Music Videos</h1>
-              <h1 className="performance-videos-title">Performance Videos</h1>
-              <h1 className="animation-videos-title">Animation Videos</h1>
-            </div>
-            <div className="row__inner">
-              <div className="popular-movies">
-              {/* <PopularMovies/>  */}
-              </div>
-              <div className="music-videos">
-              {musicVideos}
-              </div>
-              <br/>
-              <div className="performance-videos"> 
-              {performanceVideos}
-              </div>
-              <br/>
-              <div className="performance-videos"> 
-              {animationVideos}
-              </div>
-            </div>
+
+        <div className="row">
+          <div className="row__inner">
+          
+            <div className="featured-videos"><h1>Featured Videos</h1></div>
+     <div className="row__inner">
+
+       {/* video.photo */}
+       <div className="tile">
+         <Link to={`/play/9`}>
+         <div className="tile__media">
+            <img className="tile__img" src="https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/YLTI_glassa_watta_photo.png" alt="" />
           </div>
-       
+          <div className="tile__details">
+            <div className="tile__title">
+              YLTI
+          </div>
+           </div>
+           </Link> 
+         </div>
+
+       <div className="tile">
+       <Link to={`/play/2`}>
+         <div className="tile__media">
+             <img className="tile__img" src="https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/MURSA_black_pearl_photo.png" alt="" />
+         </div>
+         <div className="tile__details">
+           <div className="tile__title">
+             MURSA
+         </div>
+         </div>
+        </Link>
+       </div>
+
+       <div className="tile">
+         <Link to={`/play/7`}>
+         <div className="tile__media">
+           <img className="tile__img" src="https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/TALIBKWELI_outstanding_photo.png" alt="" />
+         </div>
+         <div className="tile__details">
+           <div className="tile__title">
+             TALIB KWELI ft RYAN LESLIE - OUTSTANDING
+         </div>
+         </div>
+         </Link> 
+       </div>
+
+       <div className="tile">
+         <Link to={`/play/3`}>
+         <div className="tile__media">
+           <img className="tile__img" src="https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/AK_reel_photo.png" alt="" />
+         </div>
+         <div className="tile__details">
+           <div className="tile__title">
+             KUMASAKA REEL
+         </div>
+         </div>
+         </Link>
+       </div>
+       <div className="tile">       <Link to={`/play/21`}>         <div className="tile__media">           <img className="tile__img" src="https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/WC_genesis_photo.png" alt="" />         </div>         <div className="tile__details">           <div className="tile__title">             WHIPPED CREAM - GENESIS TOUR         </div>         </div>         </Link>        </div>
+
+         <div className="tile">
+           <Link to={`/play/4`}>
+           <div className="tile__media">
+             <img className="tile__img" src="https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/FABOLOUS_read_photo.png" alt="" />
+           </div>
+           <div className="tile__details">
+             <div className="tile__title">
+               FABOLOUS ft. KEVIN HART/JESSICA WHITE
+           </div>
+           </div>
+           </Link>
+         </div>
+
+         <div className="tile">
+           <Link to={`/play/23`}>
+           <div className="tile__media">
+             <img className="tile__img" src="https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/animation_photos/KOA_trailer_1_photo.png" alt="" />
+           </div>
+           <div className="tile__details">
+             <div className="tile__title">
+               THE KINGDOM OF AKIO - ORIGINAL TRAILER
+             </div>
+           </div>
+           </Link>
+         </div>
+          </div>
+
+
+
+          </div>
+        </div>
+
       </div>
     );
   }
 }
 
-export default AllMovies;
+export default PopularMovies;
 
   // let musicVideos = props.musicVideos.map(movie => {
   //   return(
@@ -84,11 +144,11 @@ export default AllMovies;
 
   //   </div>
   // ); 
-   
 
-    
-       
-    
+
+
+
+
 
 
   //     <div className="row">
@@ -105,8 +165,8 @@ export default AllMovies;
   //         </div>
   //       </Link>
   //     </div>
-  
-    
+
+
 
 
   //     <div className="featured-videos"><h1>Featured Videos</h1></div>
@@ -190,7 +250,7 @@ export default AllMovies;
   //         </div>
   //         </Link>
   //       </div>
-        
+
   //       <div className="tile">
   //         <Link to={`/play/23`}>
   //         <div className="tile__media">
@@ -324,10 +384,10 @@ export default AllMovies;
   //         </div>
   //         </Link> 
   //       </div>
-      
+
   //       </div>
 
-        
+
 
   //       {/* MUSIC VIDEOS */}
   //       <div className="music-videos"><h1>Music Videos</h1></div>
