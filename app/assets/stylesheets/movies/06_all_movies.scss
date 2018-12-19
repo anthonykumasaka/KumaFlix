@@ -75,15 +75,29 @@ video {
   font-weight: 1; 
 }
 
-body,
-html {
+h1 {
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.ow div {
+  width: 80%;
+  display: inline;  
+}
+// Animated video scrolling from codepen
+.ow {
+  width: 100%; 
+  height: 100px; 
+  hyphens: auto; 
+  white-space: pre-wrap;
+}
+
+body, html {
   padding: 0 10px;
   margin: 0;
   background: #0e0f11;
   color: #ecf0f1;
   font-family: 'Open Sans', sans-serif;
   min-height: 100vh;
-  // display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
@@ -100,10 +114,7 @@ p {
   max-width: 500px;
   margin: auto;
 }
-a:link,
-a:hover,
-a:active,
-a:visited {
+a:link, a:hover, a:active, a:visited {
   transition: color 150ms;
   // color: #95a5a6;
   text-decoration: none;
@@ -119,6 +130,10 @@ a:hover {
   overflow: scroll;
   width: 100%;
 }
+.flex-container-movies {
+  display: flex;
+}
+
 .row__inner {
   transition: 450ms -webkit-transform;
   transition: 450ms transform;
@@ -157,8 +172,7 @@ a:hover {
   background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
   transition: 450ms opacity;
 }
-.tile__details:after,
-.tile__details:before {
+.tile__details:after, .tile__details:before {
   content: '';
   position: absolute;
   top: 50%;
@@ -177,6 +191,8 @@ a:hover {
   background: rgba(0,0,0,0.5);
   z-index: 1;
 }
+
+
 .tile__details:before {
   content: '▶';
   left: 0;
@@ -191,6 +207,7 @@ a:hover {
   opacity: 1;
 }
 .tile__title {
+  width: 100%; 
   position: absolute;
   bottom: 0;
   padding: 10px;

@@ -222,9 +222,7 @@ li.dropdown {
   margin-top: 10px; 
 }
 
-// search bar
-
-
+// search bar code from codepen // 
 
 a {
 	color: white;
@@ -260,9 +258,10 @@ input::-webkit-search-cancel-button {
 
 input[type=search] {
 	// background:url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
-  background: image-url('magnifyglass.png');
+  background: image-url('magnifyglass.png') no-repeat 9px center;
   background-size: contain;
-
+  height: 4px; 
+  width: 4px; 
   background-repeat: no-repeat;  
 	padding: 9px 10px 9px 32px;
  
@@ -271,21 +270,10 @@ input[type=search] {
 	-moz-transition: all .5s;
 	transition: all .5s;
 }
-input[type=search]:focus {
-	width: 130px;
-	background-color: #fff;
-	border-color: #66CC75;
 
+.search-bar-pos {
+  margin-top: 8px; 
 }
-
-
-input:-moz-placeholder {
-	color: #999;
-}
-input::-webkit-input-placeholder {
-	color: #999;
-}
-
 /* Demo 2 */
 #demo-2 input[type=search] {
 	width: 15px;
@@ -297,7 +285,7 @@ input::-webkit-input-placeholder {
 // 	background-color: #fff;
 // }
 #demo-2 input[type=search]:focus {
-	width: 130px;
+	width: 170px;
 	padding-left: 42px;
 	color: white;
   background-color: black;
@@ -310,3 +298,5 @@ input::-webkit-input-placeholder {
 #demo-2 input::-webkit-input-placeholder {
 	color: transparent;
 }
+
+// Search bar code came from codepen

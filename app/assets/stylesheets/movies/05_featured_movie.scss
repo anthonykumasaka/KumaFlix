@@ -1,4 +1,4 @@
-.f-movie {
+.f-movie-flex-container {
   height: 100%;
   color: white;
   z-index: 0; 
@@ -36,8 +36,8 @@
 
 .f-movie-play-link {
   position: absolute;
-  width: 9%; 
-  height: 5%; 
+  width: 7%; 
+  height: 40px; 
   margin-top: 410px; 
   margin-left: 70px; 
   background-color: rgba(0, 0, 0, 0.50);
@@ -46,13 +46,14 @@
   border: 1px white solid;
   z-index: 10; 
   text-decoration: none; 
-
 }
 
 .my-list-btn {
   position: absolute;
-  width: 9%; 
-  height: 5%; 
+  width: 7%; 
+  height: 40px; 
+  // width: 9%; 
+  // height: 5%; 
   margin-top: 410px; 
   margin-left: 250px; 
   background-color: rgba(0, 0, 0, 0.50);

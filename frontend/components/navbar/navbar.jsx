@@ -26,22 +26,19 @@ class Navbar extends React.Component {
 
 
           <div>
-            {/* magnifyglass  */}
+            {/* magnifyglass code from codepen */}
             <div className="profile-drop-flex">
-              <div>
-                <form id="demo-2">
+              <div className="search-bar-pos">
+                <form onSubmit={this.filter} id="demo-2">
                   <input type="search" placeholder="Search"/>
                 </form> 
               </div>
-
               <div>
-                  <div>
-                    <ul>
-                  <li className="dropdown">
-                    <a href="javascript:void(0)" className="dropbtn"></a>
+                <div>
+                  <ul>
+                    <li className="dropdown">
+                      <a href="javascript:void(0)" className="dropbtn"></a>
               
-                
-           
                      <div className="ul-margin">
                       <div className="dropdown-content">
     

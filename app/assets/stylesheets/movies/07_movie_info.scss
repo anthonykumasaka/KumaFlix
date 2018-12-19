@@ -1,0 +1,14 @@
+.movie-info-flex-container {
+  background: image-url('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/AK_reel_photo.png');
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  z-index: 200px;
+  width: 100%;
+  height: 100%; 
+  position: absolute;
+}
+
+.info-poster {
+  z-index: 50;
+  padding: 100px 100px 100px 100px; 
+}

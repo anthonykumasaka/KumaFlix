@@ -2,7 +2,8 @@ import {connect} from 'react-redux';
 import MoviesIndex from './movies_index'; 
 import {fetchMovies} from '../../actions/movie_actions'; 
 import {logout} from '../../actions/session_actions';
-import {genreSelector} from '../../reducers/selectors'; 
+import {genreSelector} from '../../reducers/selectors';
+import MovieInfo from './movie_info';  
 
 const msp = (state) => {
   let movies = Object.values(state.entities.movies); 
@@ -19,4 +20,4 @@ const mdp = (dispatch) => {
   };
 };
 
-export default connect(msp, mdp)(MoviesIndex); 
+export default connect(msp, mdp)(MoviesIndex)

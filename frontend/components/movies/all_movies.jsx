@@ -1,6 +1,8 @@
 import React from 'react';
 import MovieIndexItem from './movie_index_item';
 import PopularMovies from './popular_movies';
+import MovieInfo from './movie_info'; 
+import Splash from '../splash'; 
 
 
 class AllMovies extends React.Component {
@@ -25,28 +27,28 @@ class AllMovies extends React.Component {
         
           <div className="row">
             <div className="rows-titles">
-              <h1 className="music-videos-title">Music Videos</h1>
-              <h1 className="performance-videos-title">Performance Videos</h1>
-              <h1 className="animation-videos-title">Animation Videos</h1>
+              {/* <h1 className="music-videos-title">Music Videos</h1> */}
+              {/* <h1 className="performance-videos-title">Performance Videos</h1> */}
+              {/* <h1 className="animation-videos-title">Animation Videos</h1> */}
             </div>
             <div className="row__inner">
-              <div className="popular-movies">
-              {/* <PopularMovies/>  */}
-              </div>
+
               <div className="music-videos">
-              {musicVideos}
+                {musicVideos}
               </div>
-              <br/>
+              <MovieInfo /> 
+
               <div className="performance-videos"> 
-              {performanceVideos}
+                {performanceVideos}
               </div>
-              <br/>
+             
+
               <div className="performance-videos"> 
-              {animationVideos}
+                {animationVideos}
               </div>
+
             </div>
           </div>
-       
       </div>
     );
   }

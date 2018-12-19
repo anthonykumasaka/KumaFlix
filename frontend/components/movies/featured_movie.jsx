@@ -4,22 +4,20 @@ import { Link } from 'react-router-dom';
 
 const FeaturedMovie = props => (
   <div>
-    <div className="f-movie"> 
+    <div className="f-movie-flex-container"> 
       <div className="kuma-flix-original" />
       <div className="f-movie-photo"></div>
       {/* <Link to={`/play/${props.video.id}`} className="f-movie-play-link"> */}
       <Link to='/play/2' className="f-movie-play-link">
-          <div className='font-play'>
-            Play
-          </div>
-        </Link>
-        <Link to="/profiles" className="my-list-btn">
-          <div className='font-play'>
-            My List
-          </div>
-        </Link>
-    </div>
-    <div>
+        <div className='font-play'>
+          Play
+        </div>
+      </Link>
+      <Link to="/profiles" className="my-list-btn">
+        <div className='font-play'>
+          My List
+        </div>
+      </Link>
     </div>
   </div> 
 );

@@ -29,12 +29,6 @@ class MoviesIndex extends React.Component {
 
       <div className="movies-index-bg">
         <div>
-
-     
-
-
-  
-
           <div>
             {<NavbarContainer />}
           </div>
