@@ -157,3 +157,9 @@ a1 = Movie.create!(title: 'The Kingdom of Akio - trailer', description: 'The ori
   a1_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/animation_photos/KOA_trailer_1_photo.png');
   a1.photo.attach(io: a1_photo, filename: 'KOA_trailer_1_photo'); 
 
+a2 = Movie.create!(title: 'The Kingdom of Akio - trailer 2', description: 'The Kingdom of Akio trailer (2014)', genre: 'animation', year: 2014); 
+  a2_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Animation_Videos/KOA_trailer_animation_video.mp4');
+  a2.video.attach(io: a2_video, filename: 'the_kingdom_of_akio_trailer')
+  a2_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/animation_photos/KOA_trailer_1_photo.png');
+  a2.photo.attach(io: a1_photo, filename: 'KOA_trailer_1_photo'); 
+
