@@ -8,8 +8,10 @@ const MovieIndexItem = props => (
     </div>
       <div className="tile__details">
         <div className="tile__title">
-          <h2>{props.movie.title} </h2>
-          <h2>{props.movie.description}</h2> 
+          <div className="ow"> 
+            <h2>{props.movie.title} </h2>
+            <h2>{props.movie.description}</h2>
+          </div> 
         </div>
       </div>
     </Link>

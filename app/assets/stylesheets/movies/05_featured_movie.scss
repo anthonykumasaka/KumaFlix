@@ -8,7 +8,12 @@
 
 .f-movie-photo {
   // background: image_url('RLES_black_flag_fire_photo_cropped.png'); 
-  content: url('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/RLES_black_flag_fire_photo.png');
+  // background: image_url('MURSA_black_pearl.gif');
+
+  content: url('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/YLTI_GIF_3.gif');
+  // content: url('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/YLTI_GIF_2.gif');
+  // content: url('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/Mursa_gif_2.gif');
+  // content: url('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/RLES_black_flag_fire_photo.png');
   width: 100%;
   font-family: "Poppins", sans-serif;
   z-index: 0;
@@ -23,7 +28,7 @@
   width: 30%; 
   background-repeat: no-repeat;  
   background-size: contain; 
-  margin-top: 160px; 
+  margin-top: 175px; 
   margin-left: 60px;
   position: absolute; 
 }

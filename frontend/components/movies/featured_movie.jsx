@@ -7,7 +7,8 @@ const FeaturedMovie = props => (
     <div className="f-movie"> 
       <div className="kuma-flix-original" />
       <div className="f-movie-photo"></div>
-      <Link to={`/play/${props.video.id}`} className="f-movie-play-link">
+      {/* <Link to={`/play/${props.video.id}`} className="f-movie-play-link"> */}
+      <Link to='/play/2' className="f-movie-play-link">
           <div className='font-play'>
             Play
           </div>

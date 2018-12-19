@@ -7,12 +7,17 @@
   z-index: -5;
 }
 
-.fade-header {
-  color: #000;
-  background-color: #141414; 
-  transition: background-color 1s ease;
+div.header-overlay.fade-header-in {
+  opacity: 1;
 }
 
+
+.header-overlay {
+  opacity: 0; 
+  color: #000;
+  background-color: #141414; 
+  transition: opacity 1s ease-in-out;
+}
 .scroll-down {
   position: fixed;
   z-index: 13; 
@@ -20,7 +25,6 @@
 }
 .navbar-flex {
   display: flex; 
-
   // background-color: rgba(0, 0, 0, 0.80); 
   color: white; 
   width: 100%; 
@@ -37,6 +41,8 @@
   margin-top: 10px; 
   padding-left: 180px;  
   font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  opacity: 1;
+
 }
 .navbar-link-tvshows {
   padding-top: 5px; 
@@ -53,6 +59,8 @@
 
 
 .navbar-link-movies {
+  opacity: 1;
+
   text-decoration: none; 
   padding-top: 5px; 
   margin-right: 15px; 
@@ -117,6 +125,7 @@ i {
   display: block;
 }
 
+
 .dropbtn {
   background: image_url('profile_1.png'); 
   background-size: cover; 
@@ -124,6 +133,7 @@ i {
   width: 100%; 
   height: 100%; 
 }
+
 
 .user-info {
   display: flex;
@@ -147,7 +157,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  // background-color: #333;
   
 }
 
@@ -173,6 +183,11 @@ li.dropdown {
   background-color: #377C7F; 
 }
 
+.ul-margin {
+  right: 220px; 
+  position: fixed;
+  top: 50px; 
+}
 .dropdown-content {
   
   display: none;

@@ -18,12 +18,13 @@ document.addEventListener('DOMContentLoaded', () => {
   // });
 
   window.addEventListener("scroll", (e) => {
-    const header = document.getElementsByClassName("navbar-flex");
+    const header = document.getElementsByClassName("header-overlay");
     if (header.length > 0) {
       if (window.scrollY !== 0) {
-        header[0].classList.add('fade-header');
+        header[0].classList.add('fade-header-in');
       } else {
-        header[0].classList.remove('fade-header');
+        header[0].classList.remove('fade-header-in');
+        // header[0].classList.add('fade-header-out'); 
       }
     }
   });

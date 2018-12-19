@@ -7,7 +7,7 @@ class Navbar extends React.Component {
   }
 
   render() {
-    debugger
+   
     return (
 
       <div>
@@ -26,6 +26,7 @@ class Navbar extends React.Component {
 
 
           <div>
+            {/* magnifyglass  */}
             <div className="profile-drop-flex">
               <div>
                 <form id="demo-2">
@@ -34,20 +35,29 @@ class Navbar extends React.Component {
               </div>
 
               <div>
-                <ul className="ul-margin">
+                  <div>
+                    <ul>
                   <li className="dropdown">
                     <a href="javascript:void(0)" className="dropbtn"></a>
-                    <div className="dropdown-content">
-                      <a href="#">Link 1</a>
+              
+                
+           
+                     <div className="ul-margin">
+                      <div className="dropdown-content">
+    
                       <a href="#">Manage Profiles</a>
-                      <a href="#">Sign out of Kumaflix</a>
-                      <button className="logout-btn" onClick={this.props.logout}>Log Out</button>
-                          
+                      <a onClick={this.props.logout}>Sign out of Kumaflix</a>
+                    </div>    
                     </div>
                   </li>
                 </ul>
-                </div>
+                  </div>
               </div>
+                 
+    
+              </div>
+
+              
             </div>
           </div>
 
