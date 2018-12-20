@@ -258,8 +258,10 @@ input::-webkit-search-cancel-button {
 
 input[type=search] {
 	// background:url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
-  background: image-url('magnifyglass.png') no-repeat 9px center;
-  background-size: contain;
+	background:url(https://s3-us-west-1.amazonaws.com/kumaflix-movies/Assets/magnifyglass_small.png) no-repeat 9px center;
+  // background: image-url('magnifyglass.png') no-repeat 9px center;
+  // background: url('')
+  // background-size: contain;
   height: 4px; 
   width: 4px; 
   background-repeat: no-repeat;  
@@ -271,18 +273,20 @@ input[type=search] {
 	transition: all .5s;
 }
 
-.search-bar-pos {
-  margin-top: 8px; 
-}
+// .search-bar-pos {
+//   margin-top: 8px; 
+// }
 /* Demo 2 */
 #demo-2 input[type=search] {
 	width: 15px;
 	padding-left: 10px;
 	color: transparent;
-	cursor: pointer;
+  cursor: pointer;
+  height: 15px; 
 }
 // #demo-2 input[type=search]:hover {
-// 	background-color: #fff;
+//   background-color:black;
+//     height: 15px; 
 // }
 #demo-2 input[type=search]:focus {
 	width: 170px;
@@ -291,6 +295,7 @@ input[type=search] {
   background-color: black;
   border: 1px solid white; 
   cursor: auto;
+ height: 15px
 }
 #demo-2 input:-moz-placeholder {
 	color: transparent;

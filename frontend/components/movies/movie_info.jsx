@@ -6,18 +6,19 @@ const MovieInfo = props => {
 
   if (props.id){
     return (
-    <div>
   
-      <div>
-            {/* <div className="info-title"><h2>{props.movies[props.id].title}</h2></div> */}
-          <div className="movie-info">
-            <img src={props.movies[props.id].photo} height="" width=""></img>
-    
-            <div className="movie-gradient"></div>
-        </div>
-      </div>
+     
+      // <div style={{backgroundImage: `url(${props.movies[props.id].photo})`}}  className="movie-info">
       
-  </div>
+      <div className="info-title">
+            <h2>{props.movies[props.id].title}</h2>
+             <img src={props.movies[props.id].photo}/>
+           
+  
+            <div className="movie-gradient"></div>
+      </div> 
+        
+ 
   ); 
 } else {
   return null; 

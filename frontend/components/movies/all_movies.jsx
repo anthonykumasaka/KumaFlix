@@ -47,9 +47,9 @@ class AllMovies extends React.Component {
         
           <div className="row">
             <div className="rows-titles">
-              <h1 className="music-videos-title">Music Videos</h1>
+              {/* <h1 className="music-videos-title">Music Videos</h1>
               <h1 className="performance-videos-title">Performance Videos</h1>
-              <h1 className="animation-videos-title">Animation Videos</h1>
+              <h1 className="animation-videos-title">Animation Videos</h1> */}
             </div>
             <div className="row__inner">
 
@@ -66,7 +66,7 @@ class AllMovies extends React.Component {
               <MovieInfo movies={this.props.movies} id={this.state.pid}/> 
               </div>
              
-
+              
               <div className="animation-videos"> 
                 {animationVideos}
               </div>

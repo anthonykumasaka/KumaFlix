@@ -22,35 +22,66 @@ h2 {
 }
 
 .movie-info {
+
   width: 110%; 
   height: 630px; 
-  overflow: hidden; 
-  position: relative;
-  background-color: black; 
-  border: 5px solid #141414; 
-  margin-top: 40px; 
+  // // overflow: hidden; 
+  // // position: relative;
+  // background-color: black; 
+  // border: 5px solid #141414; 
+  // margin-top: 40px;
+  // display: flex; 
+}
+
+.movie-info div {
+  color: white; 
+  // position: absolute;
+  // z-index: 100;
+  width: 1000px;
+  height: 1000px;
 }
 
 .movie-info img {
-  z-index: 1;
-  position: relative; 
-  bottom: 200px; 
+
+  // position: relative; 
+  // bottom: 200px; 
   // padding: 10px; 
 }
 
 .info-title {
-  color: white; 
-  z-index: 200;
+  // color: white; 
+  // z-index: 200;
+  top: 30px; 
   
-  width: 100px; 
-  height: 100px; 
+  width: 110%; 
+  height: 630px;
+  overflow: hidden;  
+  position: relative;
+  width: 100%;
+}
+
+.info-title h2 {
+  position: absolute;
+  top: 200px; 
+  left: 200px; 
+  font-size: 20px; 
+  width: 100%; 
+  color: white; 
+  z-index: 10;
+}
+
+.title-description h1 {
+  height: 100%;
+  width: 100%;
+  z-index: 100000;
+  color: white; 
 }
 
 .movie-gradient {
     width: 100%; 
   height: 720px; 
   // background-color: black; 
-  z-index: 2;
+  z-index: 0;
   // height: 200px;
   position: absolute;
   top: 0; 

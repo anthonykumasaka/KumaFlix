@@ -29,8 +29,8 @@ class Navbar extends React.Component {
             {/* magnifyglass code from codepen */}
             <div className="profile-drop-flex">
               <div className="search-bar-pos">
-                <form onSubmit={this.filter} id="demo-2">
-                  <input type="search" placeholder="Search"/>
+                <form id="demo-2">
+                  <input type="search" placeholder="Search" />
                 </form> 
               </div>
               <div>
@@ -39,23 +39,20 @@ class Navbar extends React.Component {
                     <li className="dropdown">
                       <a href="javascript:void(0)" className="dropbtn"></a>
               
-                     <div className="ul-margin">
-                      <div className="dropdown-content">
-    
-                      <a href="#">Manage Profiles</a>
-                      <a onClick={this.props.logout}>Sign out of Kumaflix</a>
-                    </div>    
-                    </div>
-                  </li>
-                </ul>
-                  </div>
-              </div>
-                 
-    
-              </div>
+                      <div className="ul-margin">
+                        <div className="dropdown-content">
+                          <a href="#">Manage Profiles</a>
+                          <a onClick={this.props.logout}>Sign out of Kumaflix</a>
+                        </div>    
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div> 
+            </div>
 
               
-            </div>
+          </div>
           </div>
 
         </div>
