@@ -48,26 +48,69 @@ h2 {
   // padding: 10px; 
 }
 
+
+
 .info-title {
   // color: white; 
   // z-index: 200;
   top: 30px; 
   
-  width: 110%; 
+  width: 150%; 
   height: 630px;
   overflow: hidden;  
   position: relative;
   width: 100%;
 }
-
+.kumaflix-original-title {
+  background: image_url('akumaflixoriginal.png');
+  z-index: 2;
+  height: 30%; 
+  width: 30%; 
+  background-repeat: no-repeat;  
+  background-size: contain; 
+  top: 220px; 
+  margin-left: 120px;
+  position: absolute; 
+  z-index: 11;
+}
 .info-title h2 {
   position: absolute;
-  top: 200px; 
-  left: 200px; 
-  font-size: 20px; 
-  width: 100%; 
+  top: 280px; 
+  left: 130px; 
+  font-size: 32px; 
+  width: 500px; 
   color: white; 
   z-index: 10;
+  // border: 2px solid white;
+  hyphens: auto; 
+  white-space: pre-wrap;  
+}
+.info-title h3 {
+  position: absolute;
+  top: 330px; 
+  left: 130px; 
+  font-size: 18px; 
+  width: 600px; 
+  color: white; 
+  z-index: 10;
+  // border: 2px solid white; 
+    hyphens: auto; 
+  white-space: pre-wrap;
+  font-weight: 5;  
+}
+
+.info-title h4 {
+  position: absolute;
+  top: 360px; 
+  left: 130px; 
+  font-size: 18px; 
+  width: 600px; 
+  color: white; 
+  z-index: 10;
+  // border: 2px solid white; 
+    hyphens: auto; 
+  white-space: pre-wrap;
+  font-weight: 5;  
 }
 
 .title-description h1 {
@@ -88,7 +131,7 @@ h2 {
   bottom: 0; 
   right: 0; 
   left: 0; 
-  background: linear-gradient(to right, black,rgba(0, 0, 0, 0.924), rgba(0, 0, 0, 0.363), transparent);
+  background: linear-gradient(to right, black,rgba(0, 0, 0, 0.966), rgba(0, 0, 0, 0.363), transparent);
   // background: linear-gradient(to right, black, rgba(0,0,0,0));
   // background: linear-gradient(to right, black, rgba(0,0,0,0));
 }
