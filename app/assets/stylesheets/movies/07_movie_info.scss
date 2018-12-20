@@ -24,17 +24,25 @@
 }
 
 .movie-info img {
-  z-index: 3;
+  z-index: 1;
   position: relative; 
   bottom: 200px; 
   // padding: 10px; 
+}
+
+.info-title {
+  color: white; 
+  z-index: 200;
+  
+  width: 100px; 
+  height: 100px; 
 }
 
 .movie-gradient {
     width: 100%; 
   height: 720px; 
   // background-color: black; 
-  z-index: 20;
+  z-index: 2;
   // height: 200px;
   position: absolute;
   top: 0; 

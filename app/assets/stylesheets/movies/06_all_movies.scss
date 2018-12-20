@@ -75,6 +75,33 @@ video {
   font-weight: 1; 
 }
 
+.down-arrow-play {
+  background: image-url('arrow.png');
+  background-repeat: no-repeat; 
+  // background-color: red; 
+  background-size: contain; 
+  width: 20px; 
+  height: 20px;
+  z-index: 15;
+  position: absolute;
+  margin-left: 97px; 
+  margin-top: 17px; 
+  display: hidden; 
+}
+.down-arrow-info {
+  background: image-url('arrow.png');
+  background-repeat: no-repeat; 
+  // background-color: red; 
+  background-size: contain; 
+  width: 20px; 
+  height: 20px;
+  z-index: 15;
+  position: absolute;
+  margin-left: 97px; 
+  margin-top: 75px; 
+  display: hidden; 
+}
+
 h1 {
   font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
