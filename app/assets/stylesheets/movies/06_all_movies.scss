@@ -50,9 +50,7 @@ video {
   margin-top: 200px; 
 }
 
-.index-fosho {
-  // z-index: 30; 
-}
+
 
 .all-movies-flex > h1 {
   color: white; 
@@ -86,8 +84,8 @@ video {
   height: 22px;
   z-index: 15;
   position: absolute;
-  margin-left: 10px; 
-  margin-top: 47px; 
+  left: 20px; 
+  top: 88px; 
   display: hidden; 
 }
 
@@ -99,8 +97,8 @@ video {
   height: 22px;
   z-index: 15;
   position: absolute;
-  margin-left: 10px; 
-  margin-top: 77px; 
+  left: 210px; 
+  top: 88px; 
   display: hidden; 
 }
 .down-arrow-info {
@@ -112,12 +110,18 @@ video {
   height: 10px;
   z-index: 15;
   position: absolute;
-  margin-left: 102px; 
+  margin-left: 100px; 
   margin-top: 95px; 
   display: hidden; 
 }
 
 h1 {
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+h2 {
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+h3 {
   font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 

@@ -48,18 +48,84 @@ h2 {
   // padding: 10px; 
 }
 
+.link-btn-show {
+  position: absolute;
+  width: 100px; 
+  height: 40px; 
+  z-index: 13;
+  color: white; 
+  margin-top: 405px; 
+  margin-left: 257px;
+  font-size: 20px; 
+  background: black;  
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  border: 2px solid white; 
+  text-align: center; 
+}
+
+.info-title button {
+  position: absolute;
+  width: 100px; 
+  height: 40px; 
+  z-index: 13;
+  color: white; 
+  margin-top: 385px; 
+  margin-left: 127px;
+  font-size: 20px; 
+  background:#D32F27;  
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  border: none; 
+}
+
+// .info-title:hover {
+//   border: 5px solid white; 
+// }
+
+.info-title img {
+  
+  position: relative;
+  bottom: 50px;  
+}
+
+.list-btn-info {
+  position: absolute;
+  width: 100px; 
+  height: 40px; 
+  z-index: 13;
+  color: white; 
+  margin-top: 405px; 
+  margin-left: 127px;
+  font-size: 20px; 
+  background:black;  
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  border: none; 
+}
+
 
 
 .info-title {
   // color: white; 
   // z-index: 200;
-  top: 30px; 
+  top: 35px; 
   
-  width: 150%; 
+  
   height: 630px;
   overflow: hidden;  
   position: relative;
   width: 100%;
+}
+
+.btn-my-list {
+    position: absolute;
+  width: 100px; 
+  height: 40px; 
+  z-index: 13;
+  color: white; 
+  background: black; 
+  border: 2px solid white; 
+  margin-top: 385px; 
+  left: 127px;
+  font-size: 20px; 
 }
 .kumaflix-original-title {
   background: image_url('akumaflixoriginal.png');
@@ -68,17 +134,17 @@ h2 {
   width: 30%; 
   background-repeat: no-repeat;  
   background-size: contain; 
-  top: 220px; 
+  top: 200px; 
   margin-left: 120px;
   position: absolute; 
   z-index: 11;
 }
 .info-title h2 {
   position: absolute;
-  top: 280px; 
+  top: 260px; 
   left: 130px; 
   font-size: 32px; 
-  width: 500px; 
+  width: 700px; 
   color: white; 
   z-index: 10;
   // border: 2px solid white;
@@ -87,11 +153,11 @@ h2 {
 }
 .info-title h3 {
   position: absolute;
-  top: 330px; 
+  top: 315px; 
   left: 130px; 
   font-size: 18px; 
   width: 600px; 
-  color: white; 
+  color: grey; 
   z-index: 10;
   // border: 2px solid white; 
     hyphens: auto; 
@@ -101,11 +167,11 @@ h2 {
 
 .info-title h4 {
   position: absolute;
-  top: 360px; 
+  top: 345px; 
   left: 130px; 
   font-size: 18px; 
   width: 600px; 
-  color: white; 
+  color: grey; 
   z-index: 10;
   // border: 2px solid white; 
     hyphens: auto; 
@@ -136,6 +202,3 @@ h2 {
   // background: linear-gradient(to right, black, rgba(0,0,0,0));
 }
 
-.movie-info img {
-
-}
