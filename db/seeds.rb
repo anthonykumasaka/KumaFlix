@@ -27,7 +27,7 @@ m2 = Movie.create!(title: 'Pearl Black', description: 'Official music video for 
   m2_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/MURSA_pearl_black_trailer_video.mov');
   m2.video.attach(io: m2_video, filename: 'MURSA_pearl_black_trailer_video.mov'); 
   m2_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/MURSA_black_pearl_photo.png');
-  m2.photo.attach(io: m2_photo, filename: 'MURSA_black_pearl_photo_ae.jpg'); 
+  m2.photo.attach(io: m2_photo, filename: 'MURSA_black_pearl_photo.jpg'); 
   # m2_photo_2 = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/MURSA_black_pearl_photo.png');
   # m2.photo.attach(io: m2_photo_2, filename: 'MURSA_black_pearl_photo.png'); 
 m7 = Movie.create!(title: 'Talib Kweli - Oustanding', description: 'Official music video for Outstanding by Talib Kweli and Ryan Leslie', genre: 'Music Video', year: 2012); 
@@ -92,7 +92,7 @@ p1 = Movie.create!(title: 'Ryan Leslie - Joan of Arc (live)', description: 'Ryan
   p1_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/RLES_joan_of_arc_photo.png');
   p1.photo.attach(io: p1_photo, filename: 'RLES_joan_of_arc_photo'); 
 
-p6 = Movie.create!(title: 'Ryan Leslie - Carnival of Venice (live)', description: 'Ryan leslie performing Carnival of Venice in Stockton, CA', genre: 'performance', year: 2013); 
+p6 = Movie.create!(title: 'Ryan Leslie - Carnival of Venice (live)', description: 'Ryan leslie performing Carnival of Venice at Irving Plaza in NY', genre: 'performance', year: 2013); 
   p6_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/RLES_carnival_of_venice_performance_video.mp4');
   p6.video.attach(io: p6_video, filename: 'RLES_carnival_of_venice_video');
   p6_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/RLES_irving_plaza_photo.png');
