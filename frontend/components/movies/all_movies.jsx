@@ -64,7 +64,7 @@ class AllMovies extends React.Component {
               <MovieInfo movies={this.props.movies} id={this.state.pid}/> 
              
 
-              <div className="performance-videos"> 
+              <div className="animation-videos"> 
                 {animationVideos}
               </div>
               <MovieInfo movies={this.props.movies} id={this.state.aid}/> 
