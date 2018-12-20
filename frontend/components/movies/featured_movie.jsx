@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
+
 const FeaturedMovie = props => (
   <div>
     <div className="f-movie-flex-container"> 
