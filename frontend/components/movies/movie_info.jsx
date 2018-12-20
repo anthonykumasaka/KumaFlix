@@ -23,15 +23,9 @@ const MovieInfo = props => {
               <button>Play</button>
               </Link>
               <button className="btn-my-list">My List</button>
-              {/* <div className="link-btn-show">
-                <Link to="/">My List</Link>
-
-              </div> */}
+         
              <img src={props.movies[props.id].photo}/>
             <div className="movie-gradient"></div>
-            
-   
-
       </div> 
         
  

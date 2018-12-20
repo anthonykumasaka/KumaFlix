@@ -1,11 +1,15 @@
 .logout-btn {
   background: #141414;
   color: grey;  
-  margin-top: 20px; 
+  
   // border-radius: 4px; 
-  width: 150px; 
-  height: 30px;
-  font-size: 18px;
+  width: 250px; 
+  height: 50px;
+  // font-size: 18px;
+  position: absolute;
+  bottom: 280px;
+  font-size: 22px;
+  font-weight: .4;  
 }
 
 .profiles-bg {
@@ -18,6 +22,14 @@
   background-size: cover;
   height: 1000px;
   width: 100%; 
+}
+
+.prof-flex-container {
+  display: flex; 
+  flex-direction: column;
+  align-content: center; 
+  justify-content: center; 
+  align-items: center; 
 }
 
 .kumaflix-logo-profiles {
@@ -67,6 +79,14 @@
 }
 
 .add-profile-button {
+  height: 1050px; 
+  width: 1050px; 
+  background: image_url('all_profiles.png'); 
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+.add-profile-button-2 {
+  margin-left: 100px; 
   height: 167px; 
   width: 167px; 
   background: image_url('profile_1.png'); 
