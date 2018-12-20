@@ -3,7 +3,6 @@ import NavbarContainer from '../navbar/navbar_container';
 import FeaturedMovie from './featured_movie'; 
 import AllMovies from './all_movies'; 
 import { genreSelector } from '../../reducers/selectors';
-import PopularMovies from './popular_movies'; 
 
 class MoviesIndex extends React.Component {
   constructor(props) {
@@ -27,24 +26,21 @@ class MoviesIndex extends React.Component {
     const mainMovie = movies[0];
     
     return (
-
-
       <div className="movies-index-bg">
         <div>
           <div>
             {<NavbarContainer />}
           </div>
-            <FeaturedMovie video={mainMovie} /> 
-            <AllMovies 
-            performanceVideos={genreSelector(movies, 'performance')}
-            musicVideos={genreSelector(movies, 'Music Video')}
-            animationVideos={genreSelector(movies, 'animation')}
-            movies={this.props.movies} />
+          <FeaturedMovie video={mainMovie} /> 
+          <AllMovies 
+          performanceVideos={genreSelector(movies, 'performance')}
+          musicVideos={genreSelector(movies, 'Music Video')}
+          animationVideos={genreSelector(movies, 'animation')}
+          movies={this.props.movies} />
         </div>
       </div>
     );
   }
-
 }
 
 export default MoviesIndex; 

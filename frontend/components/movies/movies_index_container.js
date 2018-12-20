@@ -6,10 +6,8 @@ import {genreSelector} from '../../reducers/selectors';
 import MovieInfo from './movie_info';  
 
 const msp = (state) => {
-  // let movies = Object.values(state.entities.movies); 
   return {
     movies: state.entities.movies,
-
   }; 
 }; 
 

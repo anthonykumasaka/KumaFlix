@@ -24,8 +24,6 @@ class Profiles extends React.Component {
 
             </div>
 
-
-            {/* <h2 className="user-text">Demo</h2> */}
           </div>
         </div>
       </div>

@@ -14,26 +14,22 @@ class PopularMovies extends React.Component {
   render() {
     return (
       <div>
-
         <div className="row">
           <div className="row__inner">
-          
             <div className="featured-videos"><h1>Featured Videos</h1></div>
-     <div className="row__inner">
-
-       {/* video.photo */}
-       <div className="tile">
-         <Link to={`/play/9`}>
-         <div className="tile__media">
+          <div className="row__inner">
+          <div className="tile">
+          <Link to={`/play/9`}>
+          <div className="tile__media">
             <img className="tile__img" src="https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/YLTI_glassa_watta_photo.png" alt="" />
           </div>
           <div className="tile__details">
             <div className="tile__title">
               YLTI
+            </div>
           </div>
-           </div>
-           </Link> 
-         </div>
+          </Link> 
+          </div>
 
        <div className="tile">
        <Link to={`/play/2`}>
