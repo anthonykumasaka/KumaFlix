@@ -7,6 +7,7 @@ class Api::MoviesController < ApplicationController
 
   def index 
     @movies = Movie.all 
+    # @movies = Movie.find_by(params[:title])
   end 
 
 end 

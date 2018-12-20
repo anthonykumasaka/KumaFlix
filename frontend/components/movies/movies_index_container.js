@@ -6,9 +6,9 @@ import {genreSelector} from '../../reducers/selectors';
 import MovieInfo from './movie_info';  
 
 const msp = (state) => {
-  let movies = Object.values(state.entities.movies); 
+  // let movies = Object.values(state.entities.movies); 
   return {
-    movies: movies,
+    movies: state.entities.movies,
 
   }; 
 }; 
@@ -20,4 +20,4 @@ const mdp = (dispatch) => {
   };
 };
 
-export default connect(msp, mdp)(MoviesIndex)
+export default connect(msp, mdp)(MoviesIndex);

@@ -12,3 +12,40 @@
   z-index: 50;
   padding: 100px 100px 100px 100px; 
 }
+
+.movie-info {
+  width: 110%; 
+  height: 630px; 
+  overflow: hidden; 
+  position: relative;
+  background-color: black; 
+  border: 5px solid #141414; 
+
+}
+
+.movie-info img {
+  z-index: 3;
+  position: relative; 
+  bottom: 200px; 
+  // padding: 10px; 
+}
+
+.movie-gradient {
+    width: 100%; 
+  height: 720px; 
+  // background-color: black; 
+  z-index: 20;
+  // height: 200px;
+  position: absolute;
+  top: 0; 
+  bottom: 0; 
+  right: 0; 
+  left: 0; 
+  background: linear-gradient(to right, black,rgba(0, 0, 0, 0.924), rgba(0, 0, 0, 0.363), transparent);
+  // background: linear-gradient(to right, black, rgba(0,0,0,0));
+  // background: linear-gradient(to right, black, rgba(0,0,0,0));
+}
+
+.movie-info img {
+
+}

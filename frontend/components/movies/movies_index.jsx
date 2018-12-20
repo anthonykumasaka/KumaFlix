@@ -21,8 +21,10 @@ class MoviesIndex extends React.Component {
   }
 
   render() { 
-    if (this.props.movies.length === 0) return null; 
-    const mainMovie = this.props.movies[0];
+    const movies = Object.values(this.props.movies); 
+
+    if (movies.length === 0) return null; 
+    const mainMovie = movies[0];
     
     return (
 
@@ -34,9 +36,9 @@ class MoviesIndex extends React.Component {
           </div>
             <FeaturedMovie video={mainMovie} /> 
             <AllMovies 
-            performanceVideos={genreSelector(this.props.movies, 'performance')}
-            musicVideos={genreSelector(this.props.movies, 'Music Video')}
-            animationVideos={genreSelector(this.props.movies, 'animation')}
+            performanceVideos={genreSelector(movies, 'performance')}
+            musicVideos={genreSelector(movies, 'Music Video')}
+            animationVideos={genreSelector(movies, 'animation')}
             movies={this.props.movies} />
         </div>
       </div>

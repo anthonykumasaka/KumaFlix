@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 
 const MovieInfo = props => {
 
-  if (props.movie === undefined){
-    return null; 
-  } else if (props.movie.title) {
+  if (props.id){
     return (
-    <div>
-        <div>
-          <img src={props.movie.photo} height="420" width="100%"></img>
+     <div>
+          <div className="movie-info">
+            <img src={props.movies[props.id].photo} height="" width=""></img>
+          <div className="movie-gradient">
         </div>
+      </div>
   </div>
   ); 
 } else {

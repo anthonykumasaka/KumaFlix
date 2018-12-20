@@ -9,43 +9,65 @@ class AllMovies extends React.Component {
 
   constructor(props) {
     super(props);
+    this.state = {
+      mid: null, 
+      pid: null, 
+      aid: null
+    }; 
+  }
+
+  setDropDown(id) {
+    let that = this;
+    return (movieId) => {
+      that.setState({
+        mid: null, 
+        pid: null, 
+        aid: null
+      });
+      that.setState({  
+        [id]: movieId
+      });
+    }; 
   }
 
 
   render() {
+    
     let musicVideos = this.props.musicVideos.map(movie => {
-      return <MovieIndexItem movie={movie} key={movie.title} />;
+      return <MovieIndexItem setDropDown={this.setDropDown('mid')} movie={movie} key={movie.title} />;
     });
     let performanceVideos = this.props.performanceVideos.map(movie => {
-      return <MovieIndexItem movie={movie} key={movie.title} />;
+      return <MovieIndexItem setDropDown={this.setDropDown('pid')} movie={movie} key={movie.title} />;
     });
     let animationVideos = this.props.animationVideos.map(movie => {
-      return <MovieIndexItem movie={movie} key={movie.title} />;
+      return <MovieIndexItem setDropDown={this.setDropDown('aid')} movie={movie} key={movie.title} />;
     });
     return (
       <div>
         
           <div className="row">
             <div className="rows-titles">
-              {/* <h1 className="music-videos-title">Music Videos</h1> */}
-              {/* <h1 className="performance-videos-title">Performance Videos</h1> */}
-              {/* <h1 className="animation-videos-title">Animation Videos</h1> */}
+              <h1 className="music-videos-title">Music Videos</h1>
+              <h1 className="performance-videos-title">Performance Videos</h1>
+              <h1 className="animation-videos-title">Animation Videos</h1>
             </div>
             <div className="row__inner">
 
               <div className="music-videos">
                 {musicVideos}
               </div>
-              <MovieInfo /> 
+              <MovieInfo movies={this.props.movies} id={this.state.mid}/> 
 
               <div className="performance-videos"> 
                 {performanceVideos}
               </div>
+              <MovieInfo movies={this.props.movies} id={this.state.pid}/> 
              
 
               <div className="performance-videos"> 
                 {animationVideos}
               </div>
+              <MovieInfo movies={this.props.movies} id={this.state.aid}/> 
 
             </div>
           </div>
