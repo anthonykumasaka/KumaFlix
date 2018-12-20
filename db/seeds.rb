@@ -151,15 +151,39 @@ p11 = Movie.create!(title: 'Zak Downtwon - Spring Awakening (live)', description
 
 
 # animation videos: 
-a1 = Movie.create!(title: 'The Kingdom of Akio - trailer', description: 'The original trailer for The Kingdom of Akio', genre: 'animation', year: 2013); 
+a1 = Movie.create!(title: 'The Kingdom of Akio - trailer', description: 'The original trailer for The Kingdom of Akio (2013)', genre: 'animation', year: 2013); 
   a1_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Animation_Videos/KOA_trailer_animation_video.mp4');
-  a1.video.attach(io: a1_video, filename: 'the_kingdom_of_akio_trailer')
+  a1.video.attach(io: a1_video, filename: 'KOA_trailer_1_video'); 
   a1_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/animation_photos/KOA_trailer_1_photo.png');
   a1.photo.attach(io: a1_photo, filename: 'KOA_trailer_1_photo'); 
 
 a2 = Movie.create!(title: 'The Kingdom of Akio - trailer 2', description: 'The Kingdom of Akio trailer (2014)', genre: 'animation', year: 2014); 
-  a2_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Animation_Videos/KOA_trailer_animation_video.mp4');
-  a2.video.attach(io: a2_video, filename: 'the_kingdom_of_akio_trailer')
-  a2_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/animation_photos/KOA_trailer_1_photo.png');
-  a2.photo.attach(io: a1_photo, filename: 'KOA_trailer_1_photo'); 
+  a2_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Animation_Videos/KOA_sia_animation_video.mov');
+  a2.video.attach(io: a2_video, filename: 'KOA_trailer_2_photo');
+  a2_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/animation_photos/THEKINGDOMOFAKIO_sia_photo.png');
+  a2.photo.attach(io: a2_photo, filename: 'KOA_trailer_2_photo'); 
 
+
+a3 = Movie.create!(title: 'The Kingdom of Akio trailer - Releif', description: 'The Kingdom of Akio trailer (2014)', genre: 'animation', year: 2014); 
+  a3_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Animation_Videos/KOA_releif_video.mp4');
+  a3.video.attach(io: a3_video, filename: 'KOA_releif_video');
+  a3_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/animation_photos/KOA_releif_photo.png');
+  a3.photo.attach(io: a3_photo, filename: 'KOA_releif_photo'); 
+
+a4 = Movie.create!(title: 'The Kingdom of Akio trailer - The Eye of Hiruko', description: 'The Eye of Hiruko (2014)', genre: 'animation', year: 2014); 
+  a4_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Animation_Videos/KOA_eye_hiruko_animation_video.mp4');
+  a4.video.attach(io: a4_video, filename: 'KOA_eye_hiruko_video');
+  a4_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/animation_photos/KOA_eye_hiruko_photo.png');
+  a4.photo.attach(io: a4_photo, filename: 'KOA_eye_hiruko_photo'); 
+
+a5 = Movie.create!(title: 'The Kingdom of Akio conceptual trailer (3d)', description: 'The Kingdom of Akio 3d conceptual trailer (rough)', genre: 'animation', year: 2015); 
+  a5_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Animation_Videos/KOA_3D_video.mp4');
+  a5.video.attach(io: a5_video, filename: 'KOA_3d_video');
+  a5_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/animation_photos/KOA_3d_2_photo.png');
+  a5.photo.attach(io: a5_photo, filename: 'KOA_3d_photo'); 
+  
+a6 = Movie.create!(title: 'The Kingdom of Akio storyboard (2011)', description: 'The Kingdom of Akio storyboard (2011)', genre: 'animation', year: 2011); 
+  a6_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Animation_Videos/KOA_storyboard_video.mp4');
+  a6.video.attach(io: a6_video, filename: 'KOA_storyboard_video');
+  a6_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/animation_photos/KOA_storyboard_photo.png');
+  a6.photo.attach(io: a6_photo, filename: 'KOA_storyboard_photo'); 
