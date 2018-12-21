@@ -98,8 +98,8 @@ m7 = Movie.create!(title: 'Outstanding', description: 'Official music video for 
     p4 = Movie.create!(title: 'Ryan Leslie - Black Flag (live)', description: 'Ryan leslie performing The Black Flag in Davis', genre: 'performance', year: 2012); 
     p4_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/RLES_black_flag_performance_video.mp4');
     p4.video.attach(io: p4_video, filename: 'RLES_black_flag_video');
-    p4_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/small_photos/rl_bf_live_small_photo.jpg');
-    # p4_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/RLES_black_flag_performance_photo.png');
+    # p4_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/small_photos/rl_bf_live_small_photo.jpg');
+    p4_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/RLES_black_flag_performance_photo.png');
     p4.photo.attach(io: p4_photo, filename: 'RLES_black_flag_photo'); 
     
     
@@ -110,8 +110,8 @@ m7 = Movie.create!(title: 'Outstanding', description: 'Official music video for 
     p9 = Movie.create!(title: 'Talib Kweli - Outstanding (live)', description: 'Talib Kweli perfomring Outstanding featuring Ryan Leslie', genre: 'performance', year: 2013); 
     p9_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/TK_outstanding_performance_video.mp4');
     p9.video.attach(io: p9_video, filename: 'TK_outstanding_video');
-    p9_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/small_photos/tk_o_live_small_photo.jpg');
-    # p9_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/TK_outstanding_photo.png');
+    # p9_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/small_photos/tk_o_live_small_photo.jpg');
+    p9_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/TK_outstanding_photo.png');
     p9.photo.attach(io: p9_photo, filename: 'TK_outstanding_photo'); 
     
     p5 = Movie.create!(title: 'Ryan Leslie - Black Mozart (live)', description: 'Ryan leslie performing Black Mozart in Stockton, CA', genre: 'performance', year: 2013); 
