@@ -8,7 +8,7 @@ const FeaturedMovie = props => (
       <div className="f-movie-photo"></div>
       {/* <video src='https://s3-us-west-1.amazonaws.com/kumaflix-movies/Assets/YLTI_GIF_5.mp4' autoPlay="autoPlay" controls /> */}
       {/* <video src='https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/YLTI_glassa_wata_trailer_video.mov' autoPlay="autoPlay" controls /> */}
-      <Link to='/play/129' className="f-movie-play-link">
+      <Link to='/play/157' className="f-movie-play-link">
         <div className='font-play'>
           Play
         </div>
