@@ -3,6 +3,14 @@ KumaFlix is an inspired clone of NetFlix, utilizing videos('movies') I created d
 
 [KUMAFLIX LIVE DEMO](https://kumaflix.herokuapp.com/#/login)
 
+![alt text](https://github.com/anthonykumasaka/KumaFlix/blob/master/app/assets/images/Readme_assets/readme_video_index.png)
+
+## TECHNOLOGIES
+KumaFlix's frontend was written in JavaScript, using the Redux framework and React library. The backend was written in Ruby, using Ruby on Rails. 
+
+## FEATURES 
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
