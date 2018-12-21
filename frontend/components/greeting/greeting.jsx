@@ -12,7 +12,6 @@ const Greeting = ({ currentUser, logout }) => {
   return currentUser ? personalGreeting() : null; 
 };
 
-
 export default Greeting;
 
 // The above is from benchBnB
