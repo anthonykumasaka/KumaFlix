@@ -36,6 +36,7 @@ class MoviesIndex extends React.Component {
           performanceVideos={genreSelector(movies, 'performance')}
           musicVideos={genreSelector(movies, 'Music Video')}
           animationVideos={genreSelector(movies, 'animation')}
+          miscellaneousVideos={genreSelector(movies, 'Miscellaneous')}
           movies={this.props.movies} />
         </div>
       </div>

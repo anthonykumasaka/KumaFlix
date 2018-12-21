@@ -11,7 +11,8 @@ class AllMovies extends React.Component {
     this.state = {
       mid: null, 
       pid: null, 
-      aid: null
+      aid: null,
+      xid: null
     }; 
   }
 
@@ -21,7 +22,8 @@ class AllMovies extends React.Component {
       that.setState({
         mid: null, 
         pid: null, 
-        aid: null
+        aid: null,
+        xid: null
       });
       that.setState({  
         [id]: movieId
@@ -41,6 +43,9 @@ class AllMovies extends React.Component {
     let animationVideos = this.props.animationVideos.map(movie => {
       return <MovieIndexItem setDropDown={this.setDropDown('aid')} movie={movie} key={movie.title} />;
     });
+    let miscellaneousVideos = this.props.miscellaneousVideos.map(movie => {
+      return <MovieIndexItem setDropDown={this.setDropDown('xid')} movie={movie} key={movie.title} />;
+    });
     return (
       <div>
         
@@ -49,6 +54,7 @@ class AllMovies extends React.Component {
               <h1 className="music-videos-title">Music Videos</h1>
               <h1 className="performance-videos-title">Performance Videos</h1>
               <h1 className="animation-videos-title">Animation Videos</h1>
+              <h1 className="miscellaneous-videos-title">Miscellaneous Videos</h1>
             </div>
             <div className="row__inner">
 
@@ -60,17 +66,17 @@ class AllMovies extends React.Component {
               <div className="performance-videos"> 
                 {performanceVideos}
               </div>
-              <div>
-
               <MovieInfo movies={this.props.movies} id={this.state.pid}/> 
-              </div>
-             
               
               <div className="animation-videos"> 
                 {animationVideos}
               </div>
               <MovieInfo movies={this.props.movies} id={this.state.aid}/> 
-              {/* <a id="animation">The object you want to link to.</a> */}
+
+              <div className="miscellaneous-videos"> 
+                {miscellaneousVideos}
+              </div>
+              <MovieInfo movies={this.props.movies} id={this.state.xid}/> 
 
             </div>
           </div>
