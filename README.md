@@ -8,28 +8,30 @@ KumaFlix is an inspired clone of NetFlix, utilizing videos('movies') I created d
 ## TECHNOLOGIES
 KumaFlix's frontend was written in JavaScript, using the Redux framework and React library. The backend was written in Ruby, using Ruby on Rails. 
 
-## FEATURES 
+## FEATURES
+### User Authentication
+
+User authentication is handled with rails' controllers and models. Via user input, a password digest and session token are generated each time a user signs up/signs in. When they logout of the site, their session token is reset. User's passwords are never saved to the db to ensure the security of the user. 
+
+### Video Streaming
+Videos and photos are stored remotely via Amazon Web Services. Through associations, these media files are implemented into the application. Videos are played through the html video tag. 
 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+### Movie index carousel
 
-* Configuration
+All movies are acessible on the movies index page via a sliding carousel. When a movie's thumbnail is selected 
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
+The app's sliding carousel leverages the power and simplicity of jQuery's DOM manipulation for its sliding movement. On hover, each of the slides inside the carousel expands to show more information about that slide's video. This expanding effect is achieved through the CSS ':hover' selector.
 
-* Services (job queues, cache servers, search engines, etc.)
+When a user clicks on one of the slides in a carousel, a larger block of information appears below that carousel. Though at first it seemed easier for each slide to have its own expanding block, I quickly realized that attaching the expanding block to each slide, in addition to being slightly less performant, compromised the expanding hover effect of each individual slide. For those reasons, I determined that placing a single expanding block below each carousel was the best way to solve these issues and display the necessary information. Each time a slide is clicked, the expanding block is populated with the information for that slide.
 
-* Deployment instructions
+To stream videos, this app makes use of Video.js's player framework. Custom settings were added to the default Video.js player merely by editing the player's CSS file.
 
-* ...
+Both signing up and signing in are displayed in a single form handled by the 'SessionForm' component. The SessionFormContainer checks whether the current path is '/login' or '/signup' and passes that information down to the SessionForm.
+
+In the SessionFormContainer file:
