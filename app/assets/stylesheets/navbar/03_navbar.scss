@@ -263,7 +263,7 @@ input[type=search] {
   width: 4px; 
   background-repeat: no-repeat;  
 	padding: 9px 10px 9px 32px;
- 
+  // color: white; 
   margin-right: 20px; 
 	-webkit-transition: all .5s;
 	-moz-transition: all .5s;
@@ -282,7 +282,7 @@ input[type=search] {
   height: 15px; 
 }
 // #demo-2 input[type=search]:hover {
-//   background-color:black;
+//   background-color:white;
 //     height: 15px; 
 // }
 #demo-2 input[type=search]:focus {

@@ -31,7 +31,7 @@ class Navbar extends React.Component {
             <div className="profile-drop-flex">
               <div className="search-bar-pos">
                 <form id="demo-2">
-                  <input type="search" placeholder="Search" />
+                  <input type="search" placeholder="Title, Genre"/>
                 </form> 
               </div>
               <div>
