@@ -7,15 +7,14 @@ import ProfilesContainer from './profiles/profiles_container';
 import MoviesIndexContainer from './movies/movies_index_container';
 import PlayMovieContainer from './movies/play_movie_container'; 
 import Splash from './splash'; 
-import {Provider} from 'react-redux'; 
-
-
-
+import {Provider} from 'react-redux';
+// import SearchResultsContainer from './search/search_results_container';  
 
 const App = ({store}) => (
     <Provider store={store}>
       <HashRouter>
         <Switch>
+          {/* <ProtectedRoute exact path='/search' component={SearchResultsContainer} />  */}
           <ProtectedRoute path="/play/:movieId" component={PlayMovieContainer} />
           <AuthRoute path="/login" component={LoginFormContainer} />
           <AuthRoute path="/signup" component={SignupFormContainer} />

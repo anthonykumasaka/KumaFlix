@@ -31,7 +31,6 @@ class MoviesIndex extends React.Component {
           <div>
             {<NavbarContainer />}
           </div>
-          
           <FeaturedMovie video={mainMovie} /> 
           <AllMovies 
           performanceVideos={genreSelector(movies, 'performance')}

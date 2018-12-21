@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Splash = () => (
-
   <div>
     <div className="splash-flex">
       <div className="black-overlay-flex-1">

@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-
   if (window.currentUser) {
     const preloadedState = {
       entities: {

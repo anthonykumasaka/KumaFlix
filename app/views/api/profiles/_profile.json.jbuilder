@@ -1,0 +1,1 @@
+json extract! profile, :id, :username, :user_id

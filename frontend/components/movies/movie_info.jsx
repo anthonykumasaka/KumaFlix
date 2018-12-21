@@ -1,13 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
 const MovieInfo = props => {
 
   if (props.id){
     return (
-  
-     
       // <div style={{backgroundImage: `url(${props.movies[props.id].photo})`}}  className="movie-info">
       
       <div className="info-title">
@@ -28,7 +25,6 @@ const MovieInfo = props => {
             <div className="movie-gradient"></div>
       </div> 
         
- 
   ); 
 } else {
   return null; 
