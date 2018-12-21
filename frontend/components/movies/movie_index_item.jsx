@@ -20,7 +20,7 @@ class MovieIndexItem extends React.Component {
               </Link>
               <div className="add_list"></div>
               {/* <i class="fa fa-caret-down"></i> */}
-              <i onClick={(e) => (this.props.setDropDown(this.props.movie.id))} class="fa fa-angle-down" aria-hidden="true"></i>
+              <i onClick={(e) => (this.props.setDropDown(this.props.movie.id))} className="fa fa-angle-down" aria-hidden="true"></i>
               {/* <div onClick={(e) => (this.props.setDropDown(this.props.movie.id))} className="down-arrow-info"></div> */}
               <h2 onClick={(e) => (this.props.setDropDown(this.props.movie.id))}>{this.props.movie.title}</h2>
               <div onClick={(e) => (this.props.setDropDown(this.props.movie.id))}>{this.props.movie.description}</div>

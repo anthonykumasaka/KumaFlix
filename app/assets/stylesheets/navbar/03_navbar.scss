@@ -304,7 +304,7 @@ input[type=search] {
 // Search bar code came from codepen
 
 .carrot-down {
-  content: url(/assets/arrow.png);
+  // content: url(/assets/arrow.png);
   width: 10px; 
   height: 5px; 
   position: absolute; 
@@ -312,7 +312,7 @@ input[type=search] {
   right: 75px; 
 }
 .carrot-down-hidden {
-  // content: url(/assets/arrow.png);
+ 
   width: 40px; 
   height: 25px; 
   position: absolute; 
