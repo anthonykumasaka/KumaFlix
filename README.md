@@ -14,7 +14,10 @@ KumaFlix's frontend was written in JavaScript, using the Redux framework and Rea
 User authentication is handled with rails' controllers and models. Via user input, a password digest and session token are generated each time a user signs up/signs in. When they logout of the site, their session token is reset. User's passwords are never saved to the db to ensure the security of the user. 
 
 ### Video Streaming
+![alt text](https://github.com/anthonykumasaka/KumaFlix/blob/master/app/assets/images/Readme_assets/Screen%20Shot%202018-12-21%20at%202.41.48%20PM.png)
+
 Videos and photos are stored remotely via Amazon Web Services. Through associations, these media files are implemented into the application. Videos are played through the html video tag. 
+
 
 
 
