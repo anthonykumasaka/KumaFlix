@@ -302,3 +302,21 @@ input[type=search] {
 }
 
 // Search bar code came from codepen
+
+.carrot-down {
+  content: url(/assets/arrow.png);
+  width: 10px; 
+  height: 5px; 
+  position: absolute; 
+  top: 30px; 
+  right: 75px; 
+}
+.carrot-down-hidden {
+  // content: url(/assets/arrow.png);
+  width: 40px; 
+  height: 25px; 
+  position: absolute; 
+  top: 25px; 
+  right: 75px;
+  // display: none; 
+}

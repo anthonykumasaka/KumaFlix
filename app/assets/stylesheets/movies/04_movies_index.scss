@@ -7,3 +7,16 @@
 .movie-index-btn {
   color: white; 
 }
+
+.fa-angle-down {
+  
+  font-size: 28px; 
+  z-index: 20;
+  position: absolute;
+  left: 117px; 
+  top: 96px; 
+}
+
+.fa-angle-down:hover {
+  color: red; 
+}

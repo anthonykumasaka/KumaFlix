@@ -70,6 +70,7 @@ class AllMovies extends React.Component {
                 {animationVideos}
               </div>
               <MovieInfo movies={this.props.movies} id={this.state.aid}/> 
+              {/* <a id="animation">The object you want to link to.</a> */}
 
             </div>
           </div>

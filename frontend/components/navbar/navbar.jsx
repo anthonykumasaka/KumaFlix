@@ -17,6 +17,7 @@ class Navbar extends React.Component {
           </Link>
           <div className="navbar-flex">
             <div className="navbar-link-home">
+              {/* <a href="animation">Click here to see the content below.</a> */}
               <Link to="/browse" className="navbar-link-movies">Home</Link>
               <Link to="/movies" className="navbar-link-movies">My List</Link>
               <Link to="/movies" className="navbar-link-movies">Music Videos</Link>
@@ -38,7 +39,8 @@ class Navbar extends React.Component {
                   <ul>
                     <li className="dropdown">
                       <a href="javascript:void(0)" className="dropbtn"></a>
-              
+                      <div className="carrot-down"></div>
+                      <div className="carrot-down-hidden"></div>
                       <div className="ul-margin">
                         <div className="dropdown-content">
                           <a href="#">Manage Profiles</a>
