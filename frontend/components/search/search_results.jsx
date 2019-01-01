@@ -57,9 +57,9 @@ class Search extends React.Component {
     if (this.props.movies.length === 0) return null;
 
     return <div>
-      <div>
-        {<NavbarContainer />}
-      </div>
+      {/* <div> */}
+        {/* {<NavbarContainer />} */}
+      {/* </div> */}
       <div className="movie-search-results">
         <div className="row__inner_search ">
         {/* <div className="row"> */}

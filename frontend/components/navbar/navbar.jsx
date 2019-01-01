@@ -22,9 +22,10 @@ class Navbar extends React.Component {
             <div className="navbar-link-home">
               {/* <a href="animation">Click here to see the content below.</a> */}
               <Link to="/browse" className="navbar-link-movies">Home</Link>
-              <Link to="/movies" className="navbar-link-movies">My List</Link>
-              <Link to="/movies" className="navbar-link-movies">Music Videos</Link>
-              <Link to="/movies" className="navbar-link-movies">Performance Videos</Link>
+              <Link to="/browse" className="navbar-link-movies">My List</Link>
+              <Link to="/browse" className="navbar-link-movies">Music Videos</Link>
+              <Link to="/browse" className="navbar-link-movies">Performance Videos</Link>
+              <Link to="/browse" className="navbar-link-movies">Animation Videos</Link>
               <div className='header-overlay'></div>
             </div>
 
@@ -48,7 +49,7 @@ class Navbar extends React.Component {
                       <div className="carrot-down-hidden"></div>
                       <div className="ul-margin">
                         <div className="dropdown-content">
-                          <a href="#">Manage Profiles</a>
+                          <a href="#/profiles">Manage Profiles</a>
                           <a onClick={this.props.logout}>Sign out of Kumaflix</a>
                         </div>    
                       </div>

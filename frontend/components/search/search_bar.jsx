@@ -11,14 +11,14 @@ class SearchBar extends React.Component {
     }
   }
 
-  // componentDidUpdate(ownProps) {
-  //   if (ownProps.history.location.pathname === '/browse' && this.state.count > 0) {
-  //     this.setState({
-  //       queryString: '',
-  //       count: 0
-  //     })
-  //   }
-  // }
+  componentDidUpdate(ownProps) {
+    if (ownProps.history.location.pathname === '/browse' && this.state.count > 0) {
+      this.setState({
+        queryString: '',
+        count: 0
+      })
+    }
+  }
 
   update(field) {
     return e => this.setState({

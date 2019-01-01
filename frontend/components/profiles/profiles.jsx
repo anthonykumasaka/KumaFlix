@@ -11,7 +11,7 @@ class Profiles extends React.Component {
   render() {
     return (
       <div>
-        <div className="kumaflix-logo-profiles"></div>  
+        {/* <div className="kumaflix-logo-profiles"></div>   */}
         <div className="profiles-bg">
           <div className="profiles-flex">
             <h2 className="profile-title">Who's watching?</h2>
@@ -20,9 +20,12 @@ class Profiles extends React.Component {
 
             <Link className="add-profile-button" to="/browse"></Link>
             {/* <Link className="add-profile-button-2" to="/browse"></Link> */}
-            <button className="logout-btn" onClick={this.props.logout}>MANAGE PROFILES</button>
+            {/* <button className="logout-btn" onClick={this.props.logout}>MANAGE PROFILES</button> */}
 
             </div>
+            <Link to="/browse">
+              <button className="profiles-login-btn">BROWSE VIDEOS</button>
+            </Link>
 
           </div>
         </div>
