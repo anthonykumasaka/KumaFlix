@@ -8,13 +8,22 @@ import MoviesIndexContainer from './movies/movies_index_container';
 import PlayMovieContainer from './movies/play_movie_container'; 
 import Splash from './splash'; 
 import {Provider} from 'react-redux';
-// import SearchResultsContainer from './search/search_results_container';  
+import SearchBarContainer from './search/search_bar_container'; 
+// import SearchResultsContainer from './search/search_results_container'; 
+import SearchResultsContainer from "./search/search_results_container"; 
+import NavbarContainer from "./navbar/navbar_container"; 
 
 const App = ({store}) => (
     <Provider store={store}>
       <HashRouter>
+        <div>
+        {/* <SearchBarContainer /> */}
+
+        <NavbarContainer /> 
         <Switch>
+          {/* <AuthRoute exact path="/" component={NavbarContainer} /> */}
           {/* <ProtectedRoute exact path='/search' component={SearchResultsContainer} />  */}
+          <ProtectedRoute exact path="/search" component={SearchResultsContainer} />
           <ProtectedRoute path="/play/:movieId" component={PlayMovieContainer} />
           <AuthRoute path="/login" component={LoginFormContainer} />
           <AuthRoute path="/signup" component={SignupFormContainer} />
@@ -22,6 +31,7 @@ const App = ({store}) => (
           <ProtectedRoute path="/profiles" component={ProfilesContainer} />
           <AuthRoute path="/" component={Splash} /> 
         </Switch>
+      </div>
       </HashRouter>
     </Provider>
 );

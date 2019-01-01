@@ -1,17 +1,20 @@
-import {connect} from 'react-redux';  
-import SearchResults from '/search_results';
-import {fetchMovies} from '../../actions/movie_actions';
+import { connect } from 'react-redux';
+import SearchResults from './search_results';
+import { fetchMovies } from '../../actions/movie_actions';
 
-const msp = (state) => {
+
+const mapStateToProps = (state) => {
+  let movies = Object.values(state.entities.movies);
   return {
-    movies: Object.values(state.entities.movies)
+    movies: movies
   };
-}; 
+};
 
-const mdp = (dispatch) => {
+
+const mapDispatchToProps = dispatch => {
   return {
-    fetchMovies: () => dispatch(fetchMovies()), 
+    fetchMovies: () => dispatch(fetchMovies()),
   };
-}; 
+};
 
-export default connect(msp, mdp)(SearchResults); 
+export default connect(mapStateToProps, mapDispatchToProps)(SearchResults)

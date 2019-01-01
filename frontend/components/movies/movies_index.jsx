@@ -28,9 +28,9 @@ class MoviesIndex extends React.Component {
     return (
       <div className="movies-index-bg">
         <div>
-          <div>
-            {<NavbarContainer />}
-          </div>
+          {/* <div> */}
+            {/* {<NavbarContainer />} */}
+          {/* </div> */}
           <FeaturedMovie video={mainMovie} /> 
           <AllMovies 
           performanceVideos={genreSelector(movies, 'performance')}

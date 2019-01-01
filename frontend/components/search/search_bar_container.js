@@ -1,19 +1,20 @@
 import { connect } from 'react-redux';
-import Searchbar from './searchbar';
+import SearchBar from './search_bar';
+import { fetchMovies } from '../../actions/movie_actions';
 import { withRouter } from 'react-router-dom';
 
-
-const mstp = (state) => {
-  return ({
-
-  });
+const mapStateToProps = (state) => {
+  let movies = Object.values(state.entities.movies);
+  return {
+    movies: movies
+  };
 };
 
 
-const mdtp = (dispatch) => {
-  return ({
-
-  });
+const mapDispatchToProps = dispatch => {
+  return {
+    fetchMovies: () => dispatch(fetchMovies()),
+  };
 };
 
-export default withRouter(connect(mstp, mdtp)(Searchbar));
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(SearchBar))
