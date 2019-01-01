@@ -12,7 +12,6 @@ class Navbar extends React.Component {
       return null;
     }
     return (
-
       <div>
         <div className="scroll-down">
           <Link to="/browse" className="navbar-link">
