@@ -41,6 +41,12 @@ m7 = Movie.create!(title: 'Outstanding', description: 'Official music video for 
   
     
     
+    m12 = Movie.create!(title: 'History', description: 'Official music video for History by Ryan Leslie', genre: 'Music Video', year: 2013); 
+    m12_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Final_Assets/RLES_history_video.mp4');
+    m12.video.attach(io: m12_video, filename: 'RLES_history_video'); 
+    m12_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Final_Assets/RLES_history_small_photo.jpg');
+    m12.photo.attach(io: m12_photo, filename: 'RLES_history_photo'); 
+
     m8 = Movie.create!(title: 'Ignorant', description: 'Official music video for Ignorant by Whipped Cream', genre: 'Music Video', year: 2017); 
     m8_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/WC_ignorant_music_video.mp4');
     m8.video.attach(io: m8_video, filename: 'WC_ignorant_video'); 
@@ -57,17 +63,18 @@ m7 = Movie.create!(title: 'Outstanding', description: 'Official music video for 
     m6.photo.attach(io: m6_photo, filename: 'RLES_carnival_of_venice_photo'); 
     
     
-    m11 = Movie.create!(title: 'Wiz Khalifa', description: 'Official music video for Wiz Khalifa by Zak Downtown', genre: 'Music Video', year: 2017); 
-    m11_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/ZD_whiz_khalifa_performance_video.mov');
-    m11.video.attach(io: m11_video, filename: 'ZD_wiz_khalifa_video'); 
-    m11_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/small_photos/ZD_WK_small_photo.jpg');
-    # m11_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/ZD_whiz_khalifa_photo.png');
-    m11.photo.attach(io: m11_photo, filename: 'ZD_wiz_khalifa_photo'); 
+    # m11 = Movie.create!(title: 'Wiz Khalifa', description: 'Official music video for Wiz Khalifa by Zak Downtown', genre: 'Music Video', year: 2017); 
+    # m11_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Music_Videos/ZD_whiz_khalifa_performance_video.mov');
+    # m11.video.attach(io: m11_video, filename: 'ZD_wiz_khalifa_video'); 
+    # m11_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/small_photos/ZD_WK_small_photo.jpg');
+    # # m11_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/ZD_whiz_khalifa_photo.png');
+    # m11.photo.attach(io: m11_photo, filename: 'ZD_wiz_khalifa_photo'); 
     
     
     # performance videos: 
     p2 = Movie.create!(title: 'Hucci - Spring Awakening Festival (live)', description: 'Hucci performing live at Spring Awakening Festival (Chicago)', genre: 'performance', year: 2017); 
-    p2_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/HUCCI_spring_awakening_festival_performance_video.mp4');
+    # p2_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Performance_Videos/HUCCI_spring_awakening_festival_performance_video.mp4');
+    p2_video = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Final_Assets/HUCCI_final_video.mp4');
     p2.video.attach(io: p2_video, filename: 'HUCCI_spring_awakening_video');
     p2_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/small_photos/huc_small_photo.jpg');
     # p2_photo = open('https://s3-us-west-1.amazonaws.com/kumaflix-movies/Photos/performance_video_photos/HUCCI_spring_awakening_photo.png');
