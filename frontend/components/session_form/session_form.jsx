@@ -85,7 +85,7 @@ class SessionForm extends React.Component {
                 {this.renderErrors()}
             <br />
             <div className="new-to-netflix">
-                New to MyFlix? {this.props.navLink}
+                New to KumaFlix? {this.props.navLink}
             </div>
           </div>
         </form>
