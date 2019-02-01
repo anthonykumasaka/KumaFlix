@@ -51,12 +51,10 @@ class AllMovies extends React.Component {
         
           <div className="row">
             <div className="rows-titles">
-              <h1 className="music-videos-title">Music Videos</h1>
-              <h1 className="performance-videos-title">Performance Videos</h1>
-              <h1 className="animation-videos-title">Animation Videos</h1>
-              <h1 className="miscellaneous-videos-title">Miscellaneous Videos</h1>
-              
-              {/* <article id="portfolio"> Portolio </article> */}
+              <h1 id="music" className="music-videos-title">Music Videos</h1>
+              {/* <h1 id="performance" className="performance-videos-title">Performance Videos</h1> */}
+              {/* <h1 id="animation" className="animation-videos-title">Animation Videos</h1> */}
+              {/* <h1 id="miscallaneous" className="miscellaneous-videos-title">Miscellaneous Videos</h1> */}
             </div>
             <div className="row__inner">
 
@@ -64,16 +62,23 @@ class AllMovies extends React.Component {
                 {musicVideos}
               </div>
               <MovieInfo movies={this.props.movies} id={this.state.mid}/> 
+          
+              <h1 id="performance" className="performance-videos-title">Performance Videos</h1>
 
               <div className="performance-videos"> 
                 {performanceVideos}
               </div>
               <MovieInfo movies={this.props.movies} id={this.state.pid}/> 
+
+              <h1 id="animation" className="animation-videos-title">Animation Videos</h1>
+
               
               <div className="animation-videos"> 
                 {animationVideos}
               </div>
               <MovieInfo movies={this.props.movies} id={this.state.aid}/> 
+
+              <h1 id="miscallaneous" className="miscellaneous-videos-title">Miscellaneous Videos</h1>
 
               <div className="miscellaneous-videos"> 
                 {miscellaneousVideos}
@@ -82,6 +87,7 @@ class AllMovies extends React.Component {
 
             </div>
           </div>
+
       </div>
     );
   }

@@ -10,52 +10,67 @@ video {
 }
 
 .music-videos {
-  margin-top: 70px; 
+  // margin-top: 70px; 
 }
 .performance-videos {
-  margin-top: 80px; 
+  // margin-top: 80px; 
 }
 .animation-videos {
-  margin-top: 80px; 
+  // margin-top: 80px; 
 }
 .miscellaneous-videos {
-  margin-top: 80px; 
+  // margin-top: 80px; 
 }
 
 .music-videos-title {
+  // margin-top: 0px;
+  
   font-size: 24px; 
   color: white; 
   text-align: left;
   font-weight: 1; 
-  padding: 30px 30px 0px 10px; 
-  position: absolute;
+  padding: 15px 30px 15px 0px; 
+  // position: absolute;
+  z-index: 1000;
+
 }
 .performance-videos-title {
   font-size: 24px; 
   color: white; 
   text-align: left;
   font-weight: 1; 
-  padding: 50px 30px 10px 10px; 
-  position: absolute;
-  margin-top: 200px; 
+  padding: 15px 30px 15px 0px; 
+
+  // padding: 50px 30px 10px 10px; 
+  // position: absolute;
+  // margin-top: 200px;
+  z-index: 1000;
+
 }
 .animation-videos-title {
   font-size: 24px; 
   color: white; 
   text-align: left;
   font-weight: 1; 
-  padding: 30px 30px 0px 10px; 
-  position: absolute;
-  margin-top: 440px; 
+  padding: 15px 30px 15px 0px; 
+  
+  // position: absolute;
+  // margin-top: 440px;
+  z-index: 1000;
+
 }
 .miscellaneous-videos-title {
   font-size: 24px; 
   color: white; 
   text-align: left;
   font-weight: 1; 
-  padding: 30px 30px 0px 10px; 
-  position: absolute;
-  margin-top: 660px; 
+  padding: 15px 30px 15px 0px; 
+
+  // padding: 30px 30px 0px 10px; 
+  // position: absolute;
+  // margin-top: 660px;
+  z-index: 1000;
+
 }
 
 .row-titles {
@@ -190,7 +205,7 @@ a:hover {
   width: 100%;
 }
 .row {
-  overflow: scroll;
+  // overflow: scroll;
   width: 100%;
 }
 .flex-container-movies {

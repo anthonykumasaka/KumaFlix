@@ -19,10 +19,13 @@
   width: 250px; 
   height: 50px;
   // font-size: 18px;
-  position: relative;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
   bottom: 280px;
   font-size: 22px;
-  font-weight: .4;  
+  font-weight: .4;
+  
 }
 
 .profiles-bg {
@@ -92,7 +95,8 @@
 }
 
 .add-profile-button {
-  height: 1050px; 
+  // height: 1050px; 
+  height: 320px; 
   width: 1050px; 
   background: image_url('all_profiles.png'); 
   background-size: contain;
