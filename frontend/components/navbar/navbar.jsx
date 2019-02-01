@@ -21,13 +21,13 @@ class Navbar extends React.Component {
             <div className="navbar-link-home">
               {/* <a href="animation">Click here to see the content below.</a> */}
               <Link to="/browse" className="navbar-link-movies">Home</Link>
-              <Link to="/browse" className="navbar-link-movies">My List</Link>
+              {/* <a href="#portfolio">Projects</a> */}
+              {/* <Link to="/browse" className="navbar-link-movies">My List</Link> */}
               <Link to="/browse" className="navbar-link-movies">Music Videos</Link>
               <Link to="/browse" className="navbar-link-movies">Performance Videos</Link>
               <Link to="/browse" className="navbar-link-movies">Animation Videos</Link>
               <div className='header-overlay'></div>
             </div>
-
 
           <div>
             {/* magnifyglass code from codepen */}
@@ -57,8 +57,6 @@ class Navbar extends React.Component {
                 </div>
               </div> 
             </div>
-
-              
           </div>
           </div>
 
