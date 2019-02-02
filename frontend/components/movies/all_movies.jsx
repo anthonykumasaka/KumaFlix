@@ -88,6 +88,16 @@ class AllMovies extends React.Component {
             </div>
           </div>
 
+          <footer>
+            <div className="social-media-icons">
+              <a href="https://www.facebook.com/anthony.kumasaka"><i  className="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/anthonykumasaka/?hl=en"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.instagram.com/anthonykumasaka/?hl=en"><i class="fab fa-github"></i></a>
+
+            </div>
+            
+          </footer>
+
       </div>
     );
   }
