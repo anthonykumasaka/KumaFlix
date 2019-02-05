@@ -51,7 +51,10 @@ class AllMovies extends React.Component {
         
           <div className="row">
             <div className="rows-titles">
-              <h1 id="music" className="music-videos-title">Music Videos</h1>
+
+            {/* <div id="music" className="hidden"><h1>Hidden</h1></div> */}
+            {/* <div id="music" className="hidden"><h1>Hidden</h1></div> */}
+              <h1  id="music" className="music-videos-title">Music Videos</h1>
               {/* <h1 id="performance" className="performance-videos-title">Performance Videos</h1> */}
               {/* <h1 id="animation" className="animation-videos-title">Animation Videos</h1> */}
               {/* <h1 id="miscallaneous" className="miscellaneous-videos-title">Miscellaneous Videos</h1> */}
@@ -62,7 +65,7 @@ class AllMovies extends React.Component {
                 {musicVideos}
               </div>
               <MovieInfo movies={this.props.movies} id={this.state.mid}/> 
-          
+              
               <h1 id="performance" className="performance-videos-title">Performance Videos</h1>
 
               <div className="performance-videos"> 
@@ -86,14 +89,24 @@ class AllMovies extends React.Component {
               <MovieInfo movies={this.props.movies} id={this.state.xid}/> 
 
             </div>
+            <br/>
+            <br/>
+            {/* <br/> */}
           </div>
-
+          
           <footer>
             <div className="social-media-icons">
+              <a href="https://github.com/anthonykumasaka"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/kumasaka/"><i class="fab fa-linkedin"></i></a>
               <a href="https://www.facebook.com/anthony.kumasaka"><i  className="fab fa-facebook"></i></a>
               <a href="https://www.instagram.com/anthonykumasaka/?hl=en"><i class="fab fa-instagram"></i></a>
-              <a href="https://www.instagram.com/anthonykumasaka/?hl=en"><i class="fab fa-github"></i></a>
-
+              <a href="https://github.com/anthonykumasaka"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div className="info">
+              <a href="https://www.anthonykumasaka.com"><p>Portfolio</p></a>
+            </div>
+            <div className="info">
+              <a href="https://www.anthonykumasaka.com"><p>Anthony Kumasaka</p></a>
             </div>
             
           </footer>

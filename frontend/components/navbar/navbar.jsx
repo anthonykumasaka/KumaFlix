@@ -25,7 +25,7 @@ class Navbar extends React.Component {
               <a className="navbar-link-movies" href="#music">Music Videos</a>
               <a className="navbar-link-movies" href="#performance">Performance Videos</a>
               <a className="navbar-link-movies" href="#animation">Animation Videos</a>
-              <a className="navbar-link-movies" href="#miscallaneous">Miscallaneous Videos</a>
+              {/* <a className="navbar-link-movies" href="#miscallaneous">Miscallaneous Videos</a> */}
 
 
 

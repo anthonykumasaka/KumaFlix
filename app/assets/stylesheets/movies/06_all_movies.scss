@@ -314,17 +314,33 @@ a:hover {
   margin-top: 100px; 
 }
 
-.fa-facebook, .fa-instagram, .fa-twitter, .fa-github  {
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-github, .fa-youtube, .fa-linkedin {
   font-size: 2em; 
   color: grey; 
-  padding: 0px 20px 0px 0px; 
+  padding: 10px 20px 0px 0px; 
 }
 
+.hidden h1 {
+  display: hidden; 
+  color: #141414; 
+  
+
+}
 
 
 .social-media-icons {
   padding: 40px 40px 40px 60px; 
   display: flex; 
   justify-content: flex-start; 
+}
+
+.info {
+  padding: 0px 40px 20px 60px; 
+  display: flex; 
+  justify-content: flex-start; 
+}
+
+.info p {
+  color: grey; 
 }
 
