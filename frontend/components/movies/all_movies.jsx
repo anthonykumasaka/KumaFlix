@@ -27,7 +27,7 @@ class AllMovies extends React.Component {
       });
       that.setState({  
         [id]: movieId
-      });
+      });d
     }; 
   }
 
@@ -54,7 +54,7 @@ class AllMovies extends React.Component {
 
             {/* <div id="music" className="hidden"><h1>Hidden</h1></div> */}
             {/* <div id="music" className="hidden"><h1>Hidden</h1></div> */}
-              <h1  id="music" className="music-videos-title">Music Videos</h1>
+              <h1  id="music" className="videos-title">Music Videos</h1>
               {/* <h1 id="performance" className="performance-videos-title">Performance Videos</h1> */}
               {/* <h1 id="animation" className="animation-videos-title">Animation Videos</h1> */}
               {/* <h1 id="miscallaneous" className="miscellaneous-videos-title">Miscellaneous Videos</h1> */}
@@ -66,14 +66,14 @@ class AllMovies extends React.Component {
               </div>
               <MovieInfo movies={this.props.movies} id={this.state.mid}/> 
               
-              <h1 id="performance" className="performance-videos-title">Performance Videos</h1>
+              <h1 id="performance" className="videos-title">Performance Videos</h1>
 
               <div className="performance-videos"> 
                 {performanceVideos}
               </div>
               <MovieInfo movies={this.props.movies} id={this.state.pid}/> 
 
-              <h1 id="animation" className="animation-videos-title">Animation Videos</h1>
+              <h1 id="animation" className="videos-title">Animation Videos</h1>
 
               
               <div className="animation-videos"> 
@@ -81,7 +81,7 @@ class AllMovies extends React.Component {
               </div>
               <MovieInfo movies={this.props.movies} id={this.state.aid}/> 
 
-              <h1 id="miscallaneous" className="miscellaneous-videos-title">Miscellaneous Videos</h1>
+              <h1 id="miscallaneous" className="videos-title">Miscellaneous Videos</h1>
 
               <div className="miscellaneous-videos"> 
                 {miscellaneousVideos}
@@ -100,18 +100,15 @@ class AllMovies extends React.Component {
               <a href="https://www.linkedin.com/in/kumasaka/"><i class="fab fa-linkedin"></i></a>
               <a href="https://www.facebook.com/anthony.kumasaka"><i  className="fab fa-facebook"></i></a>
               <a href="https://www.instagram.com/anthonykumasaka/?hl=en"><i class="fab fa-instagram"></i></a>
-              <a href="https://github.com/anthonykumasaka"><i class="fab fa-youtube"></i></a>
+              <a href="https://www.youtube.com/channel/UCltKxndG4hZFsckd5AJjUGA?view_as=subscriber"><i class="fab fa-youtube"></i></a>
             </div>
             <div className="info">
               <a href="https://www.anthonykumasaka.com"><p>Portfolio</p></a>
             </div>
             <div className="info">
               <a href="https://www.anthonykumasaka.com"><p>Anthony Kumasaka</p></a>
-              <a href="https://www.anthonykumasaka.com"><p>Anthony Kumasaka</p></a>
             </div>
-            <div>
-              Heroku
-            </div>
+ 
           </footer>
 
       </div>
