@@ -89,6 +89,4 @@ test:
 #
 production:
   <<: *default
-  database: myFlix_production
-  username: myFlix
-  password: <%= ENV['MYFLIX_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
