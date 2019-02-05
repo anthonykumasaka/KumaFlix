@@ -108,7 +108,9 @@ class AllMovies extends React.Component {
             <div className="info">
               <a href="https://www.anthonykumasaka.com"><p>Anthony Kumasaka</p></a>
             </div>
-            
+            <div>
+              Heroku
+            </div>
           </footer>
 
       </div>
