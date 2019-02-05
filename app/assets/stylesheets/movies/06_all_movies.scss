@@ -129,8 +129,8 @@ video {
   height: 22px;
   z-index: 15;
   position: absolute;
-  left: 210px; 
-  top: 88px; 
+  // left: 210px; 
+  // top: 88px; 
   display: hidden; 
 }
 .down-arrow-info {
@@ -205,7 +205,8 @@ a:hover {
   width: 100%;
 }
 .row {
-  // overflow: scroll;
+  
+  overflow: scroll;
   width: 100%;
 }
 .flex-container-movies {
