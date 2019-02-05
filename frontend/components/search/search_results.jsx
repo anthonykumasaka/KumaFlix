@@ -38,8 +38,8 @@ class Search extends React.Component {
 
   getMovies() {
     const movies = this.props.movies.map((movie) => {
-      let lowerCaseTitle = (movie.title).toLowerCase();
-      let lowerCaseGenre = (movie.genre).toLowerCase();
+      let lowerCaseTitle = (movie.title).split(" ").join('%20').toLowerCase();
+      let lowerCaseGenre = (movie.genre).split(" ").join('%20').toLowerCase();
       if (lowerCaseTitle.includes(this.getQueryString().toLowerCase()) ||
         lowerCaseGenre.includes(this.getQueryString().toLowerCase())) {
         return (<MovieItem
