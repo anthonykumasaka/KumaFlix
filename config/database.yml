@@ -15,13 +15,13 @@
 # gem 'pg'
 #
 default: &default
-  adapter: postgresql
-  encoding: unicode
-  database: myFlix_development
-  host: localhost
-  port: 5432
-  username: postgres
-  password: 4124
+  # adapter: postgresql
+  # encoding: unicode
+  # database: myFlix_development
+  # host: localhost
+  # port: 5432
+  # username: postgres
+  # password: 4124
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
