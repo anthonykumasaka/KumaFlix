@@ -15,13 +15,9 @@
 # gem 'pg'
 #
 default: &default
-  # adapter: postgresql
-  # encoding: unicode
-  # database: myFlix_development
-  # host: localhost
-  # port: 5432
-  # username: postgres
-  # password: 4124
+  adapter: postgresql
+  encoding: unicode
+  
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
@@ -29,6 +25,10 @@ default: &default
 development:
   <<: *default
   database: myFlix_development
+  # host: localhost
+  # port: 5432
+  # username: postgres
+  # password: 4124
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -63,6 +63,10 @@ development:
 test:
   <<: *default
   database: myFlix_test
+  # host: localhost
+  # port: 5432
+  # username: postgres
+  # password: 4124
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
