@@ -22,6 +22,20 @@ video {
   // margin-top: 80px; 
 }
 
+.videos-title {
+  // margin-top: 0px;
+  font-size: 24px; 
+  color: white; 
+  text-align: left;
+  font-weight: 1; 
+  padding: 40px 30px 10px 65px; 
+  // position: absolute;
+  z-index: 1000;
+  // font-family: Bebas Neue; 
+  // font-weight: 300; 
+}
+
+
 .music-videos-title {
   // margin-top: 0px;
   
@@ -129,8 +143,8 @@ video {
   height: 22px;
   z-index: 15;
   position: absolute;
-  // left: 210px; 
-  // top: 88px; 
+  left: 210px; 
+  top: 88px; 
   display: hidden; 
 }
 .down-arrow-info {
@@ -329,13 +343,13 @@ a:hover {
 
 
 .social-media-icons {
-  padding: 40px 40px 40px 60px; 
+  padding: 40px 40px 40px 65px; 
   display: flex; 
   justify-content: flex-start; 
 }
 
 .info {
-  padding: 0px 40px 20px 60px; 
+  padding: 0px 40px 20px 65px; 
   display: flex; 
   justify-content: flex-start; 
 }
