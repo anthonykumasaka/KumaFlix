@@ -21,7 +21,9 @@ class Profiles extends React.Component {
             <Link className="add-profile-button" to="/browse"></Link>
             {/* <Link className="add-profile-button-2" to="/browse"></Link> */}
             {/* <button className="logout-btn" onClick={this.props.logout}>MANAGE PROFILES</button> */}
-
+         
+              <h1 className="demo-login">DEMO</h1>
+           
             </div>
             <Link to="/browse">
               <button className="profiles-login-btn">BROWSE VIDEOS</button>

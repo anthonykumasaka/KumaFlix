@@ -11,13 +11,24 @@
   font-size: 22px;
   font-weight: .4;  
 }
+
+.profiles-login-btn:hover {
+  color: white; 
+  text-decoration: none; 
+  border: 2px solid white; 
+
+}
+
+
+
 .profiles-login-btn {
+  text-decoration: none; 
   background: #141414;
   color: grey;  
-  
   // border-radius: 4px; 
   width: 250px; 
   height: 50px;
+  border: 2px solid grey; 
   // font-size: 18px;
   display: flex; 
   justify-content: center; 
@@ -25,7 +36,6 @@
   bottom: 280px;
   font-size: 22px;
   font-weight: .4;
-  
 }
 
 .profiles-bg {
@@ -86,6 +96,7 @@
 
 .add-profile-button:hover {
   color: black; 
+  // border: 5px solid white; 
 }
 .profiles-flex {
   height: 100%; 
@@ -96,9 +107,14 @@
 
 .add-profile-button {
   // height: 1050px; 
-  height: 320px; 
-  width: 1050px; 
-  background: image_url('all_profiles.png'); 
+  // height: 320px; 
+  // width: 1050px;
+  height: 175px; 
+  width: 173px;
+  border: 5px solid #1F1F1F; 
+  // background: image_url('all_profiles.png'); 
+  background: image_url('one_profile.png'); 
+  margin: 20px 0px 30px 0px; 
   background-size: contain;
   background-repeat: no-repeat; 
 }
@@ -108,4 +124,22 @@
   width: 167px; 
   background: image_url('profile_1.png'); 
   background-size: cover;
+}
+
+.demo-login {
+  color: #7C7C7C; 
+  margin: 0px 0px 100px 0px; 
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 24PX;
+  font-weight: 25;
+ 
+}
+
+.prof-flex-container:hover .demo-login  {
+  color: white; 
+}
+
+.prof-flex-container:hover .add-profile-button   {
+  border: 5px solid white; 
+  color: white; 
 }

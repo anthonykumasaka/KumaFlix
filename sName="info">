@@ -1,0 +1,1001 @@
+[33mcommit 77eca41ea65f7c34a4530033506131f8b27d6975[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mheroku/master[m[33m)[m
+Author: anthonykumasaka <anthonykumasaka.com>
+Date:   Tue Feb 5 17:28:08 2019 -0800
+
+    Remove facebook icon
+
+[33mcommit 78935c91d85a282d61dfa44e6ebeabe42aa00ba7[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: anthonykumasaka <anthonykumasaka.com>
+Date:   Tue Feb 5 15:39:42 2019 -0800
+
+    Add correct feature play movie
+
+[33mcommit 8cfc4baeaffbe7fc31e041aa77486bf2267329d5[m
+Merge: ae7e75a 39af0cc
+Author: anthonykumasaka <anthonykumasaka.com>
+Date:   Tue Feb 5 15:36:08 2019 -0800
+
+    Heroku
+
+[33mcommit 39af0cc0d9259a50b868baec47004a9b5a6d2c2f[m
+Merge: 270c425 3838eaf
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Feb 5 15:31:44 2019 -0800
+
+    .
+
+[33mcommit ae7e75a6e47c4bac81cdd9b654d808b3e3c54c38[m
+Author: anthonykumasaka <anthonykumasaka.com>
+Date:   Tue Feb 5 15:23:17 2019 -0800
+
+    First trial
+
+[33mcommit 270c425467f8a7ded76277b52efdc09322b133a7[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Feb 5 14:52:42 2019 -0800
+
+    Add logic for search component to allow spaces
+
+[33mcommit 3838eaf6d630ea262dc76d637689c8703ffc0d6f[m
+Author: anthonykumasaka <anthonykumasaka.com>
+Date:   Tue Feb 5 14:37:58 2019 -0800
+
+    Fix production databse
+
+[33mcommit 0a34554b22c6aa4c283982daa1b7cded8d76dbe5[m
+Author: anthonykumasaka <anthonykumasaka.com>
+Date:   Tue Feb 5 14:33:18 2019 -0800
+
+    Add master key
+
+[33mcommit 9e0403bef7066ffa510e768b0bea1341c37f6c58[m
+Author: anthonykumasaka <anthonykumasaka.com>
+Date:   Tue Feb 5 14:26:50 2019 -0800
+
+    Downgrade bundler
+
+[33mcommit 19589b12be750316af9e96ba66f8d1f3b745fbf7[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Feb 5 14:13:53 2019 -0800
+
+    Style titles
+
+[33mcommit 04e23bd683145a3530ccbb51354d4e47bfd2e824[m
+Author: anthonykumasaka <anthonykumasaka.com>
+Date:   Tue Feb 5 13:55:12 2019 -0800
+
+    Configure database.yml for heroku
+
+[33mcommit abd9cafa05d14a4166c65e585af7b34a9d358600[m
+Author: anthonykumasaka <anthonykumasaka.com>
+Date:   Tue Feb 5 13:07:55 2019 -0800
+
+    redo
+
+[33mcommit 901bea1b45513a9e5b3c296a3b14fb0687abc247[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Feb 5 11:29:51 2019 -0800
+
+    Add heroku code
+
+[33mcommit 1a3e9278fda8231eed17f6ff3e592fd53ade77a1[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Feb 5 01:01:16 2019 -0800
+
+    add heroku bundler
+
+[33mcommit 841996c9e421439e5e498454b91db7534c52155c[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Feb 5 00:58:52 2019 -0800
+
+    Update heroku
+
+[33mcommit 5a48fbf4ef20b3bf091dbcdee284d703bfad78d1[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Feb 5 00:55:29 2019 -0800
+
+    heroku try 2
+
+[33mcommit 0b43008df97432c60f41367e1f01150347c71432[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Feb 5 00:34:02 2019 -0800
+
+    Add heroku files
+
+[33mcommit f5719d87925fdccf3411c77222ddf954a39c09c9[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Feb 5 00:08:57 2019 -0800
+
+    make it better
+
+[33mcommit da4cc0b8b002f21db754ee126f92cdf2303a418a[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Feb 5 00:03:27 2019 -0800
+
+    Update frontend navbar and footer
+
+[33mcommit 4623ac362556fe88090f50b674079f4e3922c80f[m
+Author: anthonykumasaka <anthonykumasaka.com>
+Date:   Mon Feb 4 18:56:55 2019 -0800
+
+    Add scroll feature back to row
+
+[33mcommit 8f3793cd8eb6c2331fbf2f97ae362d54a876ff63[m
+Author: anthonykumasaka <anthonykumasaka.com>
+Date:   Fri Feb 1 18:28:18 2019 -0800
+
+    ..
+
+[33mcommit 8aab10d500480a45192a466e1b3fe7beb44a6575[m
+Author: anthonykumasaka <anthonykumasaka.com>
+Date:   Fri Feb 1 17:47:07 2019 -0800
+
+    config bundler for heroku push
+
+[33mcommit 8c3b7e9a43b319d3bb26576ecccbe1b7f5ad3af6[m
+Author: anthonykumasaka <anthonykumasaka.com>
+Date:   Fri Feb 1 12:05:15 2019 -0800
+
+    Add anchor to genres
+
+[33mcommit 8c8f5a1c6e4dd3d0aeec96c1b5c54a67d8157e54[m
+Merge: d112f71 513f53f
+Author: anthonykumasaka <anthonykumasaka.com>
+Date:   Fri Feb 1 09:46:45 2019 -0800
+
+    Working fullstack on surface go
+
+[33mcommit d112f71833000988c186c0a2dd7359e443684235[m
+Author: anthonykumasaka <anthonykumasaka.com>
+Date:   Thu Jan 31 16:07:18 2019 -0800
+
+    Add npm install
+
+[33mcommit 513f53f5f8065a347279dad030dde6e7a4146f2a[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Jan 30 15:54:26 2019 -0800
+
+    Add darker favicon
+
+[33mcommit 72e7c2a940f6758754ff478dd97ed8c6f748e35a[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Jan 30 15:32:28 2019 -0800
+
+    Add custom favicon
+
+[33mcommit f8bac6c844b39ec228f17ec27989d82fca57a6a8[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Jan 11 18:48:26 2019 -0800
+
+    Fix feature movie
+
+[33mcommit f376f76349a88e0af1f7a0329831369df6335444[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Jan 9 16:58:06 2019 -0800
+
+    fix scorecard issues
+
+[33mcommit b13d6d2e0c6eda7d7c04638e9a8630a6a933bf99[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Jan 8 10:39:54 2019 -0800
+
+    update feature movie
+
+[33mcommit c36d195a9eb740a596c52bd08ca04d556295c8c8[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Jan 8 10:35:15 2019 -0800
+
+    Update db for heroku push
+
+[33mcommit 00b195694888ac9c764cf429979b64cca97f2f30[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Mon Dec 31 17:49:57 2018 -0800
+
+    drastic changes and refactoring :)
+
+[33mcommit 35fb64f5a28b74539dd30c45daea246aa4f001c3[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Mon Dec 31 17:35:48 2018 -0800
+
+    fix navbar and searchbar functionality
+
+[33mcommit 39ef512de7bf85ebc7551bbd57efbde5a3314d6a[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Mon Dec 31 17:03:05 2018 -0800
+
+    Add search functionality
+
+[33mcommit 01e04f7f77f0fa67c93744222bc2ecd3d9d70e32[m
+Merge: 175e0cc 77751b0
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Sun Dec 23 17:08:19 2018 -0800
+
+    Merge branch 'master' of https://github.com/anthonykumasaka/myflix
+
+[33mcommit 175e0cc3c5d05948037264294144f8c6db028a0d[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Sun Dec 23 17:07:51 2018 -0800
+
+    update featured movie css
+
+[33mcommit 78eeca828e7d0a0a51c7bdc6e6daba913cadbb33[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Sat Dec 22 19:00:16 2018 -0800
+
+    Add mobile styling functionality2
+
+[33mcommit b579cecf3aba5736e9924efa11d2bfe46bd2f8c0[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Sat Dec 22 18:54:20 2018 -0800
+
+    Add mobile styling functionality
+
+[33mcommit 77751b019754c87420c1d8c519e91d7d775f6abf[m
+Author: Anthony Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Dec 21 14:48:13 2018 -0800
+
+    Update README.md
+
+[33mcommit 1d2edfe667c234898f3a0e95ae9296659dc2dba0[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Dec 21 14:46:07 2018 -0800
+
+    Add sign in photo for productino readme
+
+[33mcommit 50a38dcfbf263e5ef03a0ae3ec8550ea5c73f18b[m
+Author: Anthony Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Dec 21 14:44:58 2018 -0800
+
+    Update README.md
+
+[33mcommit f1dfdca8d07be38b08069a9164ecc43afc3ea00f[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Dec 21 14:42:51 2018 -0800
+
+    add video streaming photo
+
+[33mcommit 4ac170d44ac0796729b4173ae299e428178893dc[m
+Author: Anthony Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Dec 21 14:39:11 2018 -0800
+
+    Update README.md
+
+[33mcommit 1151329a77c60358d6899e2d86252b33486f3512[m
+Author: Anthony Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Dec 21 14:13:13 2018 -0800
+
+    Update README.md
+
+[33mcommit 11eba21459f4f9df1683a33185057f2318d00e58[m
+Author: Anthony Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Dec 21 13:59:59 2018 -0800
+
+    Update Production Readme
+
+[33mcommit 2dd3c078e7cdd611e766a1a22919d0746106c8cf[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Dec 21 13:56:14 2018 -0800
+
+    Add Production Readme
+
+[33mcommit 4483742b91f95a2d7f468d5c53f78b6b29d11eca[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Dec 21 09:55:10 2018 -0800
+
+    change feature movie link
+
+[33mcommit 085cc808676302f4cb95bc1b9f382558d55e172a[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Dec 21 09:52:35 2018 -0800
+
+    update heroku photo attachments
+
+[33mcommit 68624910d99acef7588319a35e0d348c7f54c24b[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Dec 21 09:32:08 2018 -0800
+
+    change feature movie link
+
+[33mcommit 9e84f130459bc57284ce9e8ad551c5f7d1499923[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Dec 21 09:28:24 2018 -0800
+
+    Reseed heroku and local db
+
+[33mcommit 3589ce6f4cad0cf5d6a2a9f485ce148cbfab52c2[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 20 20:44:35 2018 -0800
+
+    update feature movie url
+
+[33mcommit 24c25fa5bdaf64466db782d4c3384f87bcef5b9d[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 20 20:36:41 2018 -0800
+
+    update arrow to aws
+
+[33mcommit 2355988c432731c1ed97516222b0a448f9748e20[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 20 20:24:14 2018 -0800
+
+    Speed up site by removing arrow.png
+
+[33mcommit c49504739336c38b84523b8784718580c9c8587e[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 20 19:10:29 2018 -0800
+
+    repush to heroku
+
+[33mcommit 1c66cbfaed937ced2fbd33ed04b12b804e5ae409[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 20 18:54:21 2018 -0800
+
+    Successful seed of miscellaneous videos
+
+[33mcommit 0f382d103601d072638d6fba7e51e676f0a01ded[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 20 18:19:02 2018 -0800
+
+    Change the order of seed files
+
+[33mcommit 522c34c96f75a9d1f596fe91117b8ae807d639e3[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 20 17:34:56 2018 -0800
+
+    Before reseeding
+
+[33mcommit 786584f5c63eef2430d950c768060c40ee97650b[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 20 16:56:32 2018 -0800
+
+    functioning website
+
+[33mcommit 1d3eac215eb3293b6b075264b36d10cc8762b804[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 20 15:45:05 2018 -0800
+
+    clean styles
+
+[33mcommit 68faa5c2bd1a36b3babfc4e9ead6cc1404c1cfa7[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 20 15:35:29 2018 -0800
+
+    refactoring next
+
+[33mcommit 56af7139f21e46f23a57dbf515e667c73a368235[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 20 15:11:51 2018 -0800
+
+    Add movie info styling
+
+[33mcommit bcf67bf0fbcda44347e3631b40f1fbd36081357e[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 20 11:43:36 2018 -0800
+
+    Add kumaflix original png
+
+[33mcommit ae444284d19ec7e69614fb6af7c730bfd86b49a7[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 20 10:35:54 2018 -0800
+
+    Text show on Movie info page
+
+[33mcommit 9e52a05906d02ddd986b060db35fc0e46d803a4d[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 20 02:05:54 2018 -0800
+
+    before search bar attempt
+
+[33mcommit 37c1181774e5ce9142b984572b720147aabeeba4[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Dec 19 21:42:45 2018 -0800
+
+    Heroku failed
+
+[33mcommit af5e1e4151f7c485b343d31c5ac163873e5432e3[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Dec 19 21:30:35 2018 -0800
+
+    Seed anime files
+
+[33mcommit 61e04c98c0b71e1a200f5bc763f53816e6bc446d[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Dec 19 21:02:11 2018 -0800
+
+    finish seed files
+
+[33mcommit fce5018d8cc7d03a076a08d90d89c5370df67f66[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Dec 19 17:41:49 2018 -0800
+
+    Add buttons for play and dropdown
+
+[33mcommit cd28ff0fb7f85f8487d8a5d2e6dcb8367b88a7fb[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Dec 19 16:38:54 2018 -0800
+
+    Add gradient and movie info
+
+[33mcommit e48f893429a733a6bb22186c2f37baae13f31e29[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Dec 19 14:43:38 2018 -0800
+
+    working site before attempting search functionality
+
+[33mcommit a53628a1a6237c72e798c78c03abf8c87c57569b[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Dec 19 09:13:29 2018 -0800
+
+    Start of Wednesday
+
+[33mcommit ff7e3f98ab19792ed1ac386ba5476cb353a52c1a[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 18 22:30:51 2018 -0800
+
+    Update Text on FEatured film
+
+[33mcommit ff9f44fa14cd279ef318876d4cf9f2db01b289c2[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 18 22:04:23 2018 -0800
+
+    Add larger gif maybe too large
+
+[33mcommit 2c3d6cf0e7e90fd7e6533027c5197155cab4bdad[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 18 21:34:36 2018 -0800
+
+    Add gif video as featured movie
+
+[33mcommit dab729dacaaefab590ae9e8eacaf1b8e01320530[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 18 17:44:21 2018 -0800
+
+    Add search bar and styling
+
+[33mcommit 335aa2d6e6637056373ae8f7edc1ca92e29f3b69[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 18 14:30:46 2018 -0800
+
+    Add categories to carosuel
+
+[33mcommit 882fceebe0bf40bb9c941f9c8816ae27739ed6e2[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 18 13:20:00 2018 -0800
+
+    reseed db
+
+[33mcommit e3882369ca4993171cfcfa12cb94a4acaa6fd549[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 18 11:55:15 2018 -0800
+
+    Refactor all movies component
+
+[33mcommit abca450123cc9164e0589058827cb6018fa41995[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 18 10:05:32 2018 -0800
+
+    Working site about to refactor all videos
+
+[33mcommit 56c643d69e26dc3c08c68f1cf0c2eedffaf7d5fd[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Mon Dec 17 20:28:02 2018 -0800
+
+    add functionality to all videos in index
+
+[33mcommit 3f1738b010648c8e9d1183ce64b06f14dbb2d000[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Mon Dec 17 19:53:02 2018 -0800
+
+    Add performance videos photos to index
+
+[33mcommit 90f1e5e75ee4f50cace81eed2bc88c577ef5d33d[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Mon Dec 17 18:56:22 2018 -0800
+
+    Add cropped feature photo and dropdown
+
+[33mcommit f64d94b5819f1069738b37a65efc0a3865bbf579[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Mon Dec 17 17:38:34 2018 -0800
+
+    udate aws files
+
+[33mcommit 451643726b828a1df98c556497e408fbf958a062[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Mon Dec 17 17:26:45 2018 -0800
+
+    update seed file
+
+[33mcommit 76c1316492316d178843cddf83164384429d2f58[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Mon Dec 17 16:46:10 2018 -0800
+
+    Add caraosel feature and photos for music videos category
+
+[33mcommit 712fc816e6c422d40d668e28c4f314623ea33633[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Mon Dec 17 15:53:33 2018 -0800
+
+    Add video play functionality for featured movie
+
+[33mcommit fbf481a2d9ab0eb327a2860e1c3484697502a0bc[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Mon Dec 17 14:41:01 2018 -0800
+
+    Add video play functionality
+
+[33mcommit 16f81fd66a8b7ebaa439fecdbaf4020f414794ec[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Mon Dec 17 14:00:31 2018 -0800
+
+    Seed all files
+
+[33mcommit e8d4d17cbd7ff1453a811bea42277c9a9b1541af[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Mon Dec 17 12:52:27 2018 -0800
+
+    Add more seed files and start module
+
+[33mcommit 569ef998f129a25c610cbf8411adfeb3befc11c4[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Mon Dec 17 00:05:59 2018 -0800
+
+    Add seed files for performance videos
+
+[33mcommit 145b809084d608b3e741a89e4e74da66dceca7d5[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Sun Dec 16 23:15:17 2018 -0800
+
+    Add seed files for music videos
+
+[33mcommit de61f251385c8f30fee80921623ea350590227c5[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Sun Dec 16 21:31:02 2018 -0800
+
+    Add feature photo and text as well as start dropdown
+
+[33mcommit 36b86c54112e1c96bc423d30f529e310970d9d44[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Sun Dec 16 19:49:14 2018 -0800
+
+    Add featured video component
+
+[33mcommit 23df4f6217bf6fedb597efc37619ece3d71aad64[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Sun Dec 16 15:22:06 2018 -0800
+
+    Add AWS functionality
+
+[33mcommit 6b55618206abca1277e286b94b1d3367c1a934e2[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Dec 14 19:49:49 2018 -0800
+
+    Create navbar
+
+[33mcommit dfa268357ec75d487a94e9126a90c8ab90ef417d[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Dec 14 15:17:48 2018 -0800
+
+    Heroku please work
+
+[33mcommit d02965bc9312c3a1d69ff7c60dd8d58a506beda3[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Dec 14 13:18:23 2018 -0800
+
+    working site friday
+
+[33mcommit eb17339867fa0f16c8afd1d8cc87c880b8e2eb2f[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Fri Dec 14 13:10:31 2018 -0800
+
+    please work heroku
+
+[33mcommit 28f730a9ba8dfcc7a06c36736e901d47265ad6cf[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 13 16:26:54 2018 -0800
+
+    add App
+
+[33mcommit 35629d4d5bbea5457aba64f660c96a626509773f[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 13 16:10:37 2018 -0800
+
+    remove extra code
+
+[33mcommit 10b04acad2006663e9f54eb39d46a056cedebda1[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 13 16:05:38 2018 -0800
+
+    Style errors and added functionality
+
+[33mcommit 16c3e70e5804c04e91bc76d0088f9114592814bf[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 13 12:23:42 2018 -0800
+
+    Add demo feature
+
+[33mcommit fec571912d540e0b0a73a11f298c336e3d43dccc[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 13 12:08:13 2018 -0800
+
+    Seed demo username and password
+
+[33mcommit db42d1892badae061a32b29228231c2277c4e98e[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 13 12:07:20 2018 -0800
+
+    Seed demo username and password
+
+[33mcommit 0dbd4bca3ec43703f6efb41c91fd0b682971ad44[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 13 12:01:04 2018 -0800
+
+    add new user for demo
+
+[33mcommit fd2c7fc5e332c9cd6ae285863d3e23f5b85ca1fc[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 13 11:58:35 2018 -0800
+
+    fix demo feature
+
+[33mcommit eb5c75659eb91bda291728d8943a2d4a69c53e43[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 13 09:10:28 2018 -0800
+
+    Begin backend of profiles
+
+[33mcommit 074858ed62bcc5a355acc8e74a70b82197f09a5a[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Thu Dec 13 00:17:34 2018 -0800
+
+    Add splash page with styling
+
+[33mcommit 3af90be9f499225bb1eb18ef779b2ce4a303549c[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Dec 12 22:46:47 2018 -0800
+
+    finish splash page
+
+[33mcommit 1611cf4c81c6ac85966837b8759f9fc016ce0c89[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Dec 12 18:01:40 2018 -0800
+
+    Add profiles page
+
+[33mcommit 665536b7d515f64392c830fd5f607d846d0c636b[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Dec 12 17:07:16 2018 -0800
+
+    Set up jbuilder camelize formatter
+
+[33mcommit 8f24bab6eb6601796cdb599b24e3cadbdeb108d6[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Dec 12 16:57:54 2018 -0800
+
+    Add app
+
+[33mcommit 623f48e754825a19ce12de1fdbc3314df2a67897[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Dec 12 16:49:06 2018 -0800
+
+    heroku 2
+
+[33mcommit 5fa060100f2300c3d3c180877f29cc47b71a9317[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Dec 12 16:32:48 2018 -0800
+
+    Heroku
+
+[33mcommit 92cf0e451fec85cb6349ded3be5ad8fb1219abb6[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Wed Dec 12 16:13:46 2018 -0800
+
+    Add Heroku setup
+
+[33mcommit 98764099880db87989c6cdab4f83aed98fae383f[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 11 23:03:52 2018 -0800
+
+    Add some css styling to login page
+
+[33mcommit cf2c9ab5086d6e17dd7ce6262f538bee427d74e1[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 11 21:14:30 2018 -0800
+
+    Create signup and login form
+
+[33mcommit 9016fa2ac5f4c1688e08bffbda05323ba79ff72a[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 11 20:50:36 2018 -0800
+
+    Add login functionality
+
+[33mcommit c99927ecfc3015d544ad254d5970c033dfa318c8[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 11 18:00:48 2018 -0800
+
+    Add functionality to MyFlix
+
+[33mcommit e3c9689cfd6694f585fb1d57443114dd399af83a[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 11 16:55:10 2018 -0800
+
+    Create frontend files
+
+[33mcommit ba3aedeb288f0ff7fd5504c4af2fe36808ab290d[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 11 16:09:53 2018 -0800
+
+    Fresh new rails project
+
+[33mcommit 19beea8b29bb02c38cb8566e6121bd10e5eba260[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 11 16:08:13 2018 -0800
+
+    Delete hidden folders
+
+[33mcommit acfe61e6ac2c4ec32f831c76e6b287cb099a5706[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 11 16:04:55 2018 -0800
+
+    Delete old files
+
+[33mcommit acb4ec973111270097c9d62ec807a6e23571d00d[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Tue Dec 11 16:02:00 2018 -0800
+
+    Erase original ruby files
+
+[33mcommit f2580dacb2bbc1c734066b62619c06fe211d626c[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Sun Dec 9 21:16:43 2018 -0800
+
+    Create rails project for myFlix
+
+[33mcommit 618d4c2b605c9cf132c61fe6bca2cd44e6a0d629[m
+Author: Anthony Kumasaka <anthonykumasaka@gmail.com>
+Date:   Sun Dec 9 20:27:36 2018 -0800
+
+    Update README.md
+
+[33mcommit 7a0e9bc6ce9312ef3d315dc8ccc12c6163003394[m
+Author: Kumasaka <anthonykumasaka@gmail.com>
+Date:   Sun Dec 9 20:13:49 2018 -0800
+
+    first commit
+
+                   SSUUMMMMAARRYY OOFF LLEESSSS CCOOMMMMAANNDDSS
+
+      Commands marked with * may be preceded by a number, _N.
+      Notes in parentheses indicate the behavior if _N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           MMOOVVIINNGG
+
+  e  ^E  j  ^N  CR  *  Forward  one line   (or _N lines).
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or _N lines).
+  f  ^F  ^V  SPACE  *  Forward  one window (or _N lines).
+  b  ^B  ESC-v      *  Backward one window (or _N lines).
+  z                 *  Forward  one window (and set window to _N).
+  w                 *  Backward one window (and set window to _N).
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.
+  d  ^D             *  Forward  one half-window (and set half-window to _N).
+  u  ^U             *  Backward one half-window (and set half-window to _N).
+  ESC-)  RightArrow *  Right one half screen width (or _N positions).
+  ESC-(  LeftArrow  *  Left  one half screen width (or _N positions).
+  ESC-}  ^RightArrow   Right to last column displayed.
+  ESC-{  ^LeftArrow    Left  to first column.
+  F                    Forward forever; like "tail -f".
+  ESC-F                Like F but stop when search pattern is found.
+  r  ^R  ^L            Repaint screen.
+  R                    Repaint screen, discarding buffered input.
+        ---------------------------------------------------
+        Default "window" is the screen height.
+        Default "half-window" is half of the screen height.
+ ---------------------------------------------------------------------------
+
+                          SSEEAARRCCHHIINNGG
+
+  /_p_a_t_t_e_r_n          *  Search forward for (_N-th) matching line.
+  ?_p_a_t_t_e_r_n          *  Search backward for (_N-th) matching line.
+  n                 *  Repeat previous search (for _N-th occurrence).
+  N                 *  Repeat previous search in reverse direction.
+  ESC-n             *  Repeat previous search, spanning files.
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.
+  ESC-u                Undo (toggle) search highlighting.
+  &_p_a_t_t_e_r_n          *  Display only matching lines
+        ---------------------------------------------------
+        A search pattern may be preceded by one or more of:
+        ^N or !  Search for NON-matching lines.
+        ^E or *  Search multiple files (pass thru END OF FILE).
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).
+        ^K       Highlight matches, but don't move (KEEP position).
+        ^R       Don't use REGULAR EXPRESSIONS.
+ ---------------------------------------------------------------------------
+
+                           JJUUMMPPIINNGG
+
+  g  <  ESC-<       *  Go to first line in file (or line _N).
+  G  >  ESC->       *  Go to last line in file (or line _N).
+  p  %              *  Go to beginning of file (or _N percent into file).
+  t                 *  Go to the (_N-th) next tag.
+  T                 *  Go to the (_N-th) previous tag.
+  {  (  [           *  Find close bracket } ) ].
+  }  )  ]           *  Find open bracket { ( [.
+  ESC-^F _<_c_1_> _<_c_2_>  *  Find close bracket _<_c_2_>.
+  ESC-^B _<_c_1_> _<_c_2_>  *  Find open bracket _<_c_1_> 
+        ---------------------------------------------------
+        Each "find close bracket" command goes forward to the close bracket 
+          matching the (_N-th) open bracket in the top line.
+        Each "find open bracket" command goes backward to the open bracket 
+          matching the (_N-th) close bracket in the bottom line.
+
+  m_<_l_e_t_t_e_r_>            Mark the current position with <letter>.
+  '_<_l_e_t_t_e_r_>            Go to a previously marked position.
+  ''                   Go to the previous position.
+  ^X^X                 Same as '.
+        ---------------------------------------------------
+        A mark is any upper-case or lower-case letter.
+        Certain marks are predefined:
+             ^  means  beginning of the file
+             $  means  end of the file
+ ---------------------------------------------------------------------------
+
+                        CCHHAANNGGIINNGG FFIILLEESS
+
+  :e [_f_i_l_e]            Examine a new file.
+  ^X^V                 Same as :e.
+  :n                *  Examine the (_N-th) next file from the command line.
+  :p                *  Examine the (_N-th) previous file from the command line.
+  :x                *  Examine the first (or _N-th) file from the command line.
+  :d                   Delete the current file from the command line list.
+  =  ^G  :f            Print current file name.
+ ---------------------------------------------------------------------------
+
+                    MMIISSCCEELLLLAANNEEOOUUSS CCOOMMMMAANNDDSS
+
+  -_<_f_l_a_g_>              Toggle a command line option [see OPTIONS below].
+  --_<_n_a_m_e_>             Toggle a command line option, by name.
+  __<_f_l_a_g_>              Display the setting of a command line option.
+  ___<_n_a_m_e_>             Display the setting of an option, by name.
+  +_c_m_d                 Execute the less cmd each time a new file is examined.
+
+  !_c_o_m_m_a_n_d             Execute the shell command with $SHELL.
+  |XX_c_o_m_m_a_n_d            Pipe file between current pos & mark XX to shell command.
+  s _f_i_l_e               Save input to a file.
+  v                    Edit the current file with $VISUAL or $EDITOR.
+  V                    Print version number of "less".
+ ---------------------------------------------------------------------------
+
+                           OOPPTTIIOONNSS
+
+        Most options may be changed either on the command line,
+        or from within less by using the - or -- command.
+        Options may be given in one of two forms: either a single
+        character preceded by a -, or a name preceded by --.
+
+  -?  ........  --help
+                  Display help (from command line).
+  -a  ........  --search-skip-screen
+                  Search skips current screen.
+  -A  ........  --SEARCH-SKIP-SCREEN
+                  Search starts just after target line.
+  -b [_N]  ....  --buffers=[_N]
+                  Number of buffers.
+  -B  ........  --auto-buffers
+                  Don't automatically allocate buffers for pipes.
+  -c  ........  --clear-screen
+                  Repaint by clearing rather than scrolling.
+  -d  ........  --dumb
+                  Dumb terminal.
+  -D [_x_n_._n]  .  --color=_x_n_._n
+                  Set screen colors. (MS-DOS only)
+  -e  -E  ....  --quit-at-eof  --QUIT-AT-EOF
+                  Quit at end of file.
+  -f  ........  --force
+                  Force open non-regular files.
+  -F  ........  --quit-if-one-screen
+                  Quit if entire file fits on first screen.
+  -g  ........  --hilite-search
+                  Highlight only last match for searches.
+  -G  ........  --HILITE-SEARCH
+                  Don't highlight any matches for searches.
+  -h [_N]  ....  --max-back-scroll=[_N]
+                  Backward scroll limit.
+  -i  ........  --ignore-case
+                  Ignore case in searches that do not contain uppercase.
+  -I  ........  --IGNORE-CASE
+                  Ignore case in all searches.
+  -j [_N]  ....  --jump-target=[_N]
+                  Screen position of target lines.
+  -J  ........  --status-column
+                  Display a status column at left edge of screen.
+  -k [_f_i_l_e]  .  --lesskey-file=[_f_i_l_e]
+                  Use a lesskey file.
+  -K            --quit-on-intr
+                  Exit less in response to ctrl-C.
+  -L  ........  --no-lessopen
+                  Ignore the LESSOPEN environment variable.
+  -m  -M  ....  --long-prompt  --LONG-PROMPT
+                  Set prompt style.
+  -n  -N  ....  --line-numbers  --LINE-NUMBERS
+                  Don't use line numbers.
+  -o [_f_i_l_e]  .  --log-file=[_f_i_l_e]
+                  Copy to log file (standard input only).
+  -O [_f_i_l_e]  .  --LOG-FILE=[_f_i_l_e]
+                  Copy to log file (unconditionally overwrite).
+  -p [_p_a_t_t_e_r_n]  --pattern=[_p_a_t_t_e_r_n]
+                  Start at pattern (from command line).
+  -P [_p_r_o_m_p_t]   --prompt=[_p_r_o_m_p_t]
+                  Define new prompt.
+  -q  -Q  ....  --quiet  --QUIET  --silent --SILENT
+                  Quiet the terminal bell.
+  -r  -R  ....  --raw-control-chars  --RAW-CONTROL-CHARS
+                  Output "raw" control characters.
+  -s  ........  --squeeze-blank-lines
+                  Squeeze multiple blank lines.
+  -S  ........  --chop-long-lines
+                  Chop (truncate) long lines rather than wrapping.
+  -t [_t_a_g]  ..  --tag=[_t_a_g]
+                  Find a tag.
+  -T [_t_a_g_s_f_i_l_e] --tag-file=[_t_a_g_s_f_i_l_e]
+                  Use an alternate tags file.
+  -u  -U  ....  --underline-special  --UNDERLINE-SPECIAL
+                  Change handling of backspaces.
+  -V  ........  --version
+                  Display the version number of "less".
+  -w  ........  --hilite-unread
+                  Highlight first new line after forward-screen.
+  -W  ........  --HILITE-UNREAD
+                  Highlight first new line after any forward movement.
+  -x [_N[,...]]  --tabs=[_N[,...]]
+                  Set tab stops.
+  -X  ........  --no-init
+                  Don't use termcap init/deinit strings.
+  -y [_N]  ....  --max-forw-scroll=[_N]
+                  Forward scroll limit.
+  -z [_N]  ....  --window=[_N]
+                  Set size of window.
+  -" [_c[_c]]  .  --quotes=[_c[_c]]
+                  Set shell quote characters.
+  -~  ........  --tilde
+                  Don't display tildes after end of file.
+  -# [_N]  ....  --shift=[_N]
+                  Horizontal scroll amount (0 = one half screen width)
+      ........  --no-keypad
+                  Don't send termcap keypad init/deinit strings.
+      ........  --follow-name
+                  The F command changes files if the input file is renamed.
+      ........  --use-backslash
+                  Subsequent options use backslash as escape char.
+
+
+ ---------------------------------------------------------------------------
+
+                          LLIINNEE EEDDIITTIINNGG
+
+        These keys can be used to edit text being entered 
+        on the "command line" at the bottom of the screen.
+
+ RightArrow ..................... ESC-l ... Move cursor right one character.
+ LeftArrow ...................... ESC-h ... Move cursor left one character.
+ ctrl-RightArrow  ESC-RightArrow  ESC-w ... Move cursor right one word.
+ ctrl-LeftArrow   ESC-LeftArrow   ESC-b ... Move cursor left one word.
+ HOME ........................... ESC-0 ... Move cursor to start of line.
+ END ............................ ESC-$ ... Move cursor to end of line.
+ BACKSPACE ................................ Delete char to left of cursor.
+ DELETE ......................... ESC-x ... Delete char under cursor.
+ ctrl-BACKSPACE   ESC-BACKSPACE ........... Delete word to left of cursor.
+ ctrl-DELETE .... ESC-DELETE .... ESC-X ... Delete word under cursor.
+ ctrl-U ......... ESC (MS-DOS only) ....... Delete entire line.
+ UpArrow ........................ ESC-k ... Retrieve previous command line.
+ DownArrow ...................... ESC-j ... Retrieve next command line.
+ TAB ...................................... Complete filename & cycle.
+ SHIFT-TAB ...................... ESC-TAB   Complete filename & reverse cycle.
+ ctrl-L ................................... Complete filename, list all.
+
+
