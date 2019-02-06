@@ -98,7 +98,7 @@ class AllMovies extends React.Component {
             <div className="social-media-icons">
               <a href="https://github.com/anthonykumasaka"><i class="fab fa-github"></i></a>
               <a href="https://www.linkedin.com/in/kumasaka/"><i class="fab fa-linkedin"></i></a>
-              <a href="https://www.facebook.com/anthony.kumasaka"><i  className="fab fa-facebook"></i></a>
+              {/* <a href="https://www.facebook.com/anthony.kumasaka"><i  className="fab fa-facebook"></i></a> */}
               <a href="https://www.instagram.com/anthonykumasaka/?hl=en"><i class="fab fa-instagram"></i></a>
               <a href="https://www.youtube.com/channel/UCltKxndG4hZFsckd5AJjUGA?view_as=subscriber"><i class="fab fa-youtube"></i></a>
             </div>
