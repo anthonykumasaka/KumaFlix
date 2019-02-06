@@ -109,7 +109,10 @@ class AllMovies extends React.Component {
               <a href="https://www.anthonykumasaka.com/resume.html"><p>Resume</p></a>
             </div>
             <div className="info">
-              <p>anthonykumasaka@gmail.com  |  831-566-1947  |  San Francisco </p>
+              <p>San Francisco  |  831-566-1947  |  anthonykumasaka@gmail.com</p>
+            </div>
+            <div className="copyright">
+              <p>© 1988 - 2019 Kumaflix, Inc.</p>
             </div>
           </footer>
 
