@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { createListItem } from "../../actions/list_items_actions"
+import {connect} from 'react-redux';
+
 
 class MovieIndexItem extends React.Component {
   constructor(props) {
@@ -7,6 +10,10 @@ class MovieIndexItem extends React.Component {
   }
 
   render() {
+
+    const list_id = this.props.list_id;
+    const movie_id = this.props.movie.id;
+
     return (
       <div className="tile">
         <div className="tile__media">
@@ -18,7 +25,15 @@ class MovieIndexItem extends React.Component {
               <Link to={`/play/${this.props.movie.id}`}>
                 <div className="down-arrow-play"></div>
               </Link>
-              <div className="add_list"></div>
+              {/* <button onClick={(e) => (this.props.createListItem({list_item: {
+          list_id,
+          movie_id
+        }}))} className="add_list"> */}
+            <div className="add_list"> 
+
+            </div>
+                
+     
               {/* <i class="fa fa-caret-down"></i> */}
               <i onClick={(e) => (this.props.setDropDown(this.props.movie.id))} className="fa fa-angle-down" aria-hidden="true"></i>
               {/* <div onClick={(e) => (this.props.setDropDown(this.props.movie.id))} className="down-arrow-info"></div> */}
@@ -31,5 +46,20 @@ class MovieIndexItem extends React.Component {
     );
   }
 }
+const mstp = (state, ownProps) => {
+  const list_ids = Object.values(state.entities.list_items).map(item => item.movie_id);
+  return ({
+    list_items: Object.values(state.entities.list_items),
+    list_id: state.entities.users[state.session.id].list_id,
+    // onlist: list_ids.includes(ownProps.movie.id)
+  });
+};
 
-export default MovieIndexItem;
+const mdp = (dispatch) => {
+  return {
+    createListItem: (data) => dispatch(createListItem(data))
+  };
+};
+
+
+export default connect(mstp, mdp)(MovieIndexItem);

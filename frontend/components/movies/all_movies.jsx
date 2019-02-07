@@ -96,17 +96,20 @@ class AllMovies extends React.Component {
           
           <footer>
             <div className="social-media-icons">
-              <a href="https://github.com/anthonykumasaka"><i class="fab fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/kumasaka/"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/anthonykumasaka"><i className="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/kumasaka/"><i className="fab fa-linkedin"></i></a>
               {/* <a href="https://www.facebook.com/anthony.kumasaka"><i  className="fab fa-facebook"></i></a> */}
-              <a href="https://www.instagram.com/anthonykumasaka/?hl=en"><i class="fab fa-instagram"></i></a>
-              <a href="https://www.youtube.com/channel/UCltKxndG4hZFsckd5AJjUGA?view_as=subscriber"><i class="fab fa-youtube"></i></a>
+              <a href="https://www.instagram.com/anthonykumasaka/?hl=en"><i className="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com/channel/UCltKxndG4hZFsckd5AJjUGA?view_as=subscriber"><i className="fab fa-youtube"></i></a>
             </div>
             <div className="info">
               <a href="https://www.anthonykumasaka.com"><p>Portfolio</p></a>
             </div>
             <div className="info">
               <a href="https://www.anthonykumasaka.com/resume.html"><p>Resume</p></a>
+            </div>
+            <div className="info">
+              <p>Created by Anthony Kumasaka</p>
             </div>
             <div className="info">
               <p>San Francisco  |  831-566-1947  |  anthonykumasaka@gmail.com</p>

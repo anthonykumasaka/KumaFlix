@@ -12,6 +12,7 @@ import SearchBarContainer from './search/search_bar_container';
 // import SearchResultsContainer from './search/search_results_container'; 
 import SearchResultsContainer from "./search/search_results_container"; 
 import NavbarContainer from "./navbar/navbar_container"; 
+import ListContainer from './list/list_container'; 
 
 const App = ({store}) => (
     <Provider store={store}>
@@ -27,9 +28,12 @@ const App = ({store}) => (
           <ProtectedRoute path="/play/:movieId" component={PlayMovieContainer} />
           <AuthRoute path="/login" component={LoginFormContainer} />
           <AuthRoute path="/signup" component={SignupFormContainer} />
+          <ProtectedRoute path="/list" component={ListContainer} />
+
           <ProtectedRoute path="/browse" component={MoviesIndexContainer} />
           <ProtectedRoute path="/profiles" component={ProfilesContainer} />
           <AuthRoute path="/" component={Splash} /> 
+          {/* <ProtectedRoute exact path="/list" component={ListContainer} /> */}
         </Switch>
       </div>
       </HashRouter>
