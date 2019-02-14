@@ -29,8 +29,12 @@ const App = ({store}) => (
           <AuthRoute path="/login" component={LoginFormContainer} />
           <AuthRoute path="/signup" component={SignupFormContainer} />
           <ProtectedRoute path="/list" component={ListContainer} />
-
+          {/* <ProtectedRoute path="/profiles" component={ProfilesContainer} /> */}
+          
           <ProtectedRoute path="/browse" component={MoviesIndexContainer} />
+          <ProtectedRoute path="#music" component={MoviesIndexContainer} />
+         
+
           <ProtectedRoute path="/profiles" component={ProfilesContainer} />
           <AuthRoute path="/" component={Splash} /> 
           {/* <ProtectedRoute exact path="/list" component={ListContainer} /> */}

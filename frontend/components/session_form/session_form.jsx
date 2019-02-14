@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 
 class SessionForm extends React.Component {
   constructor(props) {
@@ -10,6 +10,8 @@ class SessionForm extends React.Component {
     };
     this.handleSubmit = this.handleSubmit.bind(this);
     this.demoHandleSubmit = this.demoHandleSubmit.bind(this);
+    this.email = 'anthonykumasaka@gmail.com'.split(''); 
+    this.password = 'password'.split(''); 
   }
 
   componentWillUnmount() {
@@ -32,7 +34,32 @@ class SessionForm extends React.Component {
   demoHandleSubmit(e) {
     e.preventDefault();
     const user2 = Object.assign({email: 'drkumasaka@kaiser.com', password: 'password'});
-    this.props.loginUser(user2);
+    //this.props.loginUser(user2)
+    this.startDemo.bind(this)(); 
+  }
+
+  startDemo() {
+    let { email } = this.state; 
+    let { password } = this.state; 
+
+    if (this.email.length > 0) {
+      this.setState(
+        { email: email + this.email.shift() }, () => {
+          setTimeout(() => 
+          this.startDemo(), 150); 
+        }
+      ); 
+    } else if (this.password.length > 0) {
+      this.setState(
+        { password: password + this.password.shift() }, () => {
+          setTimeout(() => 
+          this.startDemo(), 150); 
+        }
+      );
+    } else {
+      this.props.loginUser({email: 'drkumasaka@kaiser.com', password: 'password'}); 
+    }
+
   }
 
   renderErrors() {
