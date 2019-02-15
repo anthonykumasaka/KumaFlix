@@ -46,7 +46,7 @@ class SessionForm extends React.Component {
       this.setState(
         { email: email + this.email.shift() }, () => {
           setTimeout(() => 
-          this.startDemo(), 150); 
+          this.startDemo(), 50); 
         }
       ); 
     } else if (this.password.length > 0) {
