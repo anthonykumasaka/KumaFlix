@@ -22,15 +22,8 @@ h2 {
 }
 
 .movie-info {
-
   width: 110%; 
   height: 630px; 
-  // // overflow: hidden; 
-  // // position: relative;
-  // background-color: black; 
-  // border: 5px solid #141414; 
-  // margin-top: 40px;
-  // display: flex; 
 }
 
 .movie-info div {
@@ -42,7 +35,6 @@ h2 {
 }
 
 .movie-info img {
-
   // position: relative; 
   // bottom: 200px; 
   // padding: 10px; 
@@ -76,13 +68,11 @@ h2 {
   font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
   border: none; 
 }
-
 // .info-title:hover {
 //   border: 5px solid white; 
 // }
 
 .info-title img {
-  
   position: relative;
   bottom: 50px;  
 }
@@ -121,6 +111,7 @@ h2 {
   left: 127px;
   font-size: 20px; 
 }
+
 .kumaflix-original-title {
   background: image_url('akumaflixoriginal.png');
   z-index: 2;
@@ -133,6 +124,7 @@ h2 {
   position: absolute; 
   z-index: 11;
 }
+
 .info-title h2 {
   position: absolute;
   top: 260px; 
@@ -192,7 +184,5 @@ h2 {
   right: 0; 
   left: 0; 
   background: linear-gradient(to right, black,rgba(0, 0, 0, 0.966), rgba(0, 0, 0, 0.363), transparent);
-  // background: linear-gradient(to right, black, rgba(0,0,0,0));
-  // background: linear-gradient(to right, black, rgba(0,0,0,0));
 }
 
