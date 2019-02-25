@@ -25,22 +25,15 @@ video {
 .videos-title {
   // margin-top: 0px;
   font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-
   font-size: 24px; 
   color: #E5E5E5; 
   text-align: left;
   font-weight: 1; 
   padding: 40px 30px 10px 65px; 
-  // position: absolute;
   z-index: 1000;
-  // font-family: Bebas Neue; 
-  // font-weight: 300; 
 }
 
-
 .music-videos-title {
-  // margin-top: 0px;
-  
   font-size: 24px; 
   color: white; 
   text-align: left;
@@ -48,18 +41,14 @@ video {
   padding: 15px 30px 15px 0px; 
   // position: absolute;
   z-index: 1000;
-
 }
+
 .performance-videos-title {
   font-size: 24px; 
   color: white; 
   text-align: left;
   font-weight: 1; 
   padding: 15px 30px 15px 0px; 
-
-  // padding: 50px 30px 10px 10px; 
-  // position: absolute;
-  // margin-top: 200px;
   z-index: 1000;
 
 }
@@ -69,9 +58,6 @@ video {
   text-align: left;
   font-weight: 1; 
   padding: 15px 30px 15px 0px; 
-  
-  // position: absolute;
-  // margin-top: 440px;
   z-index: 1000;
 
 }
@@ -81,12 +67,7 @@ video {
   text-align: left;
   font-weight: 1; 
   padding: 15px 30px 15px 0px; 
-
-  // padding: 30px 30px 0px 10px; 
-  // position: absolute;
-  // margin-top: 660px;
   z-index: 1000;
-
 }
 
 .row-titles {
@@ -196,13 +177,11 @@ body, html {
   align-items: center;
   width: 100%;
 }
+
 * {
   box-sizing: border-box;
 }
-// h1,
-// p {
-//   text-align: center;
-// }
+
 p {
   width: 100%;
   max-width: 500px;
@@ -238,6 +217,7 @@ a:hover {
   // margin: 70.3125px 0;
   padding-bottom: 10px;
 }
+
 .tile {
   position: relative;
   display: inline-block;
@@ -250,12 +230,14 @@ a:hover {
   -webkit-transform-origin: center left;
           transform-origin: center left;
 }
+
 .tile__img {
   width: 250px;
   height: 140.625px;
   -o-object-fit: cover;
      object-fit: cover;
 }
+
 .tile__details {
   position: absolute;
   bottom: 0;
@@ -268,6 +250,7 @@ a:hover {
   background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
   transition: 450ms opacity;
 }
+
 .tile__details:after, .tile__details:before {
   content: '';
   position: absolute;
@@ -275,6 +258,7 @@ a:hover {
   left: 50%;
   display: #000;
 }
+
 .tile__details:after {
   margin-top: -25px;
   margin-left: -25px;
@@ -286,7 +270,6 @@ a:hover {
   // background: rgba(0,0,0,0.5);
   z-index: 1;
 }
-
 
 .tile__details:before {
   // content: '▶';
@@ -341,7 +324,6 @@ a:hover {
   color: #141414; 
 }
 
-
 .social-media-icons {
   padding: 80px 40px 20px 350px; 
   display: flex; 
@@ -362,7 +344,6 @@ a:hover {
 .copyright {
   padding: 0px 40px 10px 350px; 
   color: grey; 
-  
   font-size: 12px; 
 }
 
