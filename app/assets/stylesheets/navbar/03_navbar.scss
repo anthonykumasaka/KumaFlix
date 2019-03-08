@@ -243,7 +243,6 @@ input::-webkit-search-cancel-button {
 	display: none; 
 }
 
-
 input[type=search] {
 	// background:url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
 	background:url(https://s3-us-west-1.amazonaws.com/kumaflix-movies/Assets/magnifyglass_small.png) no-repeat 9px center;
@@ -285,9 +284,11 @@ input[type=search] {
   cursor: auto;
  height: 15px
 }
+
 #demo-2 input:-moz-placeholder {
 	color: transparent;
 }
+
 #demo-2 input::-webkit-input-placeholder {
 	color: transparent;
 }
