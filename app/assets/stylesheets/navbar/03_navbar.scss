@@ -151,8 +151,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  // background-color: #333;
-  
 }
 
 li {
@@ -194,17 +192,13 @@ li.dropdown {
 
 .dropdown-content a {
   color: white;
-  // margin-top: 10px; 
-  // padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
-
 .dropdown:hover .dropdown-content {
   display: block;
-  
 }
 
 .profile-drop-flex {
@@ -214,33 +208,36 @@ li.dropdown {
 }
 
 // search bar code from codepen // 
-
 a {
 	color: white;
 	text-decoration: none;
 }
+
 a:hover {
 	color:white;
 }
+
 h1 {
 	font: 1.7em;
 	line-height: 110%;
 	color: #000;
 }
+
 p {
 	margin: 0 0 20px;
 }
 
-
 input {
 	outline: none;
 }
+
 input[type=search] {
 	-webkit-appearance: textfield;
 	-webkit-box-sizing: content-box;
 	font-family: inherit;
 	font-size: 100%;
 }
+
 input::-webkit-search-decoration,
 input::-webkit-search-cancel-button {
 	display: none; 
@@ -305,8 +302,8 @@ input[type=search] {
   top: 30px; 
   right: 75px; 
 }
+
 .carrot-down-hidden {
- 
   width: 40px; 
   height: 25px; 
   position: absolute; 
