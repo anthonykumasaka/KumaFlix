@@ -37,7 +37,6 @@ class ListItems extends React.Component {
     }
 
     const filtered = this.state.list_items.map(movie => {
-
       return (
         <h1>YO</h1>
       )}
