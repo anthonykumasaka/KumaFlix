@@ -39,10 +39,6 @@ class ListItems extends React.Component {
     const filtered = this.state.list_items.map(movie => {
 
       return (
-        // <div key={movie.id} className="filtered-movie-container">
-         
-          // <FilteredItem key={movie.id} movie={movie}/>
-        // </div>
         <h1>YO</h1>
       )}
     );
