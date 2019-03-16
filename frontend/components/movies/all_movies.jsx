@@ -91,7 +91,6 @@ class AllMovies extends React.Component {
             </div>
             <br/>
             <br/>
-            {/* <br/> */}
           </div>
           
           <footer>
