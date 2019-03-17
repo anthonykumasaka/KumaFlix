@@ -71,7 +71,6 @@ class AllMovies extends React.Component {
 
               <h1 id="animation" className="videos-title">Animation Videos</h1>
 
-              
               <div className="animation-videos"> 
                 {animationVideos}
               </div>
@@ -113,7 +112,6 @@ class AllMovies extends React.Component {
               <p>© 1988 - 2019 Kumaflix, Inc.</p>
             </div>
           </footer>
-
       </div>
     );
   }
