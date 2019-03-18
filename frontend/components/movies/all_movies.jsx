@@ -4,7 +4,6 @@ import PopularMovies from './popular_movies';
 import MovieInfo from './movie_info'; 
 import Splash from '../splash'; 
 
-
 class AllMovies extends React.Component {
   constructor(props) {
     super(props);
@@ -30,7 +29,7 @@ class AllMovies extends React.Component {
       });d
     }; 
   }
-  
+
   render() { 
     let musicVideos = this.props.musicVideos.map(movie => {
       return <MovieIndexItem setDropDown={this.setDropDown('mid')} movie={movie} key={movie.title} />;
