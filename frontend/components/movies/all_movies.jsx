@@ -30,10 +30,8 @@ class AllMovies extends React.Component {
       });d
     }; 
   }
-
-
-  render() {
-    
+  
+  render() { 
     let musicVideos = this.props.musicVideos.map(movie => {
       return <MovieIndexItem setDropDown={this.setDropDown('mid')} movie={movie} key={movie.title} />;
     });
@@ -48,7 +46,6 @@ class AllMovies extends React.Component {
     });
     return (
       <div>
-        
           <div className="row">
             <div className="rows-titles">
 
