@@ -79,7 +79,6 @@ class AllMovies extends React.Component {
                 {miscellaneousVideos}
               </div>
               <MovieInfo movies={this.props.movies} id={this.state.xid}/> 
-
             </div>
             <br/>
             <br/>
