@@ -82,8 +82,7 @@ class AllMovies extends React.Component {
             </div>
             <br/>
             <br/>
-          </div>
-          
+          </div>       
           <footer>
             <div className="social-media-icons">
               <a href="https://github.com/anthonykumasaka"><i className="fab fa-github"></i></a>
