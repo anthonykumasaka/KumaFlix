@@ -55,7 +55,6 @@ class AllMovies extends React.Component {
               {/* <h1 id="miscallaneous" className="miscellaneous-videos-title">Miscellaneous Videos</h1> */}
             </div>
             <div className="row__inner">
-
               <div className="music-videos">
                 {musicVideos}
               </div>
