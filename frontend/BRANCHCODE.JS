@@ -8,7 +8,6 @@
     />
   </div>
 
-
   <br />
   <input className="login-input" type="text"
     value={this.state.email}

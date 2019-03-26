@@ -47,7 +47,6 @@ class AllMovies extends React.Component {
       <div>
           <div className="row">
             <div className="rows-titles">
-
             {/* <div id="music" className="hidden"><h1>Hidden</h1></div> */}
             {/* <div id="music" className="hidden"><h1>Hidden</h1></div> */}
               <h1  id="music" className="videos-title">Music Videos</h1>
