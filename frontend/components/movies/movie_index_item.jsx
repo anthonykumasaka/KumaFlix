@@ -12,7 +12,6 @@ class MovieIndexItem extends React.Component {
   render() {
     const list_id = this.props.list_id;
     const movie_id = this.props.movie.id;
-
     return (
       <div className="tile">
         <div className="tile__media">
