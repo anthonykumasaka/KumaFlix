@@ -5,8 +5,7 @@ const MovieInfo = props => {
 
   if (props.id){
     return (
-      // <div style={{backgroundImage: `url(${props.movies[props.id].photo})`}}  className="movie-info">
-      
+      // <div style={{backgroundImage: `url(${props.movies[props.id].photo})`}}  className="movie-info">    
       <div className="info-title">
             <div className='title-description-text'>
               <h2>{props.movies[props.id].title}</h2>
