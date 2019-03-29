@@ -9,7 +9,7 @@ const MovieInfo = props => {
       <div className="info-title">
             <div className='title-description-text'>
               <h2>{props.movies[props.id].title}</h2>
-              <br/>
+                <br/>
               <h3>{props.movies[props.id].description}</h3>
               <br/>
               <h4>{props.movies[props.id].year}</h4> 
