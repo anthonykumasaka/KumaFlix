@@ -38,7 +38,7 @@ class ListItems extends React.Component {
 
     const filtered = this.state.list_items.map(movie => {
       return (
-        <h1>YO</h1>
+        <h1>Error</h1>
       )}
     );
     if(this.state.list_items.length === 0){
