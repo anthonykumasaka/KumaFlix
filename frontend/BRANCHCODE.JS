@@ -1,7 +1,5 @@
 <label>email:
-
-
-              <div className="input-3">
+  <div className="input-3">
     <p>Email</p>
     <input className="login-input" type="text"
       value={this.state.email}
