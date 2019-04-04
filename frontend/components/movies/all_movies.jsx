@@ -45,7 +45,7 @@ class AllMovies extends React.Component {
     });
     return (
       <div>
-          <div className="row">
+        <div className="row">
             <div className="rows-titles">
             {/* <div id="music" className="hidden"><h1>Hidden</h1></div> */}
             {/* <div id="music" className="hidden"><h1>Hidden</h1></div> */}
@@ -82,7 +82,7 @@ class AllMovies extends React.Component {
             </div>
             <br/>
             <br/>
-          </div>       
+        </div>       
           <footer>
             <div className="social-media-icons">
               <a href="https://github.com/anthonykumasaka"><i className="fab fa-github"></i></a>
