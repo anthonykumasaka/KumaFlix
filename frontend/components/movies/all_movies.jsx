@@ -46,14 +46,14 @@ class AllMovies extends React.Component {
     return (
       <div>
         <div className="row">
-            <div className="rows-titles">
+          <div className="rows-titles">
             {/* <div id="music" className="hidden"><h1>Hidden</h1></div> */}
             {/* <div id="music" className="hidden"><h1>Hidden</h1></div> */}
               <h1  id="music" className="videos-title">Music Videos</h1>
               {/* <h1 id="performance" className="performance-videos-title">Performance Videos</h1> */}
               {/* <h1 id="animation" className="animation-videos-title">Animation Videos</h1> */}
               {/* <h1 id="miscallaneous" className="miscellaneous-videos-title">Miscellaneous Videos</h1> */}
-            </div>
+          </div>
             <div className="row__inner">
               <div className="music-videos">
                 {musicVideos}
