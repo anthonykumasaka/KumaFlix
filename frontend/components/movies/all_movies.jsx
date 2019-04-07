@@ -54,7 +54,7 @@ class AllMovies extends React.Component {
             {/* <h1 id="animation" className="animation-videos-title">Animation Videos</h1> */}
             {/* <h1 id="miscallaneous" className="miscellaneous-videos-title">Miscellaneous Videos</h1> */}
           </div>
-            <div className="row__inner">
+          <div className="row__inner">
               <div className="music-videos">
                 {musicVideos}
               </div>
@@ -79,7 +79,7 @@ class AllMovies extends React.Component {
                 {miscellaneousVideos}
               </div>
               <MovieInfo movies={this.props.movies} id={this.state.xid}/> 
-            </div>
+          </div>
             <br/>
             <br/>
         </div>       
