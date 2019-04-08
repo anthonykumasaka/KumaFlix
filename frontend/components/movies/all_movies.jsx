@@ -55,16 +55,16 @@ class AllMovies extends React.Component {
             {/* <h1 id="miscallaneous" className="miscellaneous-videos-title">Miscellaneous Videos</h1> */}
           </div>
           <div className="row__inner">
-              <div className="music-videos">
-                {musicVideos}
-              </div>
-              <MovieInfo movies={this.props.movies} id={this.state.mid}/> 
+            <div className="music-videos">
+              {musicVideos}
+            </div>
+            <MovieInfo movies={this.props.movies} id={this.state.mid}/> 
               
-              <h1 id="performance" className="videos-title">Performance Videos</h1>
+            <h1 id="performance" className="videos-title">Performance Videos</h1>
 
-              <div className="performance-videos"> 
-                {performanceVideos}
-              </div>
+            <div className="performance-videos"> 
+              {performanceVideos}
+            </div>
               <MovieInfo movies={this.props.movies} id={this.state.pid}/> 
               <h1 id="animation" className="videos-title">Animation Videos</h1>
 
