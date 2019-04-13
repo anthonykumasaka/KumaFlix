@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Greeting = ({ currentUser, logout }) => {
-
   const personalGreeting = () => (
     <hgroup>
       <h2 >Hi, {currentUser.email}!</h2>
