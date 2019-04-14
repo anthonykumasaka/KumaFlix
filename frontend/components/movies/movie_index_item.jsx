@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { createListItem } from "../../actions/list_items_actions"
 import {connect} from 'react-redux';
 
-
 class MovieIndexItem extends React.Component {
   constructor(props) {
     super(props);
