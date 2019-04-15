@@ -27,7 +27,6 @@ class MovieIndexItem extends React.Component {
           movie_id
         }}))} className="add_list"> */}
             <div className="add_list"> 
-
             </div>
               {/* <i class="fa fa-caret-down"></i> */}
               <i onClick={(e) => (this.props.setDropDown(this.props.movie.id))} className="fa fa-angle-down" aria-hidden="true"></i>
